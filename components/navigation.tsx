@@ -91,11 +91,14 @@ export function Navigation() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <Button asChild variant="outline">
+          {/* <Button asChild variant="outline">
             <Link href="/signup">Sign Up</Link>
           </Button>
           <Button asChild>
             <Link href="/signin">Sign In</Link>
+          </Button> */}
+          <Button asChild>
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
 
@@ -150,11 +153,14 @@ export function Navigation() {
         
 
               <div className="flex flex-col gap-2 mt-4">
-                <Button asChild variant="outline">
+                {/* <Button asChild variant="outline">
                   <Link href="/signup" onClick={() => setOpen(false)}>Sign Up</Link>
                 </Button>
                 <Button asChild>
                   <Link href="/signin" onClick={() => setOpen(false)}>Sign In</Link>
+                </Button> */}
+                <Button asChild>
+                  <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
                 </Button>
               </div>
             </nav>
