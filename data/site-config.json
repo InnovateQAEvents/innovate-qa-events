@@ -1,0 +1,127 @@
+{
+  "title": "Innovate QA 2026",
+  "description": "Explore Innovation in Software Quality at June 4-5 Innovate QA 2026. Join industry leaders for talks, workshops, and networking.",
+  "siteUrl": "https://innovateqaevents.com",
+  "socialBanner": "/qa-social.png",
+  "siteLogo": "/qa-icon.png",
+  "locale": "en_US",
+  "themeColor": "#4b0082",
+  "author": "Innovate QA 2026 Conference",
+  "email": "info@innovateqaevents.com",
+  "twitterHandle": "@innovateqaevent",
+  "twitterSite": "@innovateqaevent",
+  "twitter": "https://twitter.com/innovateqaevent",
+  "facebook": "",
+  "facebookPage": "",
+  "facebookAppId": "",
+  "linkedin": "",
+  "github": "",
+  "socials": {
+    "instagram": {
+      "url": "https://www.instagram.com/innovateqaevents/",
+      "icon": "Instagram"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/innovateqa-events",
+      "icon": "Linkedin"
+    },
+    "tiktok": {
+      "url": "https://www.tiktok.com/@innovateqaevents",
+      "icon": "TikTokIcon"
+    },
+    "x": {
+      "url": "https://www.x.com/innovateqaevent",
+      "icon": "Twitter"
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@InnovateQAEvents",
+      "icon": "Youtube"
+    },
+    "github": {
+      "url": "",
+      "icon": "Github"
+    }
+  },
+  "footerLinks": [
+    { "title": "Innovate QA 2026", "href": "/innovate-qa-2026" },
+    { "title": "Battle of AI Test Tools", "href": "/battle-of-ai-test-tools" },
+    { "title": "Privacy Policy", "href": "/privacy-policy" },
+    { "title": "Diversity & Inclusion", "href": "/diversity-%26-inclusion" },
+    { "title": "2025 Program Speakers", "href": "/2025-program-speakers" },
+    { "title": "Innovate QA 2025", "href": "/innovate-qa-2025-1" },
+    { "title": "Meetup Events", "href": "/meetup-events" }
+  ],
+  "googleSiteVerification": "fz0c_cPQGrW9O_Vn0LezCc823AiF1d_ynF7O3I1xY8M",
+  "googleAnalyticsId": "",
+  "twitterMeta": {
+    "card": "summary",
+    "site": "@innovateqaevent",
+    "title": "Innovate QA 2026",
+    "description": "Explore Innovation in Software Quality at June 4-5 Innovate QA 2026 Best Software Testing Conference 2026. Join industry leaders for QA Conference.",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Text%20-%20All%20White%20(1).png",
+    "imageAlt": "InnovateQAEvents"
+  },
+  "openGraph": {
+    "url": "https://innovateqaevents.com/innovate-qa-2026",
+    "siteName": "InnovateQAEvents",
+    "title": "Innovate QA 2026",
+    "description": "Explore Innovation in Software Quality at June 4-5 Innovate QA 2026 Best Software Testing Conference 2026. Join industry leaders for QA Conference.",
+    "type": "website",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Text%20-%20All%20White%20(1).png",
+    "locale": "en_US"
+  },
+  "icons": {
+    "icon": [
+      { "url": "/innovate-qa-events/favicon.ico", "sizes": "any" },
+      { "url": "/innovate-qa-events/icon-16x16.png", "sizes": "16x16", "type": "image/png" },
+      { "url": "/innovate-qa-events/icon-32x32.png", "sizes": "32x32", "type": "image/png" },
+      { "url": "/innovate-qa-events/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+      { "url": "/innovate-qa-events/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+    ],
+    "apple": [
+      { "url": "/innovate-qa-events/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+    ]
+  },
+  "manifest": "/innovate-qa-events/manifest.json",
+  "footer": {
+    "sections": {
+      "company": {
+        "title": "Company",
+        "links": [
+          { "title": "About", "href": "/about" },
+          { "title": "Events", "href": "/events" },
+          { "title": "Speakers", "href": "/speakers" },
+          { "title": "Contact", "href": "/contact" }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "links": [
+          { "title": "Schedule", "href": "/schedule" },
+          { "title": "Gallery", "href": "/gallery" },
+          { "title": "Blog", "href": "/blog" },
+          { "title": "FAQ", "href": "/faq" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "title": "Privacy Policy", "href": "/privacy" },
+          { "title": "Terms of Service", "href": "/terms" },
+          { "title": "Code of Conduct", "href": "/code-of-conduct" }
+        ]
+      }
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest updates on events, speakers, and quality engineering trends.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": {
+      "year": "auto",
+      "text": "Innovate QA. All rights reserved.",
+      "attribution": "Built with ❤️ by the QA community"
+    }
+  }
+}

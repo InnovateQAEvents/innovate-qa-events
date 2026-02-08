@@ -1,0 +1,393 @@
+{
+  "pageTitle": "Meetup Events",
+  "pageDescription": "Are you ready to dive into the dynamic world of QA? Innovate QA Meetup Events offer an unparalleled opportunity to connect with like-minded professionals, expand your knowledge, and stay ahead of industry trends.",
+  "heroImage": "/placeholder.svg?height=400&width=800",
+  "ctaButtons": {
+    "applyToSpeak": {
+      "label": "Apply to Speak",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSc4Ui67V4ER9s1dSSMJfKi3M-m-RSUuJD6ibDNq12oyv1Yt5w/viewform",
+      "description": "Got expertise in QA, leadership, or tech? Share your knowledge, inspire others, and connect with the community!"
+    },
+    "joinMeetup": {
+      "label": "Join and Register",
+      "href": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "description": "Join our meetup group and register for virtual and in person meetups"
+    }
+  },
+  "upcomingEvents": [
+    {
+      "id": "june-virtual-2026",
+      "title": "Innovate QA June Virtual Meetup",
+      "date": "2026-06-12",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "timezone": "PDT",
+      "type": "online",
+      "location": "Online",
+      "registrationUrl": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "DataOps for QA Teams: Automate Data Testing & Data Monitoring",
+          "speaker": {
+            "name": "Sandesh Gawande",
+            "linkedin": "https://www.linkedin.com/in/sandeshgawande/"
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "june-inperson-post-2026",
+      "title": "Innovate QA June In Person Meetup - Post Conference Social",
+      "date": "2026-06-05",
+      "startTime": "5:30 PM",
+      "endTime": "7:30 PM",
+      "timezone": "PDT",
+      "type": "in-person",
+      "location": "Location TBD",
+      "registrationUrl": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "agenda": [
+        {
+          "time": "5:30 PM - 7:30 PM",
+          "title": "Post-Conference Social: Connect Over Quality",
+          "description": "Open to all - conference attendees and non-attendees alike!",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "june-inperson-pre-2026",
+      "title": "Innovate QA June In Person Meetup - Pre Conference Social",
+      "date": "2026-06-04",
+      "startTime": "5:00 PM",
+      "endTime": "8:00 PM",
+      "timezone": "PDT",
+      "type": "in-person",
+      "location": "Location TBD",
+      "registrationUrl": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "agenda": [
+        {
+          "time": "5:00 PM - 8:00 PM",
+          "title": "Pre-Conference Social: Connect Over Quality",
+          "description": "Open to all - conference attendees and non-attendees alike!",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "may-hybrid-2026",
+      "title": "Innovate QA May In Person Meetup",
+      "date": "2026-05-22",
+      "startTime": "4:30 PM",
+      "endTime": "7:00 PM",
+      "timezone": "PDT",
+      "type": "hybrid",
+      "location": "Microsoft Reactor - 3709 157th Ave NE, Redmond, WA",
+      "registrationUrl": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "agenda": [
+        {
+          "time": "4:30 PM",
+          "title": "Social Networking",
+          "description": "Separate in person and online networking",
+          "speaker": null
+        },
+        {
+          "time": "5:00 PM",
+          "title": "Plug-n-Play – Valet All Day",
+          "speaker": {
+            "name": "Lana Begunova",
+            "linkedin": "https://www.linkedin.com/in/lanabegunova/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "may-virtual-2026",
+      "title": "Innovate QA May Virtual Meetup",
+      "date": "2026-05-08",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "timezone": "PDT",
+      "type": "online",
+      "location": "Online",
+      "registrationUrl": "https://www.meetup.com/innovate-qa-seattle-meetup-group/",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "Cloud & Snowflake Data Migration Testing",
+          "speaker": {
+            "name": "Sandesh Gawande",
+            "linkedin": "https://www.linkedin.com/in/sandeshgawande/"
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    }
+  ],
+  "pastEvents": [
+    {
+      "id": "may-virtual-bas-2025",
+      "title": "Innovate QA May Virtual Meetup",
+      "date": "2025-05-06",
+      "startTime": "12:00 PM",
+      "endTime": "1:30 PM",
+      "timezone": "PDT",
+      "type": "online",
+      "location": "Online",
+      "agenda": [
+        {
+          "time": "12:00 PM",
+          "title": "Testing the tests - how I improved the tests for RestAssured .Net using mutation testing",
+          "speaker": {
+            "name": "Bas Dijkstra",
+            "linkedin": "https://www.linkedin.com/in/basdijkstra/"
+          }
+        },
+        {
+          "time": "1:00 PM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "april-hybrid-2025",
+      "title": "Innovate QA April In Person Meetup",
+      "date": "2025-04-21",
+      "startTime": "6:00 PM",
+      "endTime": "8:00 PM",
+      "timezone": "PDT",
+      "type": "hybrid",
+      "location": "AWS Skills Center - 1915 Terry Avenue, Seattle, WA",
+      "agenda": [
+        {
+          "time": "5:30 PM",
+          "title": "Social Networking",
+          "description": "Separate in person and online networking",
+          "speaker": null
+        },
+        {
+          "time": "6:00 PM",
+          "title": "Innovate QA x PNSQC: Testathon Bug Bash 2025",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "april-virtual-sandesh-2025",
+      "title": "Innovate QA April Virtual Meetup",
+      "date": "2025-04-10",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "timezone": "PDT",
+      "type": "online",
+      "location": "Online",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "Fundamentals of ETL & Data Warehouse Testing",
+          "speaker": {
+            "name": "Sandesh Gawande",
+            "linkedin": "https://www.linkedin.com/in/sandeshgawande/"
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "april-virtual-neelam-2025",
+      "title": "Innovate QA April Virtual Meetup",
+      "date": "2025-04-08",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "timezone": "PDT",
+      "type": "online",
+      "location": "Online",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "Autonomous Test Automation",
+          "speaker": {
+            "name": "Neelam Pal",
+            "linkedin": "https://www.linkedin.com/in/palneelam/"
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "march-hybrid-2025",
+      "title": "Innovate QA March In Person Meetup",
+      "date": "2025-03-20",
+      "startTime": "4:30 PM",
+      "endTime": "7:00 PM",
+      "timezone": "PDT",
+      "type": "hybrid",
+      "location": "Microsoft Reactor - 3709 157th Ave NE, Redmond, WA",
+      "agenda": [
+        {
+          "time": "4:30 PM",
+          "title": "Social Networking",
+          "description": "Separate in person and online networking",
+          "speaker": null
+        },
+        {
+          "time": "5:00 PM",
+          "title": "Shift Left and Shift Right: Balancing Quality Throughout the SDLC",
+          "speaker": {
+            "name": "Brittany Stewart",
+            "linkedin": "https://www.linkedin.com/in/brittanybstewart/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "feb-virtual-2025",
+      "title": "Innovate QA February Virtual Meetup",
+      "date": "2025-02-13",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "timezone": "PST",
+      "type": "online",
+      "location": "Online",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "AI-Powered Test Generation: From Theory to Practice",
+          "speaker": {
+            "name": "Alex Johnson",
+            "linkedin": "https://www.linkedin.com/in/alexjohnsonqa/"
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Social Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "jan-hybrid-2025",
+      "title": "Innovate QA January In Person Meetup",
+      "date": "2025-01-16",
+      "startTime": "5:00 PM",
+      "endTime": "7:30 PM",
+      "timezone": "PST",
+      "type": "hybrid",
+      "location": "Google Seattle - 601 N 34th St, Seattle, WA",
+      "agenda": [
+        {
+          "time": "5:00 PM",
+          "title": "Social Networking & Refreshments",
+          "speaker": null
+        },
+        {
+          "time": "5:30 PM",
+          "title": "Building Resilient Test Frameworks with Playwright",
+          "speaker": {
+            "name": "Maria Chen",
+            "linkedin": "https://www.linkedin.com/in/mariachen/"
+          }
+        },
+        {
+          "time": "6:30 PM",
+          "title": "Lightning Talks: QA Tools We Love",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "dec-virtual-2024",
+      "title": "Innovate QA December Virtual Meetup",
+      "date": "2024-12-12",
+      "startTime": "9:00 AM",
+      "endTime": "10:30 AM",
+      "timezone": "PST",
+      "type": "online",
+      "location": "Online",
+      "agenda": [
+        {
+          "time": "9:00 AM",
+          "title": "Year in Review: Top QA Trends of 2024",
+          "speaker": {
+            "name": "Panel Discussion",
+            "linkedin": null
+          }
+        },
+        {
+          "time": "10:00 AM",
+          "title": "Holiday Social & Networking",
+          "speaker": null
+        }
+      ]
+    },
+    {
+      "id": "nov-hybrid-2024",
+      "title": "Innovate QA November In Person Meetup",
+      "date": "2024-11-14",
+      "startTime": "5:00 PM",
+      "endTime": "7:30 PM",
+      "timezone": "PST",
+      "type": "hybrid",
+      "location": "Amazon Meeting Center - 2031 7th Ave, Seattle, WA",
+      "agenda": [
+        {
+          "time": "5:00 PM",
+          "title": "Social Networking",
+          "speaker": null
+        },
+        {
+          "time": "5:30 PM",
+          "title": "Performance Testing at Scale: Lessons from AWS",
+          "speaker": {
+            "name": "David Kim",
+            "linkedin": "https://www.linkedin.com/in/davidkimperf/"
+          }
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Speaker presenting at Innovate QA meetup"
+    },
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Networking at Innovate QA event"
+    },
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Millan Kaul speaking at Microsoft Reactor"
+    },
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "AI and testing conference panel"
+    },
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Innovate QA community group photo"
+    },
+    {
+      "src": "/placeholder.svg?height=300&width=400",
+      "alt": "Hands-on workshop session"
+    }
+  ]
+}

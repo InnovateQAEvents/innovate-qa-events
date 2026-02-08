@@ -1,0 +1,66 @@
+{
+  "title": "Diversity & Inclusion",
+  "subtitle": "Building a More Inclusive Tech Community",
+  "heroStatement": "At Innovate QA, we believe innovation thrives when diverse voices are heard and valued. We are committed to fostering an inclusive environment where people of all backgrounds, experiences, and perspectives come together to learn, collaborate, and shape the future of quality engineering.",
+  "commitment": {
+    "title": "Our Commitment",
+    "description": "We welcome and support individuals of all genders, races, ethnicities, abilities, ages, sexual orientations, and backgrounds. Our goal is to create a space where everyone feels respected, empowered, and inspired to share their knowledge and make meaningful contributions."
+  },
+  "pillars": [
+    {
+      "title": "Diverse Speakers",
+      "description": "We actively seek speakers from underrepresented groups and ensure our conference lineup reflects the diversity of our industry.",
+      "icon": "Mic"
+    },
+    {
+      "title": "Accessible Events",
+      "description": "All our events include accommodations for attendees with disabilities, including live captioning, wheelchair access, and quiet spaces.",
+      "icon": "Accessibility"
+    },
+    {
+      "title": "Scholarship Programs",
+      "description": "We offer scholarships and discounted tickets to students, career changers, and those facing financial barriers.",
+      "icon": "GraduationCap"
+    },
+    {
+      "title": "Safe Spaces",
+      "description": "We enforce a strict code of conduct and provide resources for reporting any incidents of discrimination or harassment.",
+      "icon": "Shield"
+    },
+    {
+      "title": "Community Outreach",
+      "description": "We partner with organizations that support underrepresented groups in tech to expand access to QA careers.",
+      "icon": "HandHeart"
+    },
+    {
+      "title": "Continuous Learning",
+      "description": "We regularly review and improve our D&I practices based on community feedback and industry best practices.",
+      "icon": "BookOpen"
+    }
+  ],
+  "initiatives": [
+    {
+      "title": "Women in QA Mentorship Program",
+      "description": "Connecting experienced women QA leaders with those early in their careers for guidance and support."
+    },
+    {
+      "title": "Accessibility Testing Workshop",
+      "description": "Free workshops teaching attendees how to test for accessibility and create more inclusive software."
+    },
+    {
+      "title": "Community Scholarships",
+      "description": "Full conference passes awarded to individuals from underrepresented backgrounds in tech."
+    },
+    {
+      "title": "Pronoun Badges",
+      "description": "All attendees can choose pronoun stickers for their badges to foster respectful communication."
+    }
+  ],
+  "codeOfConduct": {
+    "title": "Code of Conduct",
+    "summary": "Innovate QA is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.",
+    "link": "/code-of-conduct"
+  },
+  "closingStatement": "Together, we build better technology—and a stronger, more inclusive community.",
+  "hashtags": ["#DiversityInTech", "#EquityForAll", "#InclusionMatters"]
+}

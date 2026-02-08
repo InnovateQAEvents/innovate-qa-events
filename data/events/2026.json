@@ -1,0 +1,355 @@
+{
+  "year": 2026,
+  "name": "Innovate QA 2026",
+  "tagline": "Quality Engineering Excellence",
+  "description": "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence in the era of AI and modern software development.",
+  "date": {
+    "start": "2026-06-04",
+    "end": "2026-06-06"
+  },
+  "venue": {
+    "name": "The Westin Bellevue",
+    "address": "600 Bellevue Way NE",
+    "city": "Bellevue",
+    "state": "Washington",
+    "zip": "98004",
+    "country": "United States",
+    "directions": "Located in downtown Bellevue, easily accessible from I-405 and I-90. 15 minutes from SeaTac airport. Parking available on-site.",
+    "mapUrl": "https://maps.google.com/?q=600+Bellevue+Way+NE+Bellevue+WA+98004"
+  },
+  "rooms": [
+    { "id": "main-hall", "name": "Grand Ballroom", "capacity": 400 },
+    { "id": "room-a", "name": "Room A - Innovation Track", "capacity": 100 },
+    { "id": "room-b", "name": "Room B - Leadership Track", "capacity": 100 },
+    { "id": "workshop-room", "name": "Workshop Studio", "capacity": 50 }
+  ],
+  "schedule": {
+    "2026-06-05": {
+      "dayLabel": "Day 1 - Main Conference",
+      "slots": [
+        {
+          "time": "8:00 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Registration & Welcome Breakfast",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Check-in, collect your badge, and network over breakfast"
+            }
+          ]
+        },
+        {
+          "time": "9:00 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Opening Keynote: The Evolution of Quality in the AI Era",
+              "type": "keynote",
+              "room": "main-hall",
+              "description": "Explore how artificial intelligence is reshaping quality engineering practices and what it means for the future of software testing."
+            }
+          ]
+        },
+        {
+          "time": "10:15 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Advanced Test Automation Strategies",
+              "type": "talk",
+              "room": "room-a",
+              "description": "Learn cutting-edge approaches to building scalable and maintainable test automation frameworks."
+            },
+            {
+              "title": "Leading Quality Teams in Modern Organizations",
+              "type": "talk",
+              "room": "room-b",
+              "description": "Best practices for building and managing high-performing quality engineering teams."
+            }
+          ]
+        },
+        {
+          "time": "11:15 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "AI-Driven Testing: Beyond the Hype",
+              "type": "talk",
+              "room": "room-a",
+              "description": "Real-world applications and limitations of AI in software testing."
+            },
+            {
+              "title": "Quality Metrics for Executive Leadership",
+              "type": "talk",
+              "room": "room-b",
+              "description": "Communicating quality effectively to stakeholders and executives."
+            }
+          ]
+        },
+        {
+          "time": "12:15 PM",
+          "duration": 75,
+          "sessions": [
+            {
+              "title": "Lunch & Networking",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Catered lunch with networking opportunities"
+            }
+          ]
+        },
+        {
+          "time": "1:30 PM",
+          "duration": 90,
+          "sessions": [
+            {
+              "title": "Hands-on Workshop: Modern Test Frameworks",
+              "type": "workshop",
+              "room": "workshop-room",
+              "description": "Practical session on building test automation with modern frameworks and tools."
+            },
+            {
+              "title": "Performance Testing at Scale",
+              "type": "talk",
+              "room": "room-a",
+              "description": "Strategies for testing performance and scalability of modern applications."
+            },
+            {
+              "title": "Quality Culture Transformation",
+              "type": "talk",
+              "room": "room-b",
+              "description": "How to foster a quality-first mindset across your organization."
+            }
+          ]
+        },
+        {
+          "time": "3:15 PM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Afternoon Break",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Coffee, snacks, and networking"
+            }
+          ]
+        },
+        {
+          "time": "3:45 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Security Testing in DevOps Pipelines",
+              "type": "talk",
+              "room": "room-a",
+              "description": "Integrating security testing seamlessly into your CI/CD workflows."
+            },
+            {
+              "title": "The Future of Quality Engineering Careers",
+              "type": "panel",
+              "room": "room-b",
+              "description": "Industry experts discuss career growth and opportunities in quality engineering."
+            }
+          ]
+        },
+        {
+          "time": "4:45 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Closing Keynote: Quality Engineering 2027 and Beyond",
+              "type": "keynote",
+              "room": "main-hall",
+              "description": "Looking ahead at the trends and technologies shaping the future of quality."
+            }
+          ]
+        },
+        {
+          "time": "5:45 PM",
+          "duration": 120,
+          "sessions": [
+            {
+              "title": "Networking Reception",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Evening reception with drinks and appetizers"
+            }
+          ]
+        }
+      ]
+    },
+    "2026-06-06": {
+      "dayLabel": "Day 2 - Workshops & Deep Dives",
+      "slots": [
+        {
+          "time": "8:30 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Breakfast & Networking",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Continental breakfast and morning networking"
+            }
+          ]
+        },
+        {
+          "time": "9:30 AM",
+          "duration": 120,
+          "sessions": [
+            {
+              "title": "Full-Stack Testing Workshop",
+              "type": "workshop",
+              "room": "workshop-room",
+              "description": "Comprehensive hands-on workshop covering end-to-end testing strategies."
+            },
+            {
+              "title": "API Testing Masterclass",
+              "type": "workshop",
+              "room": "room-a",
+              "description": "Deep dive into API testing, contract testing, and service virtualization."
+            },
+            {
+              "title": "Quality Leadership Roundtable",
+              "type": "talk",
+              "room": "room-b",
+              "description": "Interactive discussion on leadership challenges and solutions."
+            }
+          ]
+        },
+        {
+          "time": "11:45 AM",
+          "duration": 15,
+          "sessions": [
+            {
+              "title": "Break",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Quick refreshment break"
+            }
+          ]
+        },
+        {
+          "time": "12:00 PM",
+          "duration": 90,
+          "sessions": [
+            {
+              "title": "Mobile Testing in the Cloud",
+              "type": "workshop",
+              "room": "workshop-room",
+              "description": "Learn to test mobile applications using cloud-based device farms."
+            },
+            {
+              "title": "Accessibility Testing Deep Dive",
+              "type": "workshop",
+              "room": "room-a",
+              "description": "Practical approaches to building accessible applications and testing them."
+            },
+            {
+              "title": "Quality Metrics Workshop",
+              "type": "workshop",
+              "room": "room-b",
+              "description": "Hands-on session on defining and tracking quality metrics."
+            }
+          ]
+        },
+        {
+          "time": "1:30 PM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Lunch",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Lunch break"
+            }
+          ]
+        },
+        {
+          "time": "2:30 PM",
+          "duration": 90,
+          "sessions": [
+            {
+              "title": "Closing Panel: The State of Quality Engineering 2026",
+              "type": "panel",
+              "room": "main-hall",
+              "description": "Industry leaders discuss the current state and future of quality engineering."
+            }
+          ]
+        },
+        {
+          "time": "4:00 PM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Closing Remarks & Prize Drawings",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Conference wrap-up, thank you, and prize giveaways"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "speakers": [],
+  "sponsors": {
+    "platinum": [],
+    "gold": [],
+    "silver": [],
+    "bronze": [],
+    "partners": []
+  },
+  "pricing": {
+    "individual": {
+      "earlyBird": {
+        "deadline": "2026-02-15T00:00:00",
+        "1day": 349,
+        "2day": 499
+      },
+      "standard": {
+        "1day": 499,
+        "2day": 799
+      }
+    },
+    "group": {
+      "earlyBird": {
+        "deadline": "2026-02-15T00:00:00",
+        "1day": 315,
+        "2day": 449
+      },
+      "standard": {
+        "1day": 449,
+        "2day": 719
+      }
+    },
+    "currency": "USD",
+    "features": {
+      "1day": [
+        "Full Day 1 conference access",
+        "All keynotes and talks",
+        "Breakfast, lunch & refreshments",
+        "Networking events",
+        "Conference swag bag",
+        "Digital resource library"
+      ],
+      "2day": [
+        "Full 2-day conference access",
+        "All workshop sessions",
+        "All keynotes and talks",
+        "Breakfast, lunch & refreshments both days",
+        "Networking events",
+        "Conference swag bag",
+        "Digital resource library",
+        "Workshop materials"
+      ]
+    }
+  },
+  "stats": {
+    "attendees": 600,
+    "speakers": 25,
+    "sessions": 35,
+    "workshops": 8
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "robert-sabourin-1",
+    "title": "I am a Bug",
+    "author": "Robert Sabourin",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/5.png",
+    "description": "A comprehensive guide to software testing from a bug's perspective"
+  },
+  {
+    "id": "rahul-verma",
+    "title": "The Last Book on Testing",
+    "author": "Rahul Verma",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/2.png",
+    "description": "Essential insights into modern software testing practices"
+  },
+  {
+    "id": "joe-colantonio",
+    "title": "Automation Awesomeness: 260 actionable affirmations to improve your QA and automation testing skills",
+    "author": "Joe Colantonio",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Joe%20Colantonio_author.png",
+    "description": "260 actionable affirmations to improve your QA and automation testing skills"
+  },
+  {
+    "id": "james-whittaker",
+    "title": "How Google Tests Software",
+    "author": "James A. Whittaker, Jason Arbon, Jeff Carollo",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Jason.png",
+    "description": "First edition by James A. Whittaker, Jason Arbon, Jeff Carollo"
+  },
+  {
+    "id": "robert-sabourin-2",
+    "title": "Charting the Course: Coming up with Great Ideas",
+    "author": "Robert Sabourin",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/6.png",
+    "description": "A guide to generating innovative testing strategies"
+  },
+  {
+    "id": "partha",
+    "title": "Quality Engineering Excellence",
+    "author": "Partha",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Partha%208%20May.png",
+    "description": "Leading practices in quality engineering"
+  },
+  {
+    "id": "kari-kakkonen",
+    "title": "ACT 2 LEAD",
+    "author": "Kari Kakkonen and Marko Rytkönen",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/7.png",
+    "description": "Leadership principles for quality professionals"
+  },
+  {
+    "id": "kailash",
+    "title": "Testing Best Practices",
+    "author": "Kailash Awati",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Kailash_discounted_code.png",
+    "description": "Modern approaches to software testing"
+  },
+  {
+    "id": "lisa",
+    "title": "Quality Assurance Fundamentals",
+    "author": "Lisa Crispin",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Lisa_updated.png",
+    "description": "Core concepts in quality assurance"
+  },
+  {
+    "id": "lewis",
+    "title": "Innovation in Testing",
+    "author": "Lewis Prescott",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Lewis_maning-inno-code.png",
+    "description": "Innovative testing methodologies and practices"
+  },
+  {
+    "id": "robin-gupta",
+    "title": "Ultimate Selenium WebDriver for Test Automation",
+    "author": "Robin Gupta",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/4.png",
+    "description": "Comprehensive guide to Selenium WebDriver automation"
+  }
+]

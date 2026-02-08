@@ -1,0 +1,102 @@
+{
+  "roles": [
+    {
+      "id": "speaker",
+      "title": "Speaker",
+      "description": "Share your expertise and insights with the QA community. Present talks, workshops, or lead panel discussions.",
+      "icon": "mic",
+      "benefits": [
+        "Free conference pass",
+        "Speaker dinner invitation",
+        "Profile featured on website",
+        "Networking opportunities with industry leaders"
+      ],
+      "requirements": [
+        "Experience in QA, testing, or related fields",
+        "Ability to present for 30-45 minutes",
+        "Original content not presented elsewhere"
+      ]
+    },
+    {
+      "id": "workshop-instructor",
+      "title": "Workshop Instructor",
+      "description": "Lead hands-on workshops teaching practical skills in test automation, tools, or methodologies.",
+      "icon": "presentation",
+      "benefits": [
+        "Free conference pass",
+        "Workshop materials support",
+        "Featured profile and promotion",
+        "Honorarium for full-day workshops"
+      ],
+      "requirements": [
+        "Deep expertise in workshop topic",
+        "Experience teaching or training",
+        "Ability to create hands-on exercises"
+      ]
+    },
+    {
+      "id": "volunteer",
+      "title": "Event Volunteer",
+      "description": "Help make the conference run smoothly by assisting with registration, room management, and attendee support.",
+      "icon": "users",
+      "benefits": [
+        "Free conference pass",
+        "Volunteer t-shirt and swag",
+        "Behind-the-scenes experience",
+        "Networking with organizers and speakers"
+      ],
+      "requirements": [
+        "Available for full conference days",
+        "Friendly and helpful attitude",
+        "Good communication skills"
+      ]
+    },
+    {
+      "id": "sponsor-liaison",
+      "title": "Sponsor Liaison",
+      "description": "Help manage sponsor relationships, booth setup, and ensure sponsors have a great experience.",
+      "icon": "handshake",
+      "benefits": [
+        "Free conference pass",
+        "Direct networking with sponsors",
+        "Event management experience",
+        "Reference letter available"
+      ],
+      "requirements": [
+        "Professional communication skills",
+        "Experience in event coordination preferred",
+        "Available during setup and event days"
+      ]
+    },
+    {
+      "id": "content-creator",
+      "title": "Content Creator",
+      "description": "Capture the conference through photography, videography, live tweeting, or blog posts.",
+      "icon": "camera",
+      "benefits": [
+        "Free conference pass",
+        "Content featured on official channels",
+        "Portfolio building opportunity",
+        "Equipment access if needed"
+      ],
+      "requirements": ["Portfolio of previous work", "Own equipment preferred", "Social media savvy"]
+    },
+    {
+      "id": "reviewer",
+      "title": "CFP Reviewer",
+      "description": "Help review and score Call for Papers submissions to select the best talks for the conference.",
+      "icon": "clipboard-check",
+      "benefits": [
+        "Early access to submission topics",
+        "Influence conference content",
+        "Recognition on website",
+        "Discounted conference pass"
+      ],
+      "requirements": [
+        "5+ years in QA/testing industry",
+        "Ability to review 20-30 submissions",
+        "Commitment to fair evaluation"
+      ]
+    }
+  ]
+}

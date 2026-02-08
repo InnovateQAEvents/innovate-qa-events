@@ -1,0 +1,344 @@
+{
+  "year": 2024,
+  "name": "Innovate QA 2024",
+  "tagline": "Quality Engineering Excellence",
+  "description": "The inaugural Innovate QA Conference brought together quality engineering professionals for a day of learning, networking, and innovation.",
+  "date": {
+    "start": "2024-06-06",
+    "end": "2024-06-06"
+  },
+  "venue": {
+    "name": "Hilton Garden Inn",
+    "address": "1800 Northwest Gilman Boulevard",
+    "city": "Issaquah",
+    "state": "Washington",
+    "zip": "98027",
+    "country": "United States",
+    "directions": "Off I-90, 15 miles from central Seattle, 20 miles from SeaTac airport.",
+    "mapUrl": "https://maps.google.com/?q=1800+Northwest+Gilman+Boulevard+Issaquah+WA+98027"
+  },
+  "rooms": [
+    { "id": "main-hall", "name": "Main Hall", "capacity": 200 },
+    { "id": "room-a", "name": "Room A", "capacity": 50 },
+    { "id": "room-b", "name": "Room B", "capacity": 50 }
+  ],
+  "schedule": {
+    "2024-06-06": {
+      "dayLabel": "Conference Day",
+      "slots": [
+        {
+          "time": "8:00 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Registration & Welcome Coffee",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Check-in and networking over coffee"
+            }
+          ]
+        },
+        {
+          "time": "9:00 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Opening Keynote: The State of Test Automation",
+              "type": "keynote",
+              "room": "main-hall",
+              "speakerId": "jennifer-lee",
+              "description": "An overview of the current landscape of test automation and emerging trends."
+            }
+          ]
+        },
+        {
+          "time": "10:00 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Selenium Grid 4: What's New",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "michael-chen",
+              "description": "Deep dive into the new features and improvements in Selenium Grid 4."
+            },
+            {
+              "title": "Building a QA Culture from Scratch",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "amanda-brooks",
+              "description": "How to establish quality engineering practices in organizations without existing QA culture."
+            }
+          ]
+        },
+        {
+          "time": "11:00 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Contract Testing with Pact",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "robert-garcia",
+              "description": "Implementing contract testing for microservices using Pact."
+            },
+            {
+              "title": "QA Metrics That Matter",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "sarah-williams",
+              "description": "Key metrics for measuring and communicating QA effectiveness."
+            }
+          ]
+        },
+        {
+          "time": "12:00 PM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Lunch & Networking",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Lunch and networking with fellow attendees"
+            }
+          ]
+        },
+        {
+          "time": "1:00 PM",
+          "duration": 90,
+          "sessions": [
+            {
+              "title": "Workshop: Getting Started with Playwright",
+              "type": "workshop",
+              "room": "room-a",
+              "speakerId": "michael-chen",
+              "description": "Hands-on introduction to Playwright for modern web testing."
+            },
+            {
+              "title": "Test Strategy for Mobile Apps",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "kevin-patel",
+              "description": "Comprehensive testing strategies for iOS and Android applications."
+            }
+          ]
+        },
+        {
+          "time": "2:45 PM",
+          "duration": 15,
+          "sessions": [
+            {
+              "title": "Coffee Break",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Refreshments"
+            }
+          ]
+        },
+        {
+          "time": "3:00 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "AI in Testing: Hype vs Reality",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "jennifer-lee",
+              "description": "Separating the hype from practical applications of AI in testing."
+            },
+            {
+              "title": "Shift-Left Security Testing",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "chris-nguyen",
+              "description": "Integrating security testing early in the development lifecycle."
+            }
+          ]
+        },
+        {
+          "time": "4:00 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Panel: Careers in Quality Engineering",
+              "type": "panel",
+              "room": "main-hall",
+              "panelists": ["jennifer-lee", "amanda-brooks", "sarah-williams", "kevin-patel"],
+              "description": "Industry experts discuss career paths and growth in quality engineering."
+            }
+          ]
+        },
+        {
+          "time": "4:45 PM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Closing Remarks & Networking",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Thank you and wrap-up"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "speakers": [
+    {
+      "id": "jennifer-lee",
+      "name": "Jennifer Lee",
+      "role": "Senior Director of Engineering",
+      "company": "TestPro Inc",
+      "bio": "Jennifer is a senior engineering leader with over 20 years of experience in software quality. She's a frequent conference speaker and author.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/jenniferlee",
+        "twitter": "https://twitter.com/jenlee"
+      },
+      "talks": ["Opening Keynote: The State of Test Automation", "AI in Testing: Hype vs Reality"]
+    },
+    {
+      "id": "michael-chen",
+      "name": "Michael Chen",
+      "role": "Staff SDET",
+      "company": "WebScale",
+      "bio": "Michael is a Selenium committer and test automation expert. He specializes in browser automation and testing infrastructure.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/michaelchen"
+      },
+      "talks": ["Selenium Grid 4: What's New", "Workshop: Getting Started with Playwright"]
+    },
+    {
+      "id": "amanda-brooks",
+      "name": "Amanda Brooks",
+      "role": "QA Manager",
+      "company": "StartupXYZ",
+      "bio": "Amanda has built QA teams at three startups and specializes in establishing quality culture in fast-paced environments.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/amandabrooks",
+        "twitter": "https://twitter.com/amandaqe"
+      },
+      "talks": ["Building a QA Culture from Scratch"]
+    },
+    {
+      "id": "robert-garcia",
+      "name": "Robert Garcia",
+      "role": "Principal Engineer",
+      "company": "MicroServ",
+      "bio": "Robert is a microservices expert who has implemented contract testing at scale across dozens of services.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/robertgarcia"
+      },
+      "talks": ["Contract Testing with Pact"]
+    },
+    {
+      "id": "sarah-williams",
+      "name": "Sarah Williams",
+      "role": "Head of QA",
+      "company": "DataCorp",
+      "bio": "Sarah leads QA at a Fortune 500 company and is known for her data-driven approach to quality management.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/sarahwilliams",
+        "twitter": "https://twitter.com/sarahwqa"
+      },
+      "talks": ["QA Metrics That Matter"]
+    },
+    {
+      "id": "kevin-patel",
+      "name": "Kevin Patel",
+      "role": "Mobile Test Lead",
+      "company": "AppWorks",
+      "bio": "Kevin specializes in mobile testing across iOS and Android platforms with expertise in test automation frameworks.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/kevinpatel"
+      },
+      "talks": ["Test Strategy for Mobile Apps"]
+    },
+    {
+      "id": "chris-nguyen",
+      "name": "Chris Nguyen",
+      "role": "Security Engineer",
+      "company": "SecureApp",
+      "bio": "Chris is a security testing specialist who helps organizations integrate security testing into their SDLC.",
+      "image": "/placeholder.svg?height=400&width=400",
+      "social": {
+        "linkedin": "https://linkedin.com/in/chrisnguyen"
+      },
+      "talks": ["Shift-Left Security Testing"]
+    }
+  ],
+  "sponsors": {
+    "gold": [
+      {
+        "name": "TestCloud",
+        "logo": "/placeholder.svg?height=80&width=200",
+        "url": "https://testcloud.example.com",
+        "tagline": "Cloud-based test infrastructure"
+      }
+    ],
+    "silver": [
+      {
+        "name": "AutoTest Pro",
+        "logo": "/placeholder.svg?height=60&width=150",
+        "url": "https://autotest.example.com",
+        "tagline": "Enterprise test automation"
+      },
+      {
+        "name": "QualityFirst",
+        "logo": "/placeholder.svg?height=60&width=150",
+        "url": "https://qualityfirst.example.com",
+        "tagline": "Quality engineering solutions"
+      }
+    ],
+    "bronze": [
+      {
+        "name": "BugHunter",
+        "logo": "/placeholder.svg?height=50&width=120",
+        "url": "https://bughunter.example.com",
+        "tagline": "Find bugs before they find you"
+      }
+    ],
+    "partners": [
+      {
+        "name": "Test Community",
+        "logo": "/placeholder.svg?height=40&width=100",
+        "url": "https://testcommunity.example.com"
+      }
+    ]
+  },
+  "pricing": [
+    {
+      "tier": "Standard",
+      "price": 249,
+      "currency": "USD",
+      "features": ["Full conference access", "Workshop access", "Lunch", "Conference swag"]
+    }
+  ],
+  "stats": {
+    "attendees": 250,
+    "speakers": 12,
+    "sessions": 15,
+    "workshops": 2
+  },
+  "gallery": [
+    "/placeholder.svg?height=300&width=400",
+    "/placeholder.svg?height=300&width=400",
+    "/placeholder.svg?height=300&width=400",
+    "/placeholder.svg?height=300&width=400",
+    "/placeholder.svg?height=300&width=400"
+  ],
+  "recap": {
+    "videoUrl": "https://youtube.com/watch?v=example",
+    "highlights": [
+      "250+ attendees from 15 countries",
+      "12 expert speakers",
+      "Hands-on Playwright workshop",
+      "Great discussions on AI in testing"
+    ]
+  }
+}

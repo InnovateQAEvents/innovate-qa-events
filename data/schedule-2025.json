@@ -1,0 +1,189 @@
+{
+  "date": "June 5, 2025",
+  "venue": "Seattle, WA",
+  "sessions": [
+    {
+      "time": "8:00 AM - 9:00 AM",
+      "title": "Registration & Breakfast",
+      "type": "break",
+      "description": "Welcome reception, networking, and breakfast"
+    },
+    {
+      "time": "9:00 AM - 9:15 AM",
+      "title": "Opening Remarks",
+      "type": "keynote",
+      "description": "Conference kickoff and welcome"
+    },
+    {
+      "time": "9:15 AM - 10:00 AM",
+      "title": "The Evolution of the Testing Roles",
+      "type": "keynote",
+      "speaker": "Carlos Arguelles",
+      "company": "Amazon",
+      "track": "keynote"
+    },
+    {
+      "time": "10:00 AM - 10:15 AM",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "10:15 AM - 11:00 AM",
+      "title": "Morning Sessions - Track A",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
+          "speaker": "Jason Huggins",
+          "company": "Tapster Robotics",
+          "track": "automation"
+        },
+        {
+          "title": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
+          "speaker": "Siri Varma Vegiraju",
+          "company": "Microsoft Azure Security",
+          "track": "ai"
+        }
+      ]
+    },
+    {
+      "time": "11:00 AM - 11:45 AM",
+      "title": "Morning Sessions - Track B",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "Testing Should Compound, Not Collide",
+          "speaker": "Ben Fellows",
+          "company": "LoopQA",
+          "track": "strategy"
+        },
+        {
+          "title": "Leveraging AWS Services for Scalable and Efficient Test Automation",
+          "speaker": "Sidharth Shukla",
+          "company": "Amazon",
+          "track": "cloud"
+        }
+      ]
+    },
+    {
+      "time": "11:45 AM - 1:00 PM",
+      "title": "Lunch & Networking",
+      "type": "break",
+      "description": "Catered lunch and networking opportunity"
+    },
+    {
+      "time": "1:00 PM - 2:30 PM",
+      "title": "Workshop: Practical Accessibility Testing!",
+      "type": "workshop",
+      "speaker": "Jennifer X Zhang",
+      "company": "RaLytics",
+      "track": "workshop"
+    },
+    {
+      "time": "1:00 PM - 1:45 PM",
+      "title": "Afternoon Sessions - Track A",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "Riding the AI Tsunami: Thriving in an Era of Relentless Change",
+          "speaker": "Snehal Lohar",
+          "company": "Slalom Canada",
+          "track": "ai"
+        },
+        {
+          "title": "Building Future-Proof Mobile Testing Strategy",
+          "speaker": "Aswin Golla",
+          "company": "Bunnings Australia",
+          "track": "mobile"
+        }
+      ]
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "2:00 PM - 2:45 PM",
+      "title": "Afternoon Sessions - Track B",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "Chaos Engineering for Performance Resilience",
+          "speaker": "Sumalatha Dhanireddy",
+          "company": "GlobalLogic",
+          "track": "performance"
+        },
+        {
+          "title": "Practical Lean Testing Strategies: Balancing Risk, Speed, and Quality",
+          "speaker": "Nicaise Ishimwe",
+          "company": "Amazon",
+          "track": "strategy"
+        }
+      ]
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "title": "Break",
+      "type": "break"
+    },
+    {
+      "time": "3:00 PM - 3:45 PM",
+      "title": "Late Afternoon Sessions",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "Scalable Automated Frameworks for Distributed Systems",
+          "speaker": "Walter Zimerman",
+          "company": "Amazon",
+          "track": "automation"
+        },
+        {
+          "title": "The Great RAI-a-thon: Build a Tiny AI App—Then Try to Break It",
+          "speaker": "Dona Sarkar & Jeremiah Marble",
+          "company": "Microsoft & Playbook Work",
+          "track": "ai"
+        }
+      ]
+    },
+    {
+      "time": "3:45 PM - 4:30 PM",
+      "title": "Closing Sessions",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "The Copilot Trap: Why AI-Generated Code Based Automation Is Not Sustainable!",
+          "speaker": "Nishan Joseph",
+          "company": "ACCELQ",
+          "track": "ai"
+        },
+        {
+          "title": "QA Automation with Amazon Nova Act",
+          "speaker": "Ryan Canty & Bhaumik Mistry",
+          "company": "Amazon AGI & Amazon",
+          "track": "ai"
+        }
+      ]
+    },
+    {
+      "time": "4:30 PM - 5:00 PM",
+      "title": "From Chaos to Confidence: A Practical Guide to Building a Culture of Quality",
+      "type": "session",
+      "speaker": "Vince Mahan",
+      "company": "Mabl",
+      "track": "culture"
+    },
+    {
+      "time": "5:00 PM - 5:15 PM",
+      "title": "Closing Remarks & Prize Drawings",
+      "type": "keynote",
+      "description": "Conference wrap-up and prize drawings"
+    },
+    {
+      "time": "5:15 PM - 7:00 PM",
+      "title": "Networking Reception",
+      "type": "break",
+      "description": "Cocktails, appetizers, and networking"
+    }
+  ]
+}

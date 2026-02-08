@@ -1,0 +1,174 @@
+[
+  {
+    "id": "carlos-arguelles",
+    "name": "Carlos Arguelles",
+    "title": "Senior Principal Engineer",
+    "company": "Amazon",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Carlos%20Arguelles.png",
+    "keynote": true,
+    "topic": "The Evolution of the Testing Roles",
+    "bio": "Carlos Arguelles has 27 years of experience working in various aspects of Developer Productivity Engineering at Amazon, Google, and Microsoft. He served as a Technical Lead for company-wide Infrastructure for Integration Testing at Amazon for 6 years and held the same position at Google for 4 years.\n\nCarlos is passionate about Continuous Integration/Continuous Delivery and Core Developer Infrastructure for mid-to-large software companies. Having spent nearly three decades at three of the largest software companies in the world, he has seen firsthand how hundreds of thousands of developers write, review, test, and deploy code at a large scale. At these large companies, small inefficiencies can accumulate, leading to developer fatigue and the loss of millions—or even hundreds of millions—of dollars in productivity or wasted hardware resources. Carlos is dedicated to improving engineers' lives by removing toil, enhancing efficiency, and raising the bar in engineering and operational excellence.\n\nCarlos shares stories about his experiences at Amazon, Google, and Microsoft on his blog. You can follow him on LinkedIn.",
+    "linkedin": "https://www.linkedin.com/in/carlos-arguelles-6352392"
+  },
+  {
+    "id": "jason-huggins",
+    "name": "Jason Huggins",
+    "title": "Founder and CEO",
+    "company": "Tapster Robotics",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Jason%20Huggins.jpg",
+    "topic": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
+    "bio": "In 2015, Jason Huggins founded Tapster Robotics in Oak Park, Illinois. At Tapster, Jason combines his unique automated testing experience with a lifelong enthusiasm for robotics. Jason also started the popular open-source test automation projects Selenium and Appium. In 2013, Jason Huggins was a member of President Obama's \"tech surge\" team tasked with fixing the troubled HealthCare.gov site. Prior to starting Tapster, Jason was founder and CTO at Sauce Labs and an automation engineer at Google.",
+    "linkedin": "http://linkedin.com/in/jrhuggins"
+  },
+  {
+    "id": "siri-varma-vegiraju",
+    "name": "Siri Varma Vegiraju",
+    "title": "Security Tech Lead",
+    "company": "Microsoft Azure Security",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Siri%20Varma%20Vegiraju.png",
+    "topic": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
+    "bio": "Siri Varma Vegiraju is a seasoned expert in healthcare, cloud computing, and security. Currently, he focuses on securing Azure Cloud workloads, leveraging his extensive experience in distributed systems and real-time streaming solutions. Prior to his current role, Siri contributed significantly to cloud observability platforms and multi-cloud environments.\n\nHe has demonstrated his expertise through notable achievements in various competitive events and as a judge and technical reviewer for leading publications. Siri frequently speaks at industry conferences on topics related to Cloud and Security and holds a Masters Degree from University of Texas, Arlington with a specialization in Computer Science.",
+    "linkedin": "https://www.linkedin.com/in/sirivarma/"
+  },
+  {
+    "id": "jennifer-x-zhang",
+    "name": "Jennifer X Zhang",
+    "title": "Director of Accessibility Program & Innovation",
+    "company": "RaLytics",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Jennifer-7e286b8.jpg",
+    "workshop": true,
+    "topic": "Practical Accessibility Testing!",
+    "bio": "Jennifer X Zhang is the Director of Accessibility Program and Innovation at RaLytics, a small business owned by veterans and people with disabilities. She focuses on embedding accessibility skills, processes, and governance into RaLytics' offerings with a focus on Human Centered Accessibility so customers can eventually learn to sustainably fish for themselves in the digital accessibility ocean.\n\nShe was formerly on the central accessibility team at Microsoft running accessible design and has a strong track record of innovation in accessible design and hackathon projects. She won multiple awards for her contributions to eye gaze in Windows and mental health apps. She also received a special stock award from Microsoft for her contributions to accessible and inclusive design. She is passionate about teaching accessibility in approachable ways.",
+    "linkedin": "https://www.linkedin.com/in/jxz/"
+  },
+  {
+    "id": "ben-fellows",
+    "name": "Ben Fellows",
+    "title": "CEO & Founder",
+    "company": "LoopQA",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Ben%20Fellows.jpg",
+    "topic": "Testing Should Compound, Not Collide",
+    "bio": "Ben Fellows is the CEO of LoopQA, a company specializing in embedding Senior onshore QA team members to enhance software quality. A strong advocate for automation and emerging tools like Cursor, Ben believes in leveraging technology to drive significant improvements in QA efficiency and effectiveness.\n\nBeyond his leadership at LoopQA, Ben actively contributes to the QA community through thought leadership, content creation, and hosting The Daily CTO podcast. His mission is to develop the next generation of QA Directors, empowering them to take greater ownership of processes, metrics, and overall quality within organizations.\n\nBefore his career in tech, Ben was a \"West Wing kid\" and began his professional journey working on Capitol Hill—a unique foundation that shaped his strategic and leadership mindset.",
+    "linkedin": "https://www.linkedin.com/in/ben-f-44778426/"
+  },
+  {
+    "id": "sidharth-shukla",
+    "name": "Sidharth Shukla",
+    "title": "Speaker | Automation Expert | AI & LLMs in Testing | Mentor",
+    "company": "Amazon",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Sidharth%20Shukla.jpeg",
+    "topic": "Leveraging AWS Services for Scalable and Efficient Test Automation",
+    "bio": "Sidharth is a seasoned Software Development Engineer in Test (SDET) with over 14 years of experience in automation, specializing in Playwright, Selenium, Appium, API testing, and AI-driven test automation. As a thought leader in the testing community, he has trained 5,000+ professionals worldwide and actively mentors aspiring QA engineers.\n\nHe is at the forefront of AI & LLMs in Software Testing, leading initiatives at Amazon and collaborating with teams to automate test case generation using LLMs. His contributions have significantly improved test automation efficiency, reducing manual effort by up to 50% in multiple projects.\n\nSidharth is a frequent speaker at global conferences, including Automation Guild 2025, and has presented across the USA, Canada, and India. His insights on modern test automation, Playwright adoption, and AI-driven quality engineering have made a lasting impact in the industry.\n\nBeyond speaking engagements, Sidharth runs a highly followed LinkedIn newsletter (50K+ subscribers) and was recently featured on a Times Square billboard for his outstanding mentorship to the QA community. Connect with him to explore the future of test automation, AI in testing, and best practices in QA engineering.",
+    "linkedin": "http://linkedin.com/in/sidharth-shukla-77b53145"
+  },
+  {
+    "id": "snehal-lohar",
+    "name": "Snehal Lohar",
+    "title": "Engineering Leader | Director Quality Engineering",
+    "company": "Slalom Canada",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Shenal%20Lohar.png",
+    "topic": "Riding the AI Tsunami: Thriving in an Era of Relentless Change",
+    "bio": "Snehal is a seasoned Quality Engineering leader with over 20 years of experience driving innovation and excellence across industries such as E-Commerce, Digital Media, Energy, Healthcare, Finance, and Oil & Gas. Currently serving as Director of Quality Engineering at Slalom, she has hands-on experience leveraging multiple cloud platforms, app modernization, AI, and GenAI to optimize quality engineering processes and drive agile transformations.\n\nAn MIT Sloan alumnus with certifications in AWS, Azure, and ISTQB, Snehal has a proven ability to build high-performing teams and deliver impactful results. She is passionate about empowering teams through trust, transparency, and continuous learning, ensuring organizations achieve lasting business value and operational efficiency. Snehal's innovative approach helps organizations optimize quality strategies, driving faster delivery of high-quality solutions.",
+    "linkedin": "https://www.linkedin.com/in/snehal-l-5a2a487/"
+  },
+  {
+    "id": "aswin-golla",
+    "name": "Aswin Golla",
+    "title": "Lead Automation Test Engineer",
+    "company": "Bunnings Australia",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Aswin%20Golla-b492e93.png",
+    "topic": "Building Future-Proof Mobile Testing Strategy: Automation, Efficiency & Accelerated Releases",
+    "bio": "Aswin Golla is a visionary Quality Engineering leader with more than 15 years of experience in test automation and framework development across digital and legacy systems. Currently, he serves as the Lead Automation Test Engineer at Bunnings, Australia where he spearheads QE initiatives for the App Tribe. With a holistic perspective on quality engineering, Aswin has extensive experience working across web, API, and mobile platforms.\n\nHe is a US patent holder and the NASA Apps Challenge 2023 People’s Choice Winner. Aswin has further honed his expertise by completing advanced programs in Artificial Intelligence at the University of Oxford and Computer Security at Stanford University. Passionate about innovation, he continually explores ways to enhance quality engineering through AI and Cybersecurity.\n\nCommitted to mentoring, Aswin actively guides post-graduate students bridging the gap between academia and industry while fostering a culture of quality and collaboration. His forward-thinking approach empowers teams to build high-quality applications with efficiency, driving faster feature releases.",
+    "linkedin": "http://linkedin.com/in/aswingolla"
+  },
+  {
+    "id": "sumalatha-dhanireddy",
+    "name": "Sumalatha Dhanireddy",
+    "title": "Performance Testing Lead",
+    "company": "GlobalLogic",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Sumulatha%20Dhanireddy.jpg",
+    "topic": "Chaos Engineering for Performance Resilience: Breaking Things to Build Stronger Systems",
+    "bio": "I am Suma, a performance testing specialist with 14 years of experience in engineering and optimization. I excel in methodologies and practices for ensuring system efficiency. Throughout my career, I have partnered with enterprise clients in telecom, healthcare, and e-commerce industries. A key interest of mine is exploring new tools and technologies in the Quality Assurance field.",
+    "linkedin": "https://www.linkedin.com/in/sumalatha-dhanireddy/"
+  },
+  {
+    "id": "nicaise-ishimwe",
+    "name": "Nicaise Ishimwe",
+    "title": "Technical Program Manager",
+    "company": "Amazon",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Nicaise%20Ishimwe.jpg",
+    "topic": "Practical Lean Testing Strategies: Balancing Risk, Speed, and Quality",
+    "bio": "Nicaise is a Technical Program Manager at Amazon, working on satellite production aspects. She brings a strong background in quality assurance and application engineering, with experience spanning voice technology on the Alexa Internationalization team in Seattle, smart mobility systems for Ireland's M50 free-flow tolling, and Alstom railway Cab Radios in France.\n\nShe holds a degree in telecommunications engineering and an MBA, and has built her career at the intersection of emerging technologies and connected systems.",
+    "linkedin": "https://www.linkedin.com/in/nicaisei/"
+  },
+  {
+    "id": "walter-zimerman",
+    "name": "Walter Zimerman",
+    "title": "Sr. Software Developer in Test",
+    "company": "Amazon",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Walter%20Zimerman%20photo.png",
+    "topic": "Scalable Automated Frameworks for Distributed Systems",
+    "bio": "Walter has spent 17 years on test automation, building frameworks that run millions of test cases every month.\n\nHe has designed end-to-end solutions across tourism, manufacturing, regulatory compliance, accounting & finance, and voice-assistant platforms. Walter has held senior roles as Quality-Assurance Engineer, Software Developer in Test, and QA Manager, and hosted the largest QA meetup in Dublin, Ireland, growing it to 2,000+ members, 40+ events, and an international conference.\n\nPassionate about computer science, Walter is a test driven development / design practitioner and evangelist. His current obsession: architecting scalable, developer-friendly APIs.\n\nIn his spare time, you'll find him lifting weights, running, playing the guitar, playing board games, or debating tech over a pint—preferably with heavy-metal blasting in the background.",
+    "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
+  },
+  {
+    "id": "dona-sarkar",
+    "name": "Dona Sarkar",
+    "title": "Chief Troublemaker - Copilot and AI Extensibility",
+    "company": "Microsoft",
+    "image": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/Dona%20Sarkar.jpeg",
+    "topic": "The Great RAI-a-thon: Build a Tiny AI App—Then Try to Break It",
+    "bio": "Dona believes that you are one experiment away from being your most powerful self at work. And yes, in life!\n\nCurrently at her day job, she's running 100 experiments as the Chief Troublemaker of the Microsoft AI, Copilot and Agents Extensibility Program. Her goal is that people all over the world can use Microsoft's AI, Copilot and Agents to reason over their OWN data and truly make AI useful for their business.\n\nDona's also a keynote speaker (fave audience is corporate leaders like YOU), a multi-published author (it turns out fiction writing is useful in software!), the owner of the ethical luxury fashion brand called Prima Dona Studios and she has recently become a wine bar co-owner and is studying to be a sommelier.\n\nA few years ago, she was named one of Fast Company's 100 Most Productive People and Cosmopolitan magazine's Businessperson of the Year for her multi-faceted (aka weird) life. And yes, she is always ready to get on a plane and come see YOU.",
+    "linkedin": "https://www.linkedin.com/in/donasarkar/"
+  },
+  {
+    "id": "jeremiah-marble",
+    "name": "Jeremiah Marble",
+    "title": "CTO",
+    "company": "Playbook Work",
+    "image": "/placeholder.svg?height=400&width=400",
+    "topic": "The Great RAI-a-thon: Build a Tiny AI App—Then Try to Break It",
+    "bio": "Jeremiah is a technical AI product leader, author, and speaker focused on building high-quality, customer-centric software in the AI era. He is currently writing code as the CTO of Playbook, an AI-based startup bootstrapping in the EdTech space. He also speaks, teaches, and leads workshops on AI, agents, and Responsible AI (RAI) at 3rd Rodeo AI. Previously, he held leadership roles at Mozilla and Microsoft, where he helped scale the Windows Insider Program from a whiteboard idea to more than 22 million people worldwide.\n\nA firm believer in 'tech for good' and social entrepreneurship, Jeremiah launched Do The Thing Academy and co-authored Model 47: A Startup Storybook to help non-traditional founders turn napkin ideas into responsible businesses. He also co-founded ethical fashion lines Prima Dona Studios (statement dresses) and Towards Arcadia (men's collared shirts and hoodies), which empower single mother tailors in Senegal, Mexico, Nigeria, and among Afghan refugee communities in Seattle.\n\nEarlier in his career, Jeremiah worked for the United Nations in Africa and Asia, based in Paris at UNESCO. He was a Fulbright Scholar to Costa Rica, served as Director of Operations for DDD (a social enterprise in Cambodia and Laos), and worked with the Peace Corps in the Dominican Republic. He holds an MBA from Wharton and an MA in International Studies (French) from the Lauder Institute at the University of Pennsylvania, as well as a BS in Computer Science from Columbia University.\n\nOriginally from Athol, Massachusetts—about two hours west of Boston—he's currently at work on a novel about his hometown.",
+    "linkedin": "https://www.linkedin.com/in/jeremiahmarble/"
+  },
+  {
+    "id": "nishan-joseph",
+    "name": "Nishan Joseph",
+    "title": "Head of Solution Engineering",
+    "company": "ACCELQ",
+    "image": "/placeholder.svg?height=400&width=400",
+    "topic": "The Copilot Trap: Why AI-Generated Code Based Automation Is Not Sustainable!",
+    "bio": "Nishan is a highly accomplished and dynamic leader who has been working in the technology space for more than a decade. He is known for his ability to build strong partnerships with long-term strategic goals. Nishan leads the Sales Engineering division while also overseeing some of the larger global Strategic Accounts for the company. Nishan holds a master's degree in International Business from Leeds University UK, an MBA in Marketing and Finance from Symbiosis Pune, and an Engineering Degree focused on Electronics and Communication from Bangalore.",
+    "linkedin": "https://www.linkedin.com/in/nishan-joseph-78a99116/"
+  },
+  {
+    "id": "ryan-canty",
+    "name": "Ryan Canty",
+    "title": "Solutions Architect",
+    "company": "Amazon AGI",
+    "image": "/placeholder.svg?height=400&width=400",
+    "topic": "QA Automation with Amazon Nova Act",
+    "bio": "Ryan is an accomplished technology professional with over 10 years of software engineering experience. Throughout his career, he has demonstrated expertise in designing and scaling robust software systems across multiple technology stacks. His technical foundation includes proficiency with various programming languages, cloud architectures, and development frameworks.\n\nCurrently, Ryan serves as a Solutions Architect supporting Amazon Nova Act, an AI model trained to perform actions within a web browser. He enables enterprise customers to build QA automation solutions with Amazon Nova Act on AWS, working to align product and development teams with customer needs.",
+    "linkedin": "https://www.linkedin.com/in/ryan-canty/"
+  },
+  {
+    "id": "bhaumik-mistry",
+    "name": "Bhaumik Mistry",
+    "title": "Software Engineer",
+    "company": "Amazon",
+    "image": "/placeholder.svg?height=400&width=400",
+    "topic": "QA Automation with Amazon Nova Act",
+    "bio": "Bhaumik shines as a software engineer with eight years of dynamic experience in the tech industry. His career is a testament to his adaptability and passion, evolving from the creative world of image processing to the cutting-edge technology of Alexa's wakeword processing. Now, he's making waves in the development of innovative browser-based tools with Nova Act.\n\nIn his current role, Bhaumik is a key player in the creation of the Nova Act Tool, a forward-thinking browser-based solution. He utilizes his extensive technical background to craft solutions that are not only efficient and intelligent but also resonate with a sense of artistry. Bhaumik's journey in the tech world is marked by his unique ability to merge artistic creativity with engineering excellence, exploring the exciting intersection of art and technology.",
+    "linkedin": "https://www.linkedin.com/in/bhaumikmistry/"
+  },
+  {
+    "id": "vince-mahan",
+    "name": "Vince Mahan",
+    "title": "Technical Account Manager",
+    "company": "Mabl",
+    "image": "/placeholder.svg?height=400&width=400",
+    "topic": "From Chaos to Confidence: A Practical Guide to Building a Culture of Quality",
+    "bio": "Vince Mahan is a Technical Account Manager at Mabl with over a decade of experience leading QA across startups in fintech, digital health, and consumer tech. He specializes in building scalable test strategies and reducing manual effort through automation. At Mabl, he leads complex QA transformations for large enterprise teams, focusing on low-code, AI-driven solutions that streamline delivery, improve reliability, and scale the impact of quality across organizations.",
+    "linkedin": "https://www.linkedin.com/in/vincemahan/"
+  }
+]

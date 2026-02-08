@@ -1,0 +1,73 @@
+{
+  "title": "About Innovate QA",
+  "subtitle": "Empowering the Future of Quality Engineering",
+  "mission": {
+    "title": "Our Mission",
+    "description": "Innovate QA is dedicated to advancing the field of quality engineering by bringing together the brightest minds in testing, automation, and software quality. We create spaces where professionals can learn, share, and grow together."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To be the leading community-driven platform that shapes the future of quality assurance, fostering innovation and excellence in software testing worldwide."
+  },
+  "story": {
+    "title": "Our Story",
+    "content": "Founded in 2023, Innovate QA started as a small meetup group of passionate QA professionals in the Dallas-Fort Worth area. What began as informal knowledge-sharing sessions quickly grew into a thriving community of hundreds of quality engineers, test architects, and automation specialists. Today, we host annual conferences, monthly meetups, workshops, and online events that reach thousands of QA professionals globally."
+  },
+  "values": [
+    {
+      "title": "Innovation",
+      "description": "We embrace new technologies and methodologies that push the boundaries of quality engineering.",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Community",
+      "description": "We believe in the power of shared knowledge and collaborative learning.",
+      "icon": "Users"
+    },
+    {
+      "title": "Excellence",
+      "description": "We strive for the highest standards in everything we do, from our events to our content.",
+      "icon": "Award"
+    },
+    {
+      "title": "Inclusivity",
+      "description": "We welcome diverse perspectives and create spaces where everyone belongs.",
+      "icon": "Heart"
+    }
+  ],
+  "stats": [
+    { "value": "5000+", "label": "Community Members" },
+    { "value": "50+", "label": "Events Hosted" },
+    { "value": "200+", "label": "Speakers Featured" },
+    { "value": "15+", "label": "Countries Reached" }
+  ],
+  "team": [
+    {
+      "name": "Tatyana Arbouzova",
+      "role": "Director of Quality Engineering",
+      "bio": "15+ years in QA leadership, passionate about building inclusive tech communities.",
+      "image": "/tatyana.jpg?height=200&width=200",
+      "linkedin": "https://www.linkedin.com/in/tatyana-arbouzova-leader/"
+    },
+    {
+      "name": "Dmytro (Dima) Syrkin",
+      "role": "Software Quality Engineering Champion",
+      "bio": "Program and Release Manager | Leader and Mentor | Ukrainian in US",
+      "image": "/dmytro.jpg?height=200&width=200",
+      "linkedin": "https://www.linkedin.com/in/dmytrosyrkin/"
+    },
+   
+    {
+      "name": "Marcus Johnson",
+      "role": "Community Manager",
+      "bio": "Builds bridges between QA professionals worldwide through engaging programs.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Priya Patel",
+      "role": "Events Coordinator",
+      "bio": "Ensures every Innovate QA event delivers exceptional experiences.",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ]
+}
