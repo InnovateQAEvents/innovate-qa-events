@@ -1,37 +1,34 @@
 {
   "roles": [
     {
-      "id": "speaker",
-      "title": "Speaker",
-      "description": "Share your expertise and insights with the QA community. Present talks, workshops, or lead panel discussions.",
+      "id": "website",
+      "title": "WebSite Updates",
+      "description": "Help keep the Innovate QA website fresh, accurate, and engaging by updating content, event information, and community resources.",
       "icon": "mic",
       "benefits": [
         "Free conference pass",
-        "Speaker dinner invitation",
-        "Profile featured on website",
-        "Networking opportunities with industry leaders"
+        "Networking opportunities with industry leaders and peers"
       ],
       "requirements": [
-        "Experience in QA, testing, or related fields",
-        "Ability to present for 30-45 minutes",
-        "Original content not presented elsewhere"
+        "Basic experience with website content management or web tools",
+        "Strong attention to detail and communication skills",
+        "Ability to meet deadlines and follow brand guidelines",
+        "Interest in QA, tech, or community building"
       ]
     },
     {
-      "id": "workshop-instructor",
-      "title": "Workshop Instructor",
-      "description": "Lead hands-on workshops teaching practical skills in test automation, tools, or methodologies.",
+      "id": "speaker-management",
+      "title": "Speaker Management & Coordination",
+      "description": "Support Innovate QA speakers by coordinating communications, schedules, and session details to ensure a smooth and professional conference experience.",
       "icon": "presentation",
       "benefits": [
         "Free conference pass",
-        "Workshop materials support",
-        "Featured profile and promotion",
-        "Honorarium for full-day workshops"
+         "Direct exposure to industry leaders and speakers"
       ],
       "requirements": [
-        "Deep expertise in workshop topic",
-        "Experience teaching or training",
-        "Ability to create hands-on exercises"
+        "Strong organizational and communication skills",
+      "Comfortable coordinating via email, chat, and shared documents",
+      "Attention to detail in schedules, bios, and session materials"
       ]
     },
     {
@@ -83,19 +80,20 @@
     },
     {
       "id": "reviewer",
-      "title": "CFP Reviewer",
-      "description": "Help review and score Call for Papers submissions to select the best talks for the conference.",
+      "title": "Award Reviewer & Evaluation Committee",
+      "description": "Help recognize excellence in quality engineering and innovation by reviewing nominations, evaluating submissions, and supporting fair and transparent award decisions.",
       "icon": "clipboard-check",
       "benefits": [
-        "Early access to submission topics",
-        "Influence conference content",
-        "Recognition on website",
-        "Discounted conference pass"
-      ],
+        "Free conference pass",
+   "Hands-on experience in industry evaluation and recognition",
+    "Visibility as a trusted community contributor",
+    "Networking opportunities with industry leaders"
+     ],
       "requirements": [
-        "5+ years in QA/testing industry",
-        "Ability to review 20-30 submissions",
-        "Commitment to fair evaluation"
+        "Background or strong interest in QA, testing, or software engineering",
+    "Ability to review submissions objectively and confidentially",
+    "Availability during the award review period",
+    "Commitment to fairness, integrity, and community values"
       ]
     }
   ]
