@@ -16,7 +16,7 @@
   "socialLinks": [
     { "platform": "LinkedIn", "url": "https://www.linkedin.com/company/innovateqa-events", "icon": "Linkedin" },
     { "platform": "Twitter", "url": "https://x.com/innovateqaevent", "icon": "X" },
-    { "platform": "YouTube", "url": "https://www.youtube.com/@InnovateQAEvents", "icon": "Youtube" },
+    { "platform": "YouTube", "url": "https://www.youtube.com/@InnovateQAEvents", "icon": "Youtube" }
   ],
   "inquiryTypes": [
     "General Inquiry",
