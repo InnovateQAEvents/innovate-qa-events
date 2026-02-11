@@ -3,21 +3,20 @@
   "subtitle": "We'd Love to Hear From You",
   "description": "Have questions about our events, interested in speaking opportunities, or want to partner with us? Reach out and our team will get back to you within 24-48 hours.",
   "contactInfo": {
-    "email": "info@innovateqaevents.com",
-    "phone": "+1 (469) 555-0123",
+    "email": "contact@innovateqaevents.com",
+    "phone": "+1 (425) 9223984",
     "address": {
-      "street": "1600 E Lamar Blvd",
-      "city": "Arlington",
-      "state": "TX",
-      "zip": "76011",
+      "street": "4927 193rd PL SE",
+      "city": "Issaquah",
+      "state": "WA",
+      "zip": "98027",
       "country": "United States"
     }
   },
   "socialLinks": [
-    { "platform": "LinkedIn", "url": "https://linkedin.com/company/innovateqa", "icon": "Linkedin" },
-    { "platform": "Twitter", "url": "https://twitter.com/innovateqa", "icon": "Twitter" },
-    { "platform": "YouTube", "url": "https://youtube.com/@innovateqa", "icon": "Youtube" },
-    { "platform": "Discord", "url": "https://discord.gg/innovateqa", "icon": "MessageCircle" }
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/company/innovateqa-events", "icon": "Linkedin" },
+    { "platform": "Twitter", "url": "https://x.com/innovateqaevent", "icon": "X" },
+    { "platform": "YouTube", "url": "https://www.youtube.com/@InnovateQAEvents", "icon": "Youtube" },
   ],
   "inquiryTypes": [
     "General Inquiry",
@@ -35,15 +34,11 @@
     },
     {
       "question": "What sponsorship opportunities are available?",
-      "answer": "We offer Silver, Bronze, Gold, and Platinum sponsorship tiers with various benefits. Contact us at sponsors@innovateqaevents.com for our sponsorship prospectus."
-    },
-    {
-      "question": "Can I get a refund for my ticket?",
-      "answer": "Full refunds are available up to 30 days before the event. After that, tickets can be transferred to another attendee. Contact us for assistance."
+      "answer": "We offer Platinum, Gold, Silver and Bronze sponsorship tiers with various benefits. Contact us at cobtact@innovateqaevents.com for our sponsorship prospectus."
     },
     {
       "question": "How do I join the Innovate QA community?",
-      "answer": "Follow us on social media, join our Discord server, and sign up for our newsletter to stay connected with our growing community."
+      "answer": "Follow us on social media, join our Meetup group, and sign up for our newsletter to stay connected with our growing community."
     }
   ]
 }
