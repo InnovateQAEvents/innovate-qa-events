@@ -11,7 +11,7 @@
   },
   "story": {
     "title": "Our Story",
-    "content": "Founded in 2023, Innovate QA started as a small meetup group of passionate QA professionals in the Dallas-Fort Worth area. What began as informal knowledge-sharing sessions quickly grew into a thriving community of hundreds of quality engineers, test architects, and automation specialists. Today, we host annual conferences, monthly meetups, workshops, and online events that reach thousands of QA professionals globally."
+    "content": "Founded in 2023, Innovate QA started as a small meetup group of passionate QA professionals in the Seattle area. What began as informal knowledge-sharing sessions quickly grew into a thriving community of hundreds of quality engineers, test architects, and automation specialists. Today, we host annual conferences, monthly meetups, workshops, and online events that reach thousands of QA professionals globally."
   },
   "values": [
     {
@@ -36,38 +36,10 @@
     }
   ],
   "stats": [
-    { "value": "5000+", "label": "Community Members" },
+    { "value": "4500+", "label": "Community Members" },
     { "value": "50+", "label": "Events Hosted" },
     { "value": "200+", "label": "Speakers Featured" },
     { "value": "15+", "label": "Countries Reached" }
   ],
-  "team": [
-    {
-      "name": "Tatyana Arbouzova",
-      "role": "Director of Quality Engineering",
-      "bio": "15+ years in QA leadership, passionate about building inclusive tech communities.",
-      "image": "/tatyana.jpg?height=200&width=200",
-      "linkedin": "https://www.linkedin.com/in/tatyana-arbouzova-leader/"
-    },
-    {
-      "name": "Dmytro (Dima) Syrkin",
-      "role": "Software Quality Engineering Champion",
-      "bio": "Program and Release Manager | Leader and Mentor | Ukrainian in US",
-      "image": "/dmytro.jpg?height=200&width=200",
-      "linkedin": "https://www.linkedin.com/in/dmytrosyrkin/"
-    },
-   
-    {
-      "name": "Marcus Johnson",
-      "role": "Community Manager",
-      "bio": "Builds bridges between QA professionals worldwide through engaging programs.",
-      "image": "/placeholder.svg?height=200&width=200"
-    },
-    {
-      "name": "Priya Patel",
-      "role": "Events Coordinator",
-      "bio": "Ensures every Innovate QA event delivers exceptional experiences.",
-      "image": "/placeholder.svg?height=200&width=200"
-    }
-  ]
+ 
 }
