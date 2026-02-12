@@ -42,7 +42,7 @@ export default function BattleOfAITestToolsPage() {
               <Button size="lg" asChild className="bg-white hover:bg-purple-50">
                 <Link href="https://luma.com/scw9b88h" target="_blank" className="text-purple-900">
                   <Ticket className="mr-2 h-5 w-5" />
-                  Buy Tickets
+                  Register
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="border-white text-purple-900 hover:bg-white/10">
