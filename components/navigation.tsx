@@ -21,7 +21,6 @@ const pastEvents = [
 ]
 
 const communityLinks = [
-  { href: "/meetups", label: "Meetup Events" },
   { href: "/volunteer", label: "Volunteer / Speak" },
   { href: "/authors", label: "Community Authors" },
 ]

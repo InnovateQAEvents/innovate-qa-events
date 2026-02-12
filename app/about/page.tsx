@@ -166,50 +166,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">Meet Our Team</h2>
-          <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            The passionate individuals behind Innovate QA who work tirelessly to create exceptional experiences for our
-            community.
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            {aboutData.team.map((member, index) => (
-              <Card key={index} className="bg-card border-0 shadow-lg overflow-hidden group">
-                <div className="aspect-square relative overflow-hidden">
-                  <Image
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-foreground">{member.name}</h3>
-                  <p className="text-sm mb-2" style={{ color: "rgb(138, 43, 226)" }}>
-                    {member.role}
-                  </p>
-                  <p className="text-muted-foreground text-sm">{member.bio}</p>
-                  {member.linkedin && (
-                    <div className="mt-4">
-                      <a
-                        href={member.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center h-8 w-8 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors"
-                      >
-                        <Linkedin className="h-4 w-4 text-primary" />
-                      </a>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-20" style={{ backgroundColor: "rgb(75, 0, 130)" }}>
         <div className="container mx-auto px-4 text-center">

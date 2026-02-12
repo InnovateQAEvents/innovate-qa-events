@@ -57,10 +57,14 @@ export default function VolunteerPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
-                <a href="#apply">Apply Now</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4Ui67V4ER9s1dSSMJfKi3M-m-RSUuJD6ibDNq12oyv1Yt5w/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+                  Apply to Speak at Innovate QA 2026
+                </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="#roles">View Opportunities</a>
+                <a href="https://docs.google.com/forms/d/1nN0zlBcTuLlk-9dmWSmYh_hEyaR8s3VLz2OcQ6BbLys/edit" target="_blank" rel="noopener noreferrer">
+                  Apply to Speak at Innovate QA Meetup
+                </a>
               </Button>
             </div>
           </div>
@@ -289,9 +293,7 @@ export default function VolunteerPage() {
               <div className="border-b border-border pb-4">
                 <h3 className="font-semibold text-foreground mb-2">Do you cover travel expenses for speakers?</h3>
                 <p className="text-muted-foreground">
-                  We provide complimentary conference registration and speaker dinner for all accepted speakers. Travel
-                  assistance may be available for keynote speakers - please indicate in your application if you require
-                  support.
+                  We provide complimentary conference registration for all accepted speakers.
                 </p>
               </div>
               <div className="border-b border-border pb-4">
@@ -303,8 +305,8 @@ export default function VolunteerPage() {
               <div className="border-b border-border pb-4">
                 <h3 className="font-semibold text-foreground mb-2">What's the time commitment for volunteers?</h3>
                 <p className="text-muted-foreground">
-                  Volunteers are typically needed for 4-6 hours on conference day, plus a brief orientation session the
-                  evening before. Specific shifts will be coordinated once you're accepted.
+                  Volunteers for the day off are typically needed for 4-6 hours on conference day, plus a brief orientation session the
+                  evening before. Specific shifts will be coordinated once you're accepted. Volunteers helping with planning require 1-2 hours per week.
                 </p>
               </div>
               <div className="border-b border-border pb-4">

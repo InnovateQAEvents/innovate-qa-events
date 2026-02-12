@@ -42,7 +42,7 @@ export default function Home() {
       {/* <ScheduleSection /> */}
       <VenueSection />
       <PricingSection />
-      {/* <SponsorsSection /> */}
+      <SponsorsSection />
       <NewsletterSection />
     </>
   )

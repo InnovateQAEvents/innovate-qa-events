@@ -46,11 +46,11 @@ export function HeroSection() {
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Users className="h-5 w-5 text-primary" />
-                <span>500+ Attendees</span>
+                <span>250+ Attendees</span>
               </div>
               <div className="flex items-center gap-2">
                 <CalendarDays className="h-5 w-5 text-primary" />
-                <span>20+ Sessions</span>
+                <span>40+ Sessions</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-primary" />

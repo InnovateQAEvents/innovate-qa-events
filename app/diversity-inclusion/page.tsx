@@ -100,21 +100,6 @@ export default function DiversityInclusionPage() {
         </div>
       </section>
 
-      {/* Initiatives */}
-      <section className="py-20" style={{ backgroundColor: "rgb(75, 0, 130)" }}>
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">Our Initiatives</h2>
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {diversityData.initiatives.map((initiative, index) => (
-              <div key={index} className="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <h3 className="text-xl font-semibold text-white mb-3">{initiative.title}</h3>
-                <p className="text-purple-200">{initiative.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Code of Conduct */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">

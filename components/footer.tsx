@@ -23,10 +23,8 @@ const footerLinks = {
     { label: "Innovate QA 2026", href: "/" },
     { label: "Speakers", href: "#speakers" },
     { label: "Schedule", href: "#schedule" },
-    { label: "Venue", href: "#venue" },
   ],
   community: [
-    { label: "Meetup Events", href: "/meetups" },
     { label: "Become a Speaker", href: "/volunteer" },
     { label: "Volunteer", href: "/volunteer" },
     { label: "Become a Sponsor", href: "/sponsor" },
