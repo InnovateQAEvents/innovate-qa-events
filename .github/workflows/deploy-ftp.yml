@@ -65,9 +65,9 @@ jobs:
           username: innovateqa@m54.d7a.mytemp.website
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
-          protocol: ftps
+          protocol: ftp
           local-dir: ./out/
-          server-dir: /home/
+          server-dir: /
           exclude: |
             **/.git*
             **/.git*/**
@@ -75,6 +75,7 @@ jobs:
             **/.DS_Store
             **/*.log
           dry-run: false
+          dangerous-clean-slate: true
 
       - name: Deployment summary
         run: |
