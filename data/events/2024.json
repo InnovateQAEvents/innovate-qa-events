@@ -220,7 +220,7 @@
       "role": "CEO",
       "company": "testRigor",
       "bio": "",
-      "image": "/speakers/2024/blake-hill.jpg",
+      "image": "/speakers/2024/artem.jpg",
       "social": {
         "linkedin": "https://www.linkedin.com/in/agolubev/"
       },
@@ -245,59 +245,109 @@
       "bio": "Roy presented at Innovate QA 2024.",
       "image": "/speakers/2024/roy.jpeg",
       "social": {
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/royyap1/"
       },
       "talks": []
     },
     {
       "id": "lee",
       "name": "Lee Barnes Forte",
-      "role": "QA Professional",
-      "company": "Innovate QA 2024",
-      "bio": "Lee presented at Innovate QA 2024.",
+      "role": "Chief Quality Officer",
+      "company": "Forte Group",
+      "bio": "",
       "image": "/speakers/2024/lee-barnes-forte-headshot.png",
       "social": {
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/leebarnes/"
       },
       "talks": []
     },
     {
       "id": "aaron-evans",
       "name": "Aaron Evans",
-      "role": "QA Professional",
-      "company": "Innovate QA 2024",
-      "bio": "Aaron Evans presented at Innovate QA 2024.",
+      "role": "Test Automation Strategist",
+      "company": "One Store",
+      "bio": "",
       "image": "/speakers/2024/aaron.jpg",
       "social": {
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/aaronevans/"
       },
       "talks": []
     },
     {
       "id": "jeremiah-marble",
       "name": "Jeremiah Marble",
-      "role": "QA Professional",
-      "company": "Innovate QA 2024",
-      "bio": "Jeremiah Marble presented at Innovate QA 2024.",
+      "role": "CTO",
+      "company": "Playbook Work",
+      "bio": "",
       "image": "/speakers/2024/jeremiah-marble.png",
       "social": {
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/jeremiahmarble/"
       },
       "talks": []
     },
     {
       "id": "jennifer",
-      "name": "Jennifer",
-      "role": "QA Professional",
-      "company": "Innovate QA 2024",
-      "bio": "Jennifer presented at Innovate QA 2024.",
+      "name": "Jennifer X Zhang",
+      "role": "Director of Accessibility Program & Innovation",
+      "company": "RaLytics",
+      "bio": "",
       "image": "/speakers/2024/jennifer.jpg",
       "social": {
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/in/jxz/"
       },
       "talks": []
     }
-  ],
+,
+    {
+      "id": "vishnu",
+      "name": "Vishnu Murty",
+      "role": "Distinguished Member of Technical Staff",
+      "company": "Dell",
+      "bio": "",
+      "image": "/speakers/2024/vishnu.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/vishnu-murty/"
+      },
+      "talks": []
+    }
+,
+    {
+      "id": "george",
+      "name": "George Andraws",
+      "role": "Director of Quality Engineering",
+      "company": "Hilton",
+      "bio": "",
+      "image": "/speakers/2024/george.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/georgeandraws/"
+      },
+      "talks": []
+    },
+    {
+      "id": "kim",
+      "name": "Kim Filiatrault",
+      "role": "CEO, President",
+      "company": "Kimputing, Inc.",
+      "bio": "",
+      "image": "/speakers/2024/kim.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/kimfiliatrault/"
+      },
+      "talks": []
+    }
+ ,
+    {
+      "id": "Sidharth",
+      "name": "Sidharth Shukla",
+      "role": "SDET-2",
+      "company": "Kimputing, Inc.",
+      "bio": "",
+      "image": "/speakers/2024/sidharth.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
+      },
+      "talks": []
+    } ],
   "sponsors": {
     "gold": [
       {
