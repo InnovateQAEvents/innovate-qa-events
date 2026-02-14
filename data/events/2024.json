@@ -173,7 +173,8 @@
               "description": ""
             }
           ]
-        }{
+        },
+        {
           "time": "2:45 PM",
           "duration": 60,
           "sessions": [
