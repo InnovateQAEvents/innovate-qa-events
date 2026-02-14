@@ -195,26 +195,26 @@
           ]
         },
         {
-          "time": "4:00 PM",
-          "duration": 45,
+          "time": "3:50 PM",
+          "duration": 40,
           "sessions": [
             {
-              "title": "Panel: Careers in Quality Engineering",
+              "title": "Panel: Future of Quality",
               "type": "panel",
               "room": "main-hall",
-              "panelists": ["jennifer-lee", "amanda-brooks", "sarah-williams", "kevin-patel"],
-              "description": "Industry experts discuss career paths and growth in quality engineering."
+              "panelists": ["artem", "rhea"],
+              "description": "Industry experts discuss future of quality"
             }
           ]
         },
         {
-          "time": "4:45 PM",
-          "duration": 30,
+          "time": "4:30 PM",
+          "duration": 90,
           "sessions": [
             {
-              "title": "Closing Remarks & Networking",
+              "title": "Closing Remarks & Happy Hour",
               "type": "break",
-              "room": "main-hall",
+              "room": "room-a",
               "description": "Thank you and wrap-up"
             }
           ]
@@ -325,7 +325,7 @@
       "role": "Distinguished Member of Technical Staff",
       "company": "Dell",
       "bio": "",
-      "image": "/speakers/2024/vishnu.jpg",
+      "image": "/speakers/2024/vishnu.png",
       "social": {
         "linkedin": "https://www.linkedin.com/in/vishnu-murty/"
       },
