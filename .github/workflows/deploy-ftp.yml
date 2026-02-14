@@ -65,9 +65,9 @@ jobs:
           username: innovateqa@m54.d7a.mytemp.website
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
-          protocol: ftp
+          protocol: ftps
           local-dir: ./out/
-          server-dir: /home/di64eh9x5anx/public_html/m54.d7a.mytemp.website/innovateqa/
+          server-dir: /home/
           exclude: |
             **/.git*
             **/.git*/**
@@ -83,7 +83,7 @@ jobs:
           echo "📦 Deployed components:"
           echo "  - Next.js static export (out/)"
           echo ""
-          echo "🌐 Site URL: http://m54.d7a.mytemp.website/innovateqa"
+          echo "🌐 Site URL: https://innovateqaevents.com/"
 
   post-deploy:
     needs: deploy
@@ -99,7 +99,7 @@ jobs:
           echo "- **Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Status**: ✅ Successful" >> $GITHUB_STEP_SUMMARY
           echo "- **Deployed at**: $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Site URL**: http://m54.d7a.mytemp.website/innovateqa" >> $GITHUB_STEP_SUMMARY
+          echo "- **Site URL**: https://innovateqaevents.com/" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📋 Post-Deployment Checklist" >> $GITHUB_STEP_SUMMARY
           echo "- [ ] Verify homepage loads correctly" >> $GITHUB_STEP_SUMMARY
