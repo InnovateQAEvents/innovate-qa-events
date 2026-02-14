@@ -70,18 +70,18 @@
           "duration": 45,
           "sessions": [
             {
-              "title": "Test Automation at Scale with Kubernetes",
+              "title": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "marcus-johnson",
-              "description": "Learn strategies for scaling your test automation infrastructure using container orchestration."
+              "speakerId": "jason-huggins",
+              "description": ""
             },
             {
-              "title": "Building High-Performing QA Teams",
+              "title": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "elena-rodriguez",
-              "description": "Discover the secrets to building and nurturing quality engineering teams that deliver excellence."
+              "speakerId": "siri-varma-vegiraju",
+              "description": ""
             }
           ]
         },
@@ -90,18 +90,18 @@
           "duration": 45,
           "sessions": [
             {
-              "title": "AI-Powered Visual Testing",
+              "title": "Testing Should Compound, Not Collide",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "david-kim",
-              "description": "Implement visual regression testing using machine learning for pixel-perfect applications."
+              "speakerId": "ben-fellows",
+              "description": ""
             },
             {
-              "title": "Quality Metrics That Drive Business Value",
+              "title": "Leveraging AWS Services for Scalable and Efficient Test Automation",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "priya-patel",
-              "description": "Learn how to measure and communicate quality in terms that resonate with stakeholders."
+              "speakerId": "sidharth-shukla",
+              "description": ""
             }
           ]
         },
