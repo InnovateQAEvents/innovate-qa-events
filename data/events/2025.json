@@ -224,12 +224,12 @@
         },
         {
           "time": "5:00 PM",
-          "duration": 180,
+          "duration": 15,
           "sessions": [
             {
               "title": "Closing Remarks",
-              "type": "social",
-              "room": "main-hall",
+              "type": "talk",
+              "room": "room-a",
               "description": ""
             }
           ]
