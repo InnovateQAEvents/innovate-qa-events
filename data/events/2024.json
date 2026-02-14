@@ -56,36 +56,56 @@
             {
               "title": "Introduction to Robot Framework & various uses to quick start automation testing efforts",
               "type": "talk",
-              "room": "room-a",
+              "room": "room-b",
               "speakerId": "roy",
               "description": ""
             },
             {
-              "title": "Building a QA Culture from Scratch",
+              "title": "Quagileology: Where Quality, Agile and Psychology Meet",
               "type": "talk",
-              "room": "room-b",
-              "speakerId": "amanda-brooks",
+              "room": "room-a",
+              "speakerId": "blake-hill",
               "description": "How to establish quality engineering practices in organizations without existing QA culture."
             }
           ]
         },
         {
           "time": "11:00 AM",
-          "duration": 45,
+          "duration": 30,
           "sessions": [
             {
-              "title": "Contract Testing with Pact",
+              "title": "Enhancing Test Script Development with Code Generation Tools",
               "type": "talk",
               "room": "room-a",
               "speakerId": "robert-garcia",
               "description": "Implementing contract testing for microservices using Pact."
             },
             {
-              "title": "QA Metrics That Matter",
+              "title": "The Accessibility and Quality Disconnect",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "sarah-williams",
-              "description": "Key metrics for measuring and communicating QA effectiveness."
+              "speakerId": "jennifer",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "11:35 AM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Mastering Test Automation: Building an Effective Framework",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "robert-garcia",
+              "description": "Implementing contract testing for microservices using Pact."
+            },
+            {
+              "title": "How to hire the best Quality Engineers",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "jennifer",
+              "description": ""
             }
           ]
         },
@@ -230,7 +250,7 @@
       "talks": []
     },
     {
-      "id": "lee-barnes-forte",
+      "id": "lee",
       "name": "Lee Barnes Forte",
       "role": "QA Professional",
       "company": "Innovate QA 2024",
