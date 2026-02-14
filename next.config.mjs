@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // Only use basePath in production (when building for GitHub Pages/deployment)
-  basePath: process.env.NODE_ENV === 'production' ? '/innovate-qa-events' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/innovate-qa-events' : '',
+  // Deploying to root domain, no basePath needed
+  basePath: '',
+  assetPrefix: '',
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
