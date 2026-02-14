@@ -14,7 +14,7 @@
     "state": "Washington",
     "zip": "98027",
     "country": "United States",
-    "directions": "Off I-90, 15 miles from central Seattle, 20 miles from SeaTac airport.",
+    "directions": "Off I-90, 15 miles from central Seattle, 20 miles from SeaTac airport - passing by Bellevue on the way. Free parking on premises.",
     "mapUrl": "https://maps.google.com/?q=1800+Northwest+Gilman+Boulevard+Issaquah+WA+98027"
   },
   "rooms": [
@@ -185,129 +185,97 @@
   },
   "speakers": [
     {
-      "id": "jennifer-lee",
-      "name": "Jennifer Lee",
-      "role": "Senior Director of Engineering",
-      "company": "TestPro Inc",
-      "bio": "Jennifer is a senior engineering leader with over 20 years of experience in software quality. She's a frequent conference speaker and author.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "blake-hill",
+      "name": "Blake Hill",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Blake Hill presented at Innovate QA 2024.",
+      "image": "/speakers/2024/blake-hill.jpg",
       "social": {
-        "linkedin": "https://linkedin.com/in/jenniferlee",
-        "twitter": "https://twitter.com/jenlee"
+        "linkedin": ""
       },
-      "talks": ["Opening Keynote: The State of Test Automation", "AI in Testing: Hype vs Reality"]
+      "talks": []
     },
     {
-      "id": "michael-chen",
-      "name": "Michael Chen",
-      "role": "Staff SDET",
-      "company": "WebScale",
-      "bio": "Michael is a Selenium committer and test automation expert. He specializes in browser automation and testing infrastructure.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "rhea",
+      "name": "Rhea",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Rhea presented at Innovate QA 2024.",
+      "image": "/speakers/2024/rhea.jpg",
       "social": {
-        "linkedin": "https://linkedin.com/in/michaelchen"
+        "linkedin": ""
       },
-      "talks": ["Selenium Grid 4: What's New", "Workshop: Getting Started with Playwright"]
+      "talks": []
     },
     {
-      "id": "amanda-brooks",
-      "name": "Amanda Brooks",
-      "role": "QA Manager",
-      "company": "StartupXYZ",
-      "bio": "Amanda has built QA teams at three startups and specializes in establishing quality culture in fast-paced environments.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "roy",
+      "name": "Roy",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Roy presented at Innovate QA 2024.",
+      "image": "/speakers/2024/roy.jpeg",
       "social": {
-        "linkedin": "https://linkedin.com/in/amandabrooks",
-        "twitter": "https://twitter.com/amandaqe"
+        "linkedin": ""
       },
-      "talks": ["Building a QA Culture from Scratch"]
+      "talks": []
     },
     {
-      "id": "robert-garcia",
-      "name": "Robert Garcia",
-      "role": "Principal Engineer",
-      "company": "MicroServ",
-      "bio": "Robert is a microservices expert who has implemented contract testing at scale across dozens of services.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "lee-barnes-forte",
+      "name": "Lee Barnes Forte",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Lee presented at Innovate QA 2024.",
+      "image": "/speakers/2024/lee-barnes-forte-headshot.png",
       "social": {
-        "linkedin": "https://linkedin.com/in/robertgarcia"
+        "linkedin": ""
       },
-      "talks": ["Contract Testing with Pact"]
+      "talks": []
     },
     {
-      "id": "sarah-williams",
-      "name": "Sarah Williams",
-      "role": "Head of QA",
-      "company": "DataCorp",
-      "bio": "Sarah leads QA at a Fortune 500 company and is known for her data-driven approach to quality management.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "aaron-evans",
+      "name": "Aaron Evans",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Aaron Evans presented at Innovate QA 2024.",
+      "image": "/speakers/2024/aaron.jpg",
       "social": {
-        "linkedin": "https://linkedin.com/in/sarahwilliams",
-        "twitter": "https://twitter.com/sarahwqa"
+        "linkedin": ""
       },
-      "talks": ["QA Metrics That Matter"]
+      "talks": []
     },
     {
-      "id": "kevin-patel",
-      "name": "Kevin Patel",
-      "role": "Mobile Test Lead",
-      "company": "AppWorks",
-      "bio": "Kevin specializes in mobile testing across iOS and Android platforms with expertise in test automation frameworks.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "jeremiah-marble",
+      "name": "Jeremiah Marble",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Jeremiah Marble presented at Innovate QA 2024.",
+      "image": "/speakers/2024/jeremiah-marble.png",
       "social": {
-        "linkedin": "https://linkedin.com/in/kevinpatel"
+        "linkedin": ""
       },
-      "talks": ["Test Strategy for Mobile Apps"]
+      "talks": []
     },
     {
-      "id": "chris-nguyen",
-      "name": "Chris Nguyen",
-      "role": "Security Engineer",
-      "company": "SecureApp",
-      "bio": "Chris is a security testing specialist who helps organizations integrate security testing into their SDLC.",
-      "image": "/placeholder.svg?height=400&width=400",
+      "id": "jennifer",
+      "name": "Jennifer",
+      "role": "QA Professional",
+      "company": "Innovate QA 2024",
+      "bio": "Jennifer presented at Innovate QA 2024.",
+      "image": "/speakers/2024/jennifer.jpg",
       "social": {
-        "linkedin": "https://linkedin.com/in/chrisnguyen"
+        "linkedin": ""
       },
-      "talks": ["Shift-Left Security Testing"]
+      "talks": []
     }
   ],
   "sponsors": {
     "gold": [
       {
-        "name": "TestCloud",
-        "logo": "/placeholder.svg?height=80&width=200",
-        "url": "https://testcloud.example.com",
-        "tagline": "Cloud-based test infrastructure"
-      }
-    ],
-    "silver": [
-      {
-        "name": "AutoTest Pro",
-        "logo": "/placeholder.svg?height=60&width=150",
-        "url": "https://autotest.example.com",
-        "tagline": "Enterprise test automation"
-      },
-      {
-        "name": "QualityFirst",
-        "logo": "/placeholder.svg?height=60&width=150",
-        "url": "https://qualityfirst.example.com",
-        "tagline": "Quality engineering solutions"
-      }
-    ],
-    "bronze": [
-      {
-        "name": "BugHunter",
-        "logo": "/placeholder.svg?height=50&width=120",
-        "url": "https://bughunter.example.com",
-        "tagline": "Find bugs before they find you"
-      }
-    ],
-    "partners": [
-      {
-        "name": "Test Community",
-        "logo": "/placeholder.svg?height=40&width=100",
-        "url": "https://testcommunity.example.com"
+        "name": "testRigor",
+        "logo": "/photos/2024/testrigor.webp",
+        "url": "https://testrigor.com",
+        "tagline": "Generative AI-based test automation"
       }
     ]
   },
@@ -326,11 +294,9 @@
     "workshops": 2
   },
   "gallery": [
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400"
+    "/photos/2024/1.webp",
+    "/photos/2024/2.webp",
+    "/photos/2024/3.webp"
   ],
   "recap": {
     "videoUrl": "https://youtube.com/watch?v=example",

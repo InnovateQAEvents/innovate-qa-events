@@ -11,7 +11,10 @@ export function HeroSection() {
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-primary/5 via-background to-background">
-      <div className="absolute inset-0 bg-[url('/abstract-geometric-purple.png')] opacity-5 bg-cover bg-center" />
+      <div
+        className="absolute inset-0 opacity-5 bg-cover bg-center"
+        style={{ backgroundImage: `url(${BASE_PATH}/abstract-geometric-purple.png)` }}
+      />
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="text-center">

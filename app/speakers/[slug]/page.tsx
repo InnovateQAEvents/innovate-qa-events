@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Linkedin, ArrowLeft, Calendar, MapPin } from "lucide-react"
 import speakers2025 from "@/data/speakers-2025.json"
 import schedule2025 from "@/data/schedule-2025.json"
+import { BASE_PATH } from "@/lib/constants"
 
 interface SpeakerPageProps {
   params: Promise<{
@@ -57,7 +58,7 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
               <Card className="overflow-hidden">
                 <div className="aspect-square relative bg-muted">
                   <Image
-                    src={speaker.image}
+                    src={`${BASE_PATH}${speaker.image}`}
                     alt={speaker.name}
                     fill
                     className="object-cover object-top"

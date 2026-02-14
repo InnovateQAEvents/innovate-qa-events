@@ -1,23 +1,24 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import { BASE_PATH } from "@/lib/constants"
 
 const silverSponsors = [
-  { name: "PlusQA", logo: "/plusqa-logo-tech-company.jpg" },
-  { name: "AccelQ", logo: "/accelq-logo-tech-company.jpg" },
+  { name: "PlusQA", logo: `${BASE_PATH}/plusqa-logo-tech-company.jpg` },
+  { name: "AccelQ", logo: `${BASE_PATH}/accelq-logo-tech-company.jpg` },
 ]
 
 const bronzeSponsors = [
-  { name: "ContextQA", logo: "/contextqa-logo-tech.jpg" },
-  { name: "Loadmill", logo: "/loadmill-logo-tech.jpg" },
-  { name: "QA Mentor", logo: "/qa-mentor-logo-tech.jpg" },
-  { name: "FlintLab", logo: "/flintlab-logo-tech.jpg" },
+  { name: "ContextQA", logo: `${BASE_PATH}/contextqa-logo-tech.jpg` },
+  { name: "Loadmill", logo: `${BASE_PATH}/loadmill-logo-tech.jpg` },
+  { name: "QA Mentor", logo: `${BASE_PATH}/qa-mentor-logo-tech.jpg` },
+  { name: "FlintLab", logo: `${BASE_PATH}/flintlab-logo-tech.jpg` },
 ]
 
 const partners = [
-  { name: "LambdaTest", logo: "/lambdatest-logo.png" },
-  { name: "iCEDQ", logo: "/icedq-logo.jpg" },
-  { name: "Manning", logo: "/manning-publications-logo.jpg" },
+  { name: "LambdaTest", logo: `${BASE_PATH}/lambdatest-logo.png` },
+  { name: "iCEDQ", logo: `${BASE_PATH}/icedq-logo.jpg` },
+  { name: "Manning", logo: `${BASE_PATH}/manning-publications-logo.jpg` },
 ]
 
 export function SponsorsSection() {
@@ -47,9 +48,9 @@ export function SponsorsSection() {
                   <Image
                     src={sponsor.logo || "/placeholder.svg"}
                     alt={sponsor.name}
-                    width={120}
-                    height={48}
-                    className="h-12 w-auto object-contain"
+                    width={320}
+                    height={128}
+                    className="h-32 w-auto object-contain"
                   />
                 </div>
               ))}
@@ -70,9 +71,9 @@ export function SponsorsSection() {
                   <Image
                     src={sponsor.logo || "/placeholder.svg"}
                     alt={sponsor.name}
-                    width={80}
-                    height={32}
-                    className="h-8 w-auto object-contain"
+                    width={240}
+                    height={96}
+                    className="h-24 w-auto object-contain"
                   />
                 </div>
               ))}
@@ -93,9 +94,9 @@ export function SponsorsSection() {
                   <Image
                     src={partner.logo || "/placeholder.svg"}
                     alt={partner.name}
-                    width={60}
-                    height={24}
-                    className="h-6 w-auto object-contain"
+                    width={200}
+                    height={80}
+                    className="h-20 w-auto object-contain"
                   />
                 </div>
               ))}

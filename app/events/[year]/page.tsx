@@ -10,6 +10,7 @@ import type { Metadata } from "next"
 import { generateSEO } from "@/components/seo"
 import { EventLD, BreadcrumbLD } from "@/components/json-ld"
 import { SpeakerCard } from "@/components/Speaker-Card"
+import { BASE_PATH } from "@/lib/constants"
 
 import event2025 from "@/data/events/2025.json"
 import event2024 from "@/data/events/2024.json"
@@ -224,7 +225,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
               {event.gallery.map((photo, i) => (
                 <div key={i} className="aspect-[4/3] rounded-lg overflow-hidden bg-muted relative">
                   <Image
-                    src={photo || "/placeholder.svg"}
+                    src={photo ? `${BASE_PATH}${photo}` : "/placeholder.svg"}
                     alt={`Event photo ${i + 1}`}
                     fill
                     className="object-cover"
@@ -251,7 +252,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo || "/placeholder.svg"}
+                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={160}
                             height={80}
@@ -280,7 +281,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-16 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo || "/placeholder.svg"}
+                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={128}
                             height={64}
@@ -309,7 +310,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-14 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo || "/placeholder.svg"}
+                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={112}
                             height={56}
@@ -338,7 +339,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-12 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo || "/placeholder.svg"}
+                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={96}
                             height={48}

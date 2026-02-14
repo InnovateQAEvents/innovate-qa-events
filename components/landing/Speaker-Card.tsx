@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Linkedin } from "lucide-react"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
+import { BASE_PATH } from "@/lib/constants"
 
 interface Speaker {
   id: string
@@ -32,7 +33,7 @@ export function SpeakerCard({ speaker }: SpeakerCardProps) {
     >
       <div className="aspect-[3/4] overflow-hidden bg-muted -m-px relative">
         <Image
-          src={speaker.image || "/placeholder.svg"}
+          src={speaker.image ? `${BASE_PATH}${speaker.image}` : "/placeholder.svg"}
           alt={speaker.name}
           fill
           className="object-cover object-top group-hover:scale-105 transition-transform duration-300"

@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Mail, Phone, MapPin, Linkedin, Twitter, Youtube, MessageCircle, Send } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Linkedin, Youtube, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -12,13 +12,21 @@ import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import contactData from "@/data/pages/contact.json"
+import siteConfig from "@/data/site-config.json"
 
-const socialIcons: Record<string, React.ReactNode> = {
-  Linkedin: <Linkedin className="h-5 w-5" />,
-  Twitter: <Twitter className="h-5 w-5" />,
-  Youtube: <Youtube className="h-5 w-5" />,
-  MessageCircle: <MessageCircle className="h-5 w-5" />,
-}
+// Custom X/Twitter icon since lucide doesn't have the new X logo
+const XIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" className={className} fill="currentColor">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+)
+
+// Custom TikTok icon
+const TikTokIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" className={className} fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+  </svg>
+)
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -228,19 +236,66 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-foreground mb-4">Follow Us</h3>
                 <div className="flex gap-3">
-                  {contactData.socialLinks.map((social) => (
+                  {siteConfig.socials.instagram.url && (
                     <a
-                      key={social.platform}
-                      href={social.url}
+                      href={siteConfig.socials.instagram.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="h-12 w-12 rounded-lg flex items-center justify-center text-white transition-opacity hover:opacity-80"
                       style={{ backgroundColor: "rgb(138, 43, 226)" }}
-                      aria-label={social.platform}
+                      aria-label="Instagram"
                     >
-                      {socialIcons[social.icon]}
+                      <Instagram className="h-5 w-5" />
                     </a>
-                  ))}
+                  )}
+                  {siteConfig.socials.linkedin.url && (
+                    <a
+                      href={siteConfig.socials.linkedin.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-12 w-12 rounded-lg flex items-center justify-center text-white transition-opacity hover:opacity-80"
+                      style={{ backgroundColor: "rgb(138, 43, 226)" }}
+                      aria-label="LinkedIn"
+                    >
+                      <Linkedin className="h-5 w-5" />
+                    </a>
+                  )}
+                  {siteConfig.socials.tiktok.url && (
+                    <a
+                      href={siteConfig.socials.tiktok.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-12 w-12 rounded-lg flex items-center justify-center text-white transition-opacity hover:opacity-80"
+                      style={{ backgroundColor: "rgb(138, 43, 226)" }}
+                      aria-label="TikTok"
+                    >
+                      <TikTokIcon className="h-5 w-5" />
+                    </a>
+                  )}
+                  {siteConfig.socials.x.url && (
+                    <a
+                      href={siteConfig.socials.x.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-12 w-12 rounded-lg flex items-center justify-center text-white transition-opacity hover:opacity-80"
+                      style={{ backgroundColor: "rgb(138, 43, 226)" }}
+                      aria-label="X (Twitter)"
+                    >
+                      <XIcon className="h-5 w-5" />
+                    </a>
+                  )}
+                  {siteConfig.socials.youtube.url && (
+                    <a
+                      href={siteConfig.socials.youtube.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="h-12 w-12 rounded-lg flex items-center justify-center text-white transition-opacity hover:opacity-80"
+                      style={{ backgroundColor: "rgb(138, 43, 226)" }}
+                      aria-label="YouTube"
+                    >
+                      <Youtube className="h-5 w-5" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
