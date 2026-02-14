@@ -154,7 +154,6 @@
             }
           ]
         },
-        ,
         {
           "time": "2:10 PM",
           "duration": 30,
@@ -170,27 +169,27 @@
               "title": "What Successful Test Automation is... And Why it's not Testing",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "vishnu",
+              "speakerId": "lee",
               "description": ""
             }
           ]
         }{
-          "time": "3:00 PM",
-          "duration": 45,
+          "time": "2:45 PM",
+          "duration": 60,
           "sessions": [
             {
-              "title": "AI in Testing: Hype vs Reality",
-              "type": "talk",
-              "room": "room-a",
-              "speakerId": "jennifer-lee",
-              "description": "Separating the hype from practical applications of AI in testing."
-            },
-            {
-              "title": "Shift-Left Security Testing",
+              "title": "testRigor talk",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "chris-nguyen",
-              "description": "Integrating security testing early in the development lifecycle."
+              "speakerId": "artem",
+              "description": ""
+            },
+            {
+              "title": "Leadership Workshop",
+              "type": "workshop",
+              "room": "room-a",
+              "speakerId": "anna",
+              "description": ""
             }
           ]
         },
@@ -368,7 +367,20 @@
         "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
       },
       "talks": []
-    } ],
+    }  ,
+    {
+      "id": "anna",
+      "name": "Anna Royzman",
+      "role": "Executive Leader",
+      "company": "Test Masters Academy",
+      "bio": "",
+      "image": "/speakers/2024/anna.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/anna-royzman/"
+      },
+      "talks": []
+    }
+  ],
   "sponsors": {
     "gold": [
       {
