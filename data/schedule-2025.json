@@ -9,13 +9,13 @@
       "description": "Welcome reception, networking, and breakfast"
     },
     {
-      "time": "9:00 AM - 9:15 AM",
+      "time": "9:00 AM - 9:10 AM",
       "title": "Opening Remarks",
       "type": "keynote",
       "description": "Conference kickoff and welcome"
     },
     {
-      "time": "9:15 AM - 10:00 AM",
+      "time": "9:10 AM - 10:00 AM",
       "title": "The Evolution of the Testing Roles",
       "type": "keynote",
       "speaker": "Carlos Arguelles",
@@ -23,12 +23,12 @@
       "track": "keynote"
     },
     {
-      "time": "10:00 AM - 10:15 AM",
+      "time": "9:50 AM - 10:00 AM",
       "title": "Break",
       "type": "break"
     },
     {
-      "time": "10:15 AM - 11:00 AM",
+      "time": "10:00 AM - 10:45 AM",
       "title": "Morning Sessions - Track A",
       "type": "session",
       "sessions": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "time": "11:00 AM - 11:45 AM",
+      "time": "10:55 AM - 11:40 AM",
       "title": "Morning Sessions - Track B",
       "type": "session",
       "sessions": [
@@ -66,7 +66,26 @@
       ]
     },
     {
-      "time": "11:45 AM - 1:00 PM",
+      "time": "11:45 AM - 12:30 PM",
+      "title": "Morning Sessions - Track B",
+      "type": "session",
+      "sessions": [
+        {
+          "title": "The Great RAI-a-thon: Build a Tiny AI App - Then Try to Break It",
+          "speaker": "Jeremiah Marble & Dona Sarkar",
+          "company": "Microsoft",
+          "track": "strategy"
+        },
+        {
+          "title": "Building a Future-Proof Mobile Testing Strategy: Automation, Efficiency, and Accelerated Releases",
+          "speaker": "Aswin Golla",
+          "company": "Binnings",
+          "track": "cloud"
+        }
+      ]
+    },
+    {
+      "time": "12:30 AM - 1:30 PM",
       "title": "Lunch & Networking",
       "type": "break",
       "description": "Catered lunch and networking opportunity"
