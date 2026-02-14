@@ -52,7 +52,7 @@ export default function ContactPage() {
     <>
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "rgb(75, 0, 130)" }}>
-        <div className="absolute inset-0 bg-[url('/abstract-purple-connection-pattern.jpg')] opacity-10 bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('/abstract-purple-tech-pattern.png')] opacity-10 bg-cover bg-center" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 text-balance">
