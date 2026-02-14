@@ -298,13 +298,11 @@
     "/photos/2024/2.webp",
     "/photos/2024/3.webp"
   ],
-  "recap": {
-    "videoUrl": "https://youtube.com/watch?v=example",
-    "highlights": [
-      "250+ attendees from 15 countries",
-      "12 expert speakers",
-      "Hands-on Playwright workshop",
-      "Great discussions on AI in testing"
-    ]
+    "stats": {
+    "attendees": 100,
+    "speakers": 13,
+    "sessions": 14,
+    "workshops": 2
+  }
   }
 }
