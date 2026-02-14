@@ -77,8 +77,8 @@
               "title": "Enhancing Test Script Development with Code Generation Tools",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "robert-garcia",
-              "description": "Implementing contract testing for microservices using Pact."
+              "speakerId": "sidharth",
+              "description": ""
             },
             {
               "title": "The Accessibility and Quality Disconnect",
@@ -96,64 +96,85 @@
             {
               "title": "Mastering Test Automation: Building an Effective Framework",
               "type": "talk",
-              "room": "room-a",
-              "speakerId": "robert-garcia",
+              "room": "room-b",
+              "speakerId": "kim",
               "description": "Implementing contract testing for microservices using Pact."
             },
             {
               "title": "How to hire the best Quality Engineers",
               "type": "talk",
-              "room": "room-b",
-              "speakerId": "jennifer",
+              "room": "room-a",
+              "speakerId": "george",
               "description": ""
             }
           ]
         },
         {
-          "time": "12:00 PM",
-          "duration": 60,
+          "time": "12:05 PM",
+          "duration": 55,
           "sessions": [
             {
               "title": "Lunch & Networking",
               "type": "break",
-              "room": "main-hall",
+              "room": "room-a",
               "description": "Lunch and networking with fellow attendees"
             }
           ]
         },
         {
           "time": "1:00 PM",
-          "duration": 90,
+          "duration": 30,
           "sessions": [
             {
-              "title": "Workshop: Getting Started with Playwright",
-              "type": "workshop",
-              "room": "room-a",
-              "speakerId": "michael-chen",
-              "description": "Hands-on introduction to Playwright for modern web testing."
-            },
-            {
-              "title": "Test Strategy for Mobile Apps",
+              "title": "Chaotic Neutral: QA roles and alignment",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "kevin-patel",
+              "speakerId": "aaron",
+              "description": ""
+            },
+            {
+              "title": "testRigor workshop ",
+              "type": "workshop",
+              "room": "room-b",
+              "speakerId": "artem",
               "description": "Comprehensive testing strategies for iOS and Android applications."
             }
           ]
         },
         {
-          "time": "2:45 PM",
-          "duration": 15,
+          "time": "1:35 PM",
+          "duration": 30,
           "sessions": [
             {
-              "title": "Coffee Break",
-              "type": "break",
-              "room": "main-hall",
-              "description": "Refreshments"
+              "title": "Testing, Testing, 1, 2, 3: Building & Testing Great Products in the AI Era",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "jeremiah",
+              "description": ""
             }
           ]
         },
+        ,
         {
+          "time": "2:10 PM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Exploring the GPU Load Testing through Generative AI Workloads",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "vishnu",
+              "description": ""
+            },
+            {
+              "title": "What Successful Test Automation is... And Why it's not Testing",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "vishnu",
+              "description": ""
+            }
+          ]
+        }{
           "time": "3:00 PM",
           "duration": 45,
           "sessions": [
