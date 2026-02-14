@@ -61,8 +61,8 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 198.12.236.27
-          username: innovateqa@innovateqaevents.com
+          server: ftp.innovateqaevents.com
+          username: di64eh9x5anx
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
