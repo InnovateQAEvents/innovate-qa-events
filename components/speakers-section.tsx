@@ -28,7 +28,7 @@ export function SpeakersSection() {
 
         <div className="text-center">
           <Button variant="outline" size="lg" asChild>
-            <Link href="#all-speakers">View All Speakers</Link>
+            <Link href="/events/2026#speakers">View All Speakers</Link>
           </Button>
         </div>
       </div>
