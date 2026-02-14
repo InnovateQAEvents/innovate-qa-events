@@ -20,9 +20,9 @@ const TikTokIcon = ({ className }: { className?: string }) => (
 
 const footerLinks = {
   event: [
-    { label: "Innovate QA 2026", href: "/" },
-    { label: "Speakers", href: "#speakers" },
-    { label: "Schedule", href: "#schedule" },
+    { label: "Innovate QA 2026", href: "/events/2026" },
+    { label: "Speakers", href: "/events/2026#speakers" },
+    { label: "Schedule", href: "/events/2026#schedule" },
   ],
   community: [
     { label: "Become a Speaker", href: "/volunteer" },
