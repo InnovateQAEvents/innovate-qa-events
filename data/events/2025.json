@@ -66,7 +66,7 @@
           ]
         },
         {
-          "time": "10:15 AM",
+          "time": "10:00 AM",
           "duration": 45,
           "sessions": [
             {
@@ -82,11 +82,18 @@
               "room": "room-b",
               "speakerId": "siri-varma-vegiraju",
               "description": ""
+            },
+            {
+              "title": "Practical Accessibility Testing",
+              "type": "workshop",
+              "room": "workshop",
+              "speakerId": "jennifer-x-zhang",
+              "description": ""
             }
           ]
         },
         {
-          "time": "11:15 AM",
+          "time": "10:55 AM",
           "duration": 45,
           "sessions": [
             {
@@ -106,8 +113,28 @@
           ]
         },
         {
-          "time": "12:00 PM",
-          "duration": 90,
+          "time": "10:55 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "The Great RAI-a-thon: Build a Tiny AI App - Then Try to Break It",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "dona-sarkar",
+              "description": ""
+            },
+            {
+              "title": "Building a Future-Proof Mobile Testing Strategy: Automation, Efficiency, and Accelerated Releases",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "aswin-golla",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "12:30 AM",
+          "duration": 60,
           "sessions": [
             {
               "title": "Lunch & Networking",
@@ -119,40 +146,67 @@
         },
         {
           "time": "1:30 PM",
-          "duration": 120,
+          "duration": 45,
           "sessions": [
-            {
-              "title": "Workshop: Building Your First AI Test Agent",
-              "type": "workshop",
-              "room": "workshop-room",
-              "speakerId": "david-kim",
-              "description": "Hands-on workshop to build an AI-powered testing agent from scratch."
-            },
-            {
-              "title": "Mobile Testing Deep Dive",
+           {
+              "title": "Riding the AI Tsunami: Thriving in an Era of Relentless Change",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "james-wilson",
-              "description": "Comprehensive strategies for testing mobile applications across platforms."
+              "speakerId": "snehal-lohar",
+              "description": ""
             },
             {
-              "title": "DevOps for QA: CI/CD Best Practices",
+              "title": "QA Automation with Nova Act",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "alex-thompson",
-              "description": "Integrate testing seamlessly into your CI/CD pipeline for faster feedback."
+              "speakerId": "ryan-canty",
+              "description": ""
             }
           ]
         },
         {
-          "time": "3:45 PM",
-          "duration": 15,
+          "time": "2:20 PM",
+          "duration": 45,
           "sessions": [
+           {
+              "title": "Practical Lean Testing Strategies: Balancing Risk, Speed, and Quality",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "nicaise-ishimwe",
+              "description": ""
+            },
             {
-              "title": "Coffee Break",
-              "type": "break",
-              "room": "main-hall",
-              "description": "Refreshments and networking"
+              "title": "Scalable Automated Frameworks for Distributed Systems",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "walter-zimerman",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "3:10 PM",
+          "duration": 45,
+          "sessions": [
+           {
+              "title": "The Copilot Trap: Why AI-Generated Code Based Automation Is Not Sustainable!",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "nishan-joseph",
+              "description": ""
+            },
+            {
+              "title": "From Chaos to Confidence: A Practical Guide to Building a Culture of Quality",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "vince-mahan",
+              "description": ""
+            },  {
+              "title": "Chaos Engineering for Performance Resilience",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "sumalatha-dhanireddy",
+              "description": ""
             }
           ]
         },
@@ -161,12 +215,10 @@
           "duration": 60,
           "sessions": [
             {
-              "title": "Panel: The Future of Testing - AI, Automation & Beyond",
-              "type": "panel",
-              "room": "main-hall",
-              "panelists": ["sarah-chen", "marcus-johnson", "david-kim", "elena-rodriguez"],
-              "moderator": "priya-patel",
-              "description": "Industry leaders discuss emerging trends and the future of quality engineering."
+              "title": "Mastermind Session",
+              "type": "workshop",
+              "room": "room-a",
+              "description": ""
             }
           ]
         },
@@ -175,10 +227,10 @@
           "duration": 180,
           "sessions": [
             {
-              "title": "Evening Reception & Networking",
+              "title": "Closing Remarks",
               "type": "social",
               "room": "main-hall",
-              "description": "Join us for drinks, appetizers, and networking with speakers and attendees."
+              "description": ""
             }
           ]
         }
