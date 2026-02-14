@@ -74,8 +74,7 @@ jobs:
             **/node_modules/**
             **/.DS_Store
             **/*.log
-          dry-run: false
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
 
       - name: Deployment summary
         run: |
