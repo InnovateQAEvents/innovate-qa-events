@@ -109,26 +109,26 @@ export function Navigation() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-[300px]">
-            <nav className="flex flex-col gap-4 mt-8">
+            <nav className="flex flex-col gap-4 mt-8 px-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="text-lg font-medium text-foreground hover:text-primary transition-colors"
+                  className="text-lg font-medium text-foreground hover:text-primary active:text-primary/80 transition-colors px-2 py-1 -mx-2 rounded-md hover:bg-accent/50 active:bg-accent"
                 >
                   {link.label}
                 </Link>
               ))}
 
               <div className="border-t border-border pt-4 mt-2">
-                <p className="text-sm font-semibold text-muted-foreground mb-2">Community</p>
+                <p className="text-sm font-semibold text-muted-foreground mb-3 px-2 uppercase tracking-wider">Community</p>
                 {communityLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
                     onClick={() => setOpen(false)}
-                    className="block text-lg font-medium text-foreground hover:text-primary transition-colors py-1"
+                    className="block text-base font-medium text-foreground hover:text-primary active:text-primary/80 transition-colors py-2 px-2 -mx-2 rounded-md hover:bg-accent/50 active:bg-accent"
                   >
                     {link.label}
                   </Link>
@@ -136,29 +136,29 @@ export function Navigation() {
               </div>
 
               <div className="border-t border-border pt-4 mt-2">
-                <p className="text-sm font-semibold text-muted-foreground mb-2">Past Events</p>
+                <p className="text-sm font-semibold text-muted-foreground mb-3 px-2 uppercase tracking-wider">Past Events</p>
                 {pastEvents.map((event) => (
                   <Link
                     key={event.year}
                     href={event.href}
                     onClick={() => setOpen(false)}
-                    className="block text-lg font-medium text-foreground hover:text-primary transition-colors py-1"
+                    className="block text-base font-medium text-foreground hover:text-primary active:text-primary/80 transition-colors py-2 px-2 -mx-2 rounded-md hover:bg-accent/50 active:bg-accent"
                   >
                     {event.label}
                   </Link>
                 ))}
               </div>
 
-        
 
-              <div className="flex flex-col gap-2 mt-4">
+
+              <div className="flex flex-col gap-2 mt-6 border-t border-border pt-4">
                 {/* <Button asChild variant="outline">
                   <Link href="/signup" onClick={() => setOpen(false)}>Sign Up</Link>
                 </Button>
                 <Button asChild>
                   <Link href="/signin" onClick={() => setOpen(false)}>Sign In</Link>
                 </Button> */}
-                <Button asChild>
+                <Button asChild className="w-full">
                   <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
                 </Button>
               </div>
