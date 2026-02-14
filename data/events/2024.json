@@ -13,7 +13,7 @@
     "city": "Seattle",
     "state": "Washington",
     "zip": "98121",
-    "country": "United States",
+    "country": "United States"
      },
   "rooms": [
     { "id": "main-hall", "name": "Main Hall", "capacity": 150 },
