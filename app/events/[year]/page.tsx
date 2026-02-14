@@ -229,6 +229,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                     alt={`Event photo ${i + 1}`}
                     fill
                     className="object-cover"
+                    unoptimized
                   />
                 </div>
               ))}
@@ -252,11 +253,12 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={160}
                             height={80}
                             className="max-h-20 max-w-full object-contain"
+                            unoptimized={sponsor.logo?.startsWith('http')}
                           />
                         </div>
                         <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
@@ -281,11 +283,12 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-16 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={128}
                             height={64}
                             className="max-h-16 max-w-full object-contain"
+                            unoptimized={sponsor.logo?.startsWith('http')}
                           />
                         </div>
                         <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
@@ -310,11 +313,12 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-14 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={112}
                             height={56}
                             className="max-h-14 max-w-full object-contain"
+                            unoptimized={sponsor.logo?.startsWith('http')}
                           />
                         </div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">{sponsor.name}</h4>
@@ -339,11 +343,12 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-12 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo ? `${BASE_PATH}${sponsor.logo}` : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={96}
                             height={48}
                             className="max-h-12 max-w-full object-contain"
+                            unoptimized={sponsor.logo?.startsWith('http')}
                           />
                         </div>
                         <h4 className="font-medium text-foreground text-sm">{sponsor.name}</h4>
