@@ -62,7 +62,7 @@
     "imageAlt": "InnovateQAEvents"
   },
   "openGraph": {
-    "url": "https://innovateqaevents.com/innovate-qa-2026",
+    "url": "https://innovateqaevents.com",
     "siteName": "InnovateQAEvents",
     "title": "Innovate QA 2026",
     "description": "Explore Innovation in Software Quality at June 4-5 Innovate QA 2026 Best Software Testing Conference 2026. Join industry leaders for QA Conference.",
@@ -72,17 +72,17 @@
   },
   "icons": {
     "icon": [
-      { "url": "/innovate-qa-events/favicon.ico", "sizes": "any" },
-      { "url": "/innovate-qa-events/icon-16x16.png", "sizes": "16x16", "type": "image/png" },
-      { "url": "/innovate-qa-events/icon-32x32.png", "sizes": "32x32", "type": "image/png" },
-      { "url": "/innovate-qa-events/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
-      { "url": "/innovate-qa-events/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+      { "url": "/favicon.ico", "sizes": "any" },
+      { "url": "/icon-16x16.png", "sizes": "16x16", "type": "image/png" },
+      { "url": "/icon-32x32.png", "sizes": "32x32", "type": "image/png" },
+      { "url": "/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+      { "url": "/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
     ],
     "apple": [
-      { "url": "/innovate-qa-events/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+      { "url": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
     ]
   },
-  "manifest": "/innovate-qa-events/manifest.json",
+  "manifest": "/manifest.json",
   "footer": {
     "sections": {
       "company": {

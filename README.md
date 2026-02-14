@@ -2,7 +2,7 @@
 
 The premier conference and events platform for **Quality Professionals and Engineering Leaders**. Practical, engineering-focused content where quality leaders connect, learn, and grow together.
 
-🌐 **Live Site:** [innovateqaevents.github.io/innovate-qa-events](https://innovateqaevents.github.io/innovate-qa-events/)
+🌐 **Live Site:** [innovateqaevents.com](https://innovateqaevents.com/)
 
 ---
 
@@ -72,7 +72,7 @@ Innovate QA Events brings together QA professionals, engineering leaders, and in
 
 ```bash
 # Clone the repository
-git clone https://github.com/InnovateQAEvents/innovate-qa-events.git
+git clone https://github.com/InnovateQAEvents/innovateqaevents-site.git
 cd innovate-qa-events
 
 # Install dependencies
@@ -111,7 +111,7 @@ Event data, speakers, schedules, and meetups are managed via JSON files in the `
 
 ## Connect With Us
 
-- 🌐 [Website](https://innovateqaevents.github.io/innovate-qa-events/)
+- 🌐 [Website](https://innovateqaevents.com/)
 - 💼 [LinkedIn](https://www.linkedin.com/company/innovateqa-events)
 - 🐦 [X / Twitter](https://www.x.com/innovateqaevent)
 - 📸 [Instagram](https://www.instagram.com/innovateqaevents/)
