@@ -391,6 +391,9 @@ function ScheduleDay({
           <div className={`grid gap-4 ${slot.sessions.length > 1 ? "md:grid-cols-2 lg:grid-cols-3" : ""}`}>
             {slot.sessions.map((session, sessionIndex) => {
               const speaker = "speakerId" in session && session.speakerId ? speakerMap.get(session.speakerId) : null
+              const sessionSpeakers = "speakers" in session && session.speakers && session.speakers.length > 0
+                ? session.speakers.map((id: string) => speakerMap.get(id)).filter(Boolean)
+                : []
 
               return (
                 <Card key={sessionIndex} className="bg-card border-border/50">
@@ -406,6 +409,26 @@ function ScheduleDay({
                       <p className="text-sm text-primary font-medium">
                         {speaker.name} - {speaker.company}
                       </p>
+                    )}
+                    {sessionSpeakers.length > 0 && (
+                      <div className="text-sm text-primary font-medium">
+                        {sessionSpeakers.length === 1 ? (
+                          <p>
+                            {sessionSpeakers[0]?.name} - {sessionSpeakers[0]?.company}
+                          </p>
+                        ) : (
+                          <div>
+                            <p className="text-muted-foreground mb-1">Speakers:</p>
+                            <ul className="space-y-0.5">
+                              {sessionSpeakers.map((spk, idx) => (
+                                <li key={idx}>
+                                  {spk?.name} - {spk?.company}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
                     )}
                     {"panelists" in session && session.panelists && (
                       <p className="text-sm text-muted-foreground">

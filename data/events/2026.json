@@ -47,7 +47,8 @@
               "title": "Opening Keynote: The Evolution of Quality in the AI Era",
               "type": "keynote",
               "room": "main-hall",
-              "description": "Explore how artificial intelligence is reshaping quality engineering practices and what it means for the future of software testing."
+              "description": "Explore how artificial intelligence is reshaping quality engineering practices and what it means for the future of software testing.",
+              "speakers": []
             }
           ]
         },
@@ -59,13 +60,15 @@
               "title": "Advanced Test Automation Strategies",
               "type": "talk",
               "room": "room-a",
-              "description": "Learn cutting-edge approaches to building scalable and maintainable test automation frameworks."
+              "description": "Learn cutting-edge approaches to building scalable and maintainable test automation frameworks.",
+              "speakers": []
             },
             {
               "title": "Leading Quality Teams in Modern Organizations",
               "type": "talk",
               "room": "room-b",
-              "description": "Best practices for building and managing high-performing quality engineering teams."
+              "description": "Best practices for building and managing high-performing quality engineering teams.",
+              "speakers": []
             }
           ]
         },
@@ -77,13 +80,15 @@
               "title": "AI-Driven Testing: Beyond the Hype",
               "type": "talk",
               "room": "room-a",
-              "description": "Real-world applications and limitations of AI in software testing."
+              "description": "Real-world applications and limitations of AI in software testing.",
+              "speakers": []
             },
             {
               "title": "Quality Metrics for Executive Leadership",
               "type": "talk",
               "room": "room-b",
-              "description": "Communicating quality effectively to stakeholders and executives."
+              "description": "Communicating quality effectively to stakeholders and executives.",
+              "speakers": []
             }
           ]
         },
@@ -107,19 +112,22 @@
               "title": "Hands-on Workshop: Modern Test Frameworks",
               "type": "workshop",
               "room": "workshop-room",
-              "description": "Practical session on building test automation with modern frameworks and tools."
+              "description": "Practical session on building test automation with modern frameworks and tools.",
+              "speakers": []
             },
             {
               "title": "Performance Testing at Scale",
               "type": "talk",
               "room": "room-a",
-              "description": "Strategies for testing performance and scalability of modern applications."
+              "description": "Strategies for testing performance and scalability of modern applications.",
+              "speakers": []
             },
             {
               "title": "Quality Culture Transformation",
               "type": "talk",
               "room": "room-b",
-              "description": "How to foster a quality-first mindset across your organization."
+              "description": "How to foster a quality-first mindset across your organization.",
+              "speakers": []
             }
           ]
         },
@@ -143,13 +151,15 @@
               "title": "Security Testing in DevOps Pipelines",
               "type": "talk",
               "room": "room-a",
-              "description": "Integrating security testing seamlessly into your CI/CD workflows."
+              "description": "Integrating security testing seamlessly into your CI/CD workflows.",
+              "speakers": []
             },
             {
               "title": "The Future of Quality Engineering Careers",
               "type": "panel",
               "room": "room-b",
-              "description": "Industry experts discuss career growth and opportunities in quality engineering."
+              "description": "Industry experts discuss career growth and opportunities in quality engineering.",
+              "speakers": []
             }
           ]
         },
@@ -161,7 +171,8 @@
               "title": "Closing Keynote: Quality Engineering 2027 and Beyond",
               "type": "keynote",
               "room": "main-hall",
-              "description": "Looking ahead at the trends and technologies shaping the future of quality."
+              "description": "Looking ahead at the trends and technologies shaping the future of quality.",
+              "speakers": []
             }
           ]
         },
@@ -202,19 +213,22 @@
               "title": "Full-Stack Testing Workshop",
               "type": "workshop",
               "room": "workshop-room",
-              "description": "Comprehensive hands-on workshop covering end-to-end testing strategies."
+              "description": "Comprehensive hands-on workshop covering end-to-end testing strategies.",
+              "speakers": []
             },
             {
               "title": "API Testing Masterclass",
               "type": "workshop",
               "room": "room-a",
-              "description": "Deep dive into API testing, contract testing, and service virtualization."
+              "description": "Deep dive into API testing, contract testing, and service virtualization.",
+              "speakers": []
             },
             {
               "title": "Quality Leadership Roundtable",
               "type": "talk",
               "room": "room-b",
-              "description": "Interactive discussion on leadership challenges and solutions."
+              "description": "Interactive discussion on leadership challenges and solutions.",
+              "speakers": []
             }
           ]
         },
@@ -238,19 +252,22 @@
               "title": "Mobile Testing in the Cloud",
               "type": "workshop",
               "room": "workshop-room",
-              "description": "Learn to test mobile applications using cloud-based device farms."
+              "description": "Learn to test mobile applications using cloud-based device farms.",
+              "speakers": []
             },
             {
               "title": "Accessibility Testing Deep Dive",
               "type": "workshop",
               "room": "room-a",
-              "description": "Practical approaches to building accessible applications and testing them."
+              "description": "Practical approaches to building accessible applications and testing them.",
+              "speakers": []
             },
             {
               "title": "Quality Metrics Workshop",
               "type": "workshop",
               "room": "room-b",
-              "description": "Hands-on session on defining and tracking quality metrics."
+              "description": "Hands-on session on defining and tracking quality metrics.",
+              "speakers": []
             }
           ]
         },
@@ -274,7 +291,8 @@
               "title": "Closing Panel: The State of Quality Engineering 2026",
               "type": "panel",
               "room": "main-hall",
-              "description": "Industry leaders discuss the current state and future of quality engineering."
+              "description": "Industry leaders discuss the current state and future of quality engineering.",
+              "speakers": []
             }
           ]
         },

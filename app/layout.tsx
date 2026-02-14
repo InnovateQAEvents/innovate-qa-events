@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Inter, Geist_Mono } from "next/font/google"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
 import { GoogleAnalytics } from "@/components/google-analytics"
 import { OrganizationLD } from "@/components/json-ld"
 import { generateSEO } from "@/components/seo"
@@ -44,6 +45,7 @@ export default function RootLayout({
           <Navigation />
           <main className="flex-1">{children}</main>
           <Footer />
+          <ScrollToTop />
         </div>
       </body>
     </html>

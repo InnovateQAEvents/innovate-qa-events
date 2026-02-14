@@ -13,6 +13,9 @@ interface Speaker {
   company: string
   image: string
   linkedin?: string
+  topic?: string
+  keynote?: boolean
+  workshop?: boolean
 }
 
 interface SpeakerCardProps {
@@ -42,7 +45,30 @@ export function SpeakerCard({ speaker }: SpeakerCardProps) {
       <CardContent className="pt-4 flex-1 flex flex-col">
         <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{speaker.name}</h3>
         <p className="text-sm text-primary font-medium">{speaker.title}</p>
-        <p className="text-sm text-muted-foreground mb-3">{speaker.company}</p>
+        <p className="text-sm text-muted-foreground mb-2">{speaker.company}</p>
+
+        {speaker.topic && (
+          <div className="mb-3">
+            <p className="text-xs font-medium text-primary/80 line-clamp-2">
+              {speaker.topic}
+            </p>
+            {(speaker.keynote || speaker.workshop) && (
+              <div className="flex gap-1 mt-2">
+                {speaker.keynote && (
+                  <span className="inline-block px-2 py-0.5 bg-primary/10 text-primary text-xs font-medium rounded">
+                    Keynote
+                  </span>
+                )}
+                {speaker.workshop && (
+                  <span className="inline-block px-2 py-0.5 bg-primary/10 text-primary text-xs font-medium rounded">
+                    Workshop
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="flex gap-2 mt-auto">
           {speaker.linkedin && (
             <a
