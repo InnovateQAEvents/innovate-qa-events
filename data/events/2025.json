@@ -19,8 +19,8 @@
   },
   "rooms": [
     { "id": "main-hall", "name": "Main Hall", "capacity": 300 },
-    { "id": "room-a", "name": "Room A - Automation Track", "capacity": 80 },
-    { "id": "room-b", "name": "Room B - Leadership Track", "capacity": 80 },
+    { "id": "room-a", "name": "Room A - Leadership Track", "capacity": 80 },
+    { "id": "room-b", "name": "Room B - Automation Track", "capacity": 80 },
     { "id": "workshop-room", "name": "Workshop Room", "capacity": 40 }
   ],
   "schedule": {
@@ -34,14 +34,27 @@
             {
               "title": "Registration & Breakfast",
               "type": "break",
-              "room": "main-hall",
+              "room": "room-a",
               "description": "Check-in, grab your badge, and network over breakfast"
             }
           ]
         },
         {
           "time": "9:00 AM",
-          "duration": 60,
+          "duration": 10,
+          "sessions": [
+            {
+              "title": "Opening Keynote: The Future of AI in Quality Engineering",
+              "type": "welcome",
+              "room": "main-hall",
+              "speakerId": "",
+              "description": "Welcome"
+            }
+          ]
+        },
+        {
+          "time": "9:10 AM",
+          "duration": 40,
           "sessions": [
             {
               "title": "Opening Keynote: The Future of AI in Quality Engineering",
