@@ -62,12 +62,12 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: 198.12.236.27
-          username: innovateqa@m54.d7a.mytemp.website
+          username: innovateqa@innovateqaevents.com
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
           local-dir: ./out/
-          server-dir: /
+          server-dir: /home/di64eh9x5anx/public_html/m54.d7a.mytemp.website/innovateqa/
           exclude: |
             **/.git*
             **/.git*/**
