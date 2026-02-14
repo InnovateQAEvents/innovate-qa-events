@@ -44,7 +44,7 @@
           "duration": 10,
           "sessions": [
             {
-              "title": "Opening Keynote: The Future of AI in Quality Engineering",
+              "title": "Welcome",
               "type": "welcome",
               "room": "main-hall",
               "speakerId": "",
@@ -57,11 +57,11 @@
           "duration": 40,
           "sessions": [
             {
-              "title": "Opening Keynote: The Future of AI in Quality Engineering",
+              "title": "The Evolution of the Testing Roles",
               "type": "keynote",
-              "room": "main-hall",
-              "speakerId": "sarah-chen",
-              "description": "Explore how AI is transforming the landscape of quality engineering and what it means for the future of testing."
+              "room": "room-a",
+              "speakerId": "carlos-arguelles",
+              "description": ""
             }
           ]
         },
