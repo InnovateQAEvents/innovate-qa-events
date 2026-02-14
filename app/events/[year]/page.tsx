@@ -12,10 +12,12 @@ import { EventLD, BreadcrumbLD } from "@/components/json-ld"
 import { SpeakerCard } from "@/components/Speaker-Card"
 import { BASE_PATH } from "@/lib/constants"
 
+import event2026 from "@/data/events/2026.json"
 import event2025 from "@/data/events/2025.json"
 import event2024 from "@/data/events/2024.json"
 
-const events: Record<string, typeof event2025 | typeof event2024> = {
+const events: Record<string, typeof event2026 | typeof event2025 | typeof event2024> = {
+  "2026": event2026,
   "2025": event2025,
   "2024": event2024,
 }
@@ -31,7 +33,7 @@ const typeColors: Record<string, string> = {
 }
 
 export async function generateStaticParams() {
-  return [{ year: "2025" }, { year: "2024" }]
+  return [{ year: "2026" }, { year: "2025" }, { year: "2024" }]
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ year: string }> }): Promise<Metadata> {
