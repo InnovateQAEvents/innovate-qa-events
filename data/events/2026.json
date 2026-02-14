@@ -4,7 +4,7 @@
   "tagline": "Quality Engineering Excellence",
   "description": "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence in the era of AI and modern software development.",
   "date": {
-    "start": "2026-06-04",
+    "start": "2026-06-05",
     "end": "2026-06-06"
   },
   "venue": {
@@ -18,9 +18,9 @@
     "mapUrl": "https://maps.google.com/?q=600+Bellevue+Way+NE+Bellevue+WA+98004"
   },
   "rooms": [
-    { "id": "main-hall", "name": "Grand Ballroom", "capacity": 400 },
-    { "id": "room-a", "name": "Room A - Innovation Track", "capacity": 100 },
-    { "id": "room-b", "name": "Room B - Leadership Track", "capacity": 100 },
+    { "id": "main-hall", "name": "Leadership Track", "capacity": 400 },
+    { "id": "room-a", "name": "Room A - Practitioner Track", "capacity": 100 },
+    { "id": "room-b", "name": "Room B - Demo Track", "capacity": 100 },
     { "id": "workshop-room", "name": "Workshop Studio", "capacity": 50 }
   ],
   "schedule": {
@@ -365,7 +365,7 @@
     }
   },
   "stats": {
-    "attendees": 600,
+    "attendees": 250,
     "speakers": 25,
     "sessions": 35,
     "workshops": 8
