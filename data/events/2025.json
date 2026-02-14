@@ -5,7 +5,7 @@
   "description": "Join us at Innovate QA Conference 2025, a knowledge-rich event where industry leaders, pioneers, and visionaries share insights, best practices, and cutting-edge tools to build high-quality, safe, accessible, and reliable systems and products that customers love.",
   "date": {
     "start": "2025-06-05",
-    "end": "2025-06-06"
+    "end": "2025-06-05"
   },
   "venue": {
     "name": "Hilton Garden Inn",
@@ -18,10 +18,10 @@
     "mapUrl": "https://maps.google.com/?q=1800+Northwest+Gilman+Boulevard+Issaquah+WA+98027"
   },
   "rooms": [
-    { "id": "main-hall", "name": "Main Hall", "capacity": 300 },
-    { "id": "room-a", "name": "Room A - Leadership Track", "capacity": 80 },
-    { "id": "room-b", "name": "Room B - Automation Track", "capacity": 80 },
-    { "id": "workshop-room", "name": "Workshop Room", "capacity": 40 }
+    { "id": "main-hall", "name": "Main Hall", "capacity": 170 },
+    { "id": "room-a", "name": "Room A - Leadership Track", "capacity": 170 },
+    { "id": "room-b", "name": "Room B - Automation Track", "capacity": 50 },
+    { "id": "workshop-room", "name": "Workshop Room", "capacity": 20 }
   ],
   "schedule": {
     "2025-06-05": {
@@ -552,9 +552,9 @@
     }
   ],
   "stats": {
-    "attendees": 500,
+    "attendees": 170,
     "speakers": 20,
-    "sessions": 30,
-    "workshops": 5
+    "sessions": 20,
+    "workshops": 1
   }
 }
