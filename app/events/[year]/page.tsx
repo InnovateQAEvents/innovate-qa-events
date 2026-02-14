@@ -180,7 +180,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
       )}
 
       {/* Schedule */}
-      <section className="py-16">
+      <section id="schedule" className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-foreground mb-8">Schedule</h2>
 
@@ -207,7 +207,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
       </section>
 
       {/* Speakers */}
-      <section className="py-16 bg-muted/30">
+      <section id="speakers" className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-foreground mb-8">Speakers</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
