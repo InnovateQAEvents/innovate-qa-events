@@ -1,0 +1,15 @@
+DEPLOYMENT TEST FILE
+===================
+
+This file confirms the deployment is working correctly.
+
+Deployment Information:
+- Deployed via: GitHub Actions FTP
+- Target: innovateqa@innovateqaevents.com
+- Expected location: FTP account root (/)
+- Timestamp: 2026-02-13
+- Configuration: No basePath (root domain deployment)
+
+If you see this file, the deployment reached the correct location!
+
+You can access this file at: https://innovateqaevents.com/DEPLOYMENT_TEST.txt
