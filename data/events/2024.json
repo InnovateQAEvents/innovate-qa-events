@@ -43,22 +43,22 @@
             {
               "title": "Opening Keynote: The State of Test Automation",
               "type": "keynote",
-              "room": "main-hall",
-              "speakerId": "jennifer-lee",
+              "room": "room-a",
+              "speakerId": "artem",
               "description": "An overview of the current landscape of test automation and emerging trends."
             }
           ]
         },
         {
-          "time": "10:00 AM",
-          "duration": 45,
+          "time": "10:25 AM",
+          "duration": 30,
           "sessions": [
             {
-              "title": "Selenium Grid 4: What's New",
+              "title": "Introduction to Robot Framework & various uses to quick start automation testing efforts",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "michael-chen",
-              "description": "Deep dive into the new features and improvements in Selenium Grid 4."
+              "speakerId": "roy",
+              "description": ""
             },
             {
               "title": "Building a QA Culture from Scratch",
