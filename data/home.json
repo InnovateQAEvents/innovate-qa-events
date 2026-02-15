@@ -142,6 +142,12 @@
         "logo": "practiTestlogo.jpg",
         "width": 320,
         "height": 128
+      },
+       {
+        "name": "ContextQA",
+        "logo": "contextqa-logo-tech.jpg",
+        "width": 320,
+        "height": 128
       }
     ],
     "silver": [
@@ -162,12 +168,7 @@
      
     ],
     "partners": [
-      {
-        "name": "Mint&CodeDay",
-        "logo": "lambdatest-logo.png",
-        "width": 200,
-        "height": 80
-      }
+    
     ],
     "contactEmail": "contact@innovateqaevents.com"
   },
