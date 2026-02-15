@@ -22,7 +22,7 @@ const sponsorshipTiers = [
       "Premier logo placement on website and materials",
       "5 complimentary conference passes",
       "Large booth space (10x10 ft)",
-      "Exclusive branded lounge"
+      "Exclusive branded lounge",
       "Speaking opportunity (45-minute session)",
       "Featured in opening and closing keynotes",
       "Social media promotion (20+ posts)",
@@ -269,7 +269,7 @@ export default function SponsorPage() {
               </Button>
             </div>
             <p className="text-sm text-muted-foreground mt-6">
-              Email: <a href="mailto:sponsors@innovateqaevents.com" className="text-primary hover:underline">sponsors@innovateqaevents.com</a>
+              Email: <a href="mailto:contact@innovateqaevents.com" className="text-primary hover:underline">contact@innovateqaevents.com</a>
             </p>
           </div>
         </div>
