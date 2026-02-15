@@ -153,7 +153,7 @@
       }, 
       {
         "name": "FlintLab",
-        "logo": "flintLab.jpg",
+        "logo": "flintlab-logo-tech.jpg",
         "width": 320,
         "height": 128
       }
@@ -175,35 +175,30 @@
     "viewAllUrl": "/events/2026#speakers",
     "featured": [
       {
-        "id": "carlos-arguelles",
-        "name": "Carlos Arguelles",
-        "title": "Senior Principal Engineer",
+        "id": "bastian",
+        "name": "Dr. Bastian Baudisch",
+        "title": "Lead Sales Engineer US",
+        "company": "UBS HAINER",
+        "image": "/speakers/2026/bastian.jpg",
+        "keynote": false,
+        "topic": "AI Generated Test Data: Know Your Need ",
+        "bio": "Bastian is a data management and process automation specialist with a multifaceted background in technical sales and consulting in finance, insurance, retail and pharma. With previous leadership roles in data science and software QA, Bastian has honed a pragmatic, holistic approach to solving complex data challenges. Bastian’s passion lies in bridging technological innovation with practical, user-centric solutions, ensuring that test environments are as robust and agile as the challenges they face. In his current role as Lead Sales Engineer US at UBS HAINER, he drives the adoption of the XDM Data Orchestration Platform — enabling enterprise software engineers, testers, and machine learning teams to access production-grade, real-world data on demand.",
+        "linkedin": "https://www.linkedin.com/in/bastianbaudisch/"
+      },
+      {
+        "id": "sidharth",
+        "name": "Sidharth Shukla",
+        "title": "SDET 2",
         "company": "Amazon",
-        "image": "/speakers/2025/carlos-arguelles.png",
-        "keynote": true,
-        "topic": "The Evolution of the Testing Roles",
-        "bio": "Carlos Arguelles has 27 years of experience working in various aspects of Developer Productivity Engineering at Amazon, Google, and Microsoft. He served as a Technical Lead for company-wide Infrastructure for Integration Testing at Amazon for 6 years and held the same position at Google for 4 years.\n\nCarlos is passionate about Continuous Integration/Continuous Delivery and Core Developer Infrastructure for mid-to-large software companies. Having spent nearly three decades at three of the largest software companies in the world, he has seen firsthand how hundreds of thousands of developers write, review, test, and deploy code at a large scale. At these large companies, small inefficiencies can accumulate, leading to developer fatigue and the loss of millions—or even hundreds of millions—of dollars in productivity or wasted hardware resources. Carlos is dedicated to improving engineers' lives by removing toil, enhancing efficiency, and raising the bar in engineering and operational excellence.\n\nCarlos shares stories about his experiences at Amazon, Google, and Microsoft on his blog. You can follow him on LinkedIn.",
-        "linkedin": "https://www.linkedin.com/in/carlos-arguelles-6352392"
-      },
-      {
-        "id": "jason-huggins",
-        "name": "Jason Huggins",
-        "title": "Founder and CEO",
-        "company": "Tapster Robotics",
-        "image": "/speakers/2025/jason-huggins.jpg",
-        "topic": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
-        "bio": "In 2015, Jason Huggins founded Tapster Robotics in Oak Park, Illinois. At Tapster, Jason combines his unique automated testing experience with a lifelong enthusiasm for robotics. Jason also started the popular open-source test automation projects Selenium and Appium. In 2013, Jason Huggins was a member of President Obama's \"tech surge\" team tasked with fixing the troubled HealthCare.gov site. Prior to starting Tapster, Jason was founder and CTO at Sauce Labs and an automation engineer at Google.",
-        "linkedin": "http://linkedin.com/in/jrhuggins"
-      },
-      {
-        "id": "siri-varma-vegiraju",
-        "name": "Siri Varma Vegiraju",
-        "title": "Security Tech Lead",
-        "company": "Microsoft Azure Security",
-        "image": "/speakers/2025/siri-varma-vegiraju.png",
-        "topic": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
-        "bio": "Siri Varma Vegiraju is a seasoned expert in healthcare, cloud computing, and security. Currently, he focuses on securing Azure Cloud workloads, leveraging his extensive experience in distributed systems and real-time streaming solutions. Prior to his current role, Siri contributed significantly to cloud observability platforms and multi-cloud environments.\n\nHe has demonstrated his expertise through notable achievements in various competitive events and as a judge and technical reviewer for leading publications. Siri frequently speaks at industry conferences on topics related to Cloud and Security and holds a Masters Degree from University of Texas, Arlington with a specialization in Computer Science.",
-        "linkedin": "https://www.linkedin.com/in/sirivarma/"
+        "image": "/speakers/2025/sidharth-shukla.jpg",
+        "topic": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
+        "bio": "Sidharth | Speaker | Automation Expert | AI & LLMs in Testing | Mentor
+Sidharth is a seasoned Software Development Engineer in Test (SDET) with over 14 years of experience in automation, specializing in Playwright, Selenium, Appium, API testing, and AI-driven test automation. As a thought leader in the testing community, he has trained 5,000+ professionals worldwide and actively mentors aspiring QA engineers.
+He is at the forefront of AI & LLMs in Software Testing, leading initiatives at Amazon and collaborating with teams to automate test case generation using LLMs. His contributions have significantly improved test automation efficiency, reducing manual effort by up to 50% in multiple projects.
+Sidharth is a frequent speaker at global conferences, including Automation Guild 2025, and has presented across the USA, Canada, and India. His insights on modern test automation, Playwright adoption, and AI-driven quality engineering have made a lasting impact in the industry.
+Beyond speaking engagements, Sidharth runs a highly followed LinkedIn newsletter (50K+ subscribers) and was recently featured on a Times Square billboard for his outstanding mentorship to the QA community.
+Connect with him to explore the future of test automation, AI in testing, and best practices in QA engineering!",
+        "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
       }
     ]
   },
