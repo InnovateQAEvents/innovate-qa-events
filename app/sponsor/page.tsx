@@ -7,7 +7,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = generateSEO({
   title: "Become a Sponsor - Innovate QA 2026",
-  description: "Partner with Innovate QA 2026 and connect with 500+ QA professionals, engineering leaders, and innovators. Multiple sponsorship packages available.",
+  description: "Partner with Innovate QA 2026 and connect with 250+ QA professionals, engineering leaders, and innovators. Multiple sponsorship packages available.",
   keywords: ["QA conference sponsorship", "software testing sponsor", "tech event sponsorship", "quality engineering"],
 })
 
