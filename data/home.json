@@ -139,13 +139,13 @@
     "gold": [
       {
         "name": "practiTest",
-        "logo": "practiTestlogo.jpg",
+        "logo": "practiTestlogo.png",
         "width": 320,
         "height": 128
       },
        {
         "name": "ContextQA",
-        "logo": "contextqa-logo-tech.jpg",
+        "logo": "contextqalogo.png",
         "width": 320,
         "height": 128
       }
