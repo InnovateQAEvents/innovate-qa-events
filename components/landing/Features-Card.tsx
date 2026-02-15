@@ -9,64 +9,34 @@ import {
   TestTube,
   Trophy,
 } from "lucide-react"
+import homeData from "@/data/home.json"
 
-const features = [
-  {
-    title: "Community & Connection",
-    description:
-      "We bring together QA professionals, engineering leaders, and innovators to share knowledge, build networks, and support one another in advancing the discipline of quality.",
-    icon: <Users />,
-  },
-  {
-    title: "Learning & Growth",
-    description:
-      "Through conferences, workshops, and meetups, we provide hands-on learning opportunities focused on modern testing practices, AI in QA, and practical strategies to elevate your skills and career.",
-    icon: <Lightbulb />,
-  },
-  {
-    title: "Shaping the Future of Quality",
-    description:
-      "We help teams and leaders embrace transformation—integrating AI, automation, and lean testing approaches to build high-confidence release pipelines.",
-    icon: <Rocket />,
-  },
-  {
-    title: "AI-Powered Testing",
-    description:
-      "Discover how artificial intelligence is revolutionizing test automation, defect prediction, and quality analytics to accelerate your delivery pipeline.",
-    icon: <Brain />,
-  },
-  {
-    title: "Engineering Excellence",
-    description:
-      "Learn from practitioners who build quality into every stage of the development process, from code reviews to production monitoring.",
-    icon: <Code />,
-  },
-  {
-    title: "Industry Networking",
-    description:
-      "Connect with peers from leading tech companies, share experiences, and build relationships that advance your career.",
-    icon: <Network />,
-  },
-  {
-    title: "Hands-On Workshops",
-    description:
-      "Participate in practical sessions where you'll learn new tools, techniques, and frameworks you can apply immediately.",
-    icon: <TestTube />,
-  },
-  {
-    title: "Career Advancement",
-    description:
-      "Gain insights from industry leaders on how to grow your career, lead teams, and make an impact in quality engineering.",
-    icon: <Trophy />,
-  },
-];
+const iconMap = {
+  Users,
+  Lightbulb,
+  Rocket,
+  Brain,
+  Code,
+  Network,
+  TestTube,
+  Trophy,
+}
 
 export function FeaturesSectionWithHoverEffects() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 py-10 w-full">
-      {features.map((feature, index) => (
-        <Feature key={feature.title} {...feature} index={index} />
-      ))}
+      {homeData.features.map((feature, index) => {
+        const Icon = iconMap[feature.icon as keyof typeof iconMap]
+        return (
+          <Feature
+            key={feature.title}
+            title={feature.title}
+            description={feature.description}
+            icon={<Icon />}
+            index={index}
+          />
+        )
+      })}
     </div>
   );
 }

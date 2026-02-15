@@ -3,12 +3,13 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import speakers2025 from "@/data/speakers-2025.json"
+import homeData from "@/data/home.json"
 import { SpeakerCard } from "@/components/landing/Speaker-Card"
 
-// Show only first 6 speakers (keynotes and featured speakers)
-const featuredSpeakers = speakers2025.slice(0, 8)
-
 export function SpeakersSection() {
+  // Show only first N speakers based on config
+  const featuredSpeakers = speakers2025.slice(0, homeData.speakers.featuredCount)
+
   return (
     <section id="speakers" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
@@ -28,7 +29,7 @@ export function SpeakersSection() {
 
         <div className="text-center">
           <Button variant="outline" size="lg" asChild>
-            <Link href="/events/2026#speakers">View All Speakers</Link>
+            <Link href={homeData.speakers.viewAllUrl}>View All Speakers</Link>
           </Button>
         </div>
       </div>

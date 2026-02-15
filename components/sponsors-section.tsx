@@ -2,26 +2,11 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import { BASE_PATH } from "@/lib/constants"
-
-const silverSponsors = [
-  { name: "PlusQA", logo: `${BASE_PATH}/plusqa-logo-tech-company.jpg` },
-  { name: "AccelQ", logo: `${BASE_PATH}/accelq-logo-tech-company.jpg` },
-]
-
-const bronzeSponsors = [
-  { name: "ContextQA", logo: `${BASE_PATH}/contextqa-logo-tech.jpg` },
-  { name: "Loadmill", logo: `${BASE_PATH}/loadmill-logo-tech.jpg` },
-  { name: "QA Mentor", logo: `${BASE_PATH}/qa-mentor-logo-tech.jpg` },
-  { name: "FlintLab", logo: `${BASE_PATH}/flintlab-logo-tech.jpg` },
-]
-
-const partners = [
-  { name: "LambdaTest", logo: `${BASE_PATH}/lambdatest-logo.png` },
-  { name: "iCEDQ", logo: `${BASE_PATH}/icedq-logo.jpg` },
-  { name: "Manning", logo: `${BASE_PATH}/manning-publications-logo.jpg` },
-]
+import homeData from "@/data/home.json"
 
 export function SponsorsSection() {
+  const { sponsors } = homeData
+
   return (
     <section id="sponsors" className="py-20 md:py-28 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -40,16 +25,16 @@ export function SponsorsSection() {
               Silver Sponsors
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8">
-              {silverSponsors.map((sponsor) => (
+              {sponsors.silver.map((sponsor) => (
                 <div
                   key={sponsor.name}
                   className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors"
                 >
                   <Image
-                    src={sponsor.logo || "/placeholder.svg"}
+                    src={`${BASE_PATH}/${sponsor.logo}`}
                     alt={sponsor.name}
-                    width={320}
-                    height={128}
+                    width={sponsor.width}
+                    height={sponsor.height}
                     className="h-32 w-auto object-contain"
                   />
                 </div>
@@ -63,16 +48,16 @@ export function SponsorsSection() {
               Bronze Sponsors
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-6">
-              {bronzeSponsors.map((sponsor) => (
+              {sponsors.bronze.map((sponsor) => (
                 <div
                   key={sponsor.name}
                   className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors"
                 >
                   <Image
-                    src={sponsor.logo || "/placeholder.svg"}
+                    src={`${BASE_PATH}/${sponsor.logo}`}
                     alt={sponsor.name}
-                    width={240}
-                    height={96}
+                    width={sponsor.width}
+                    height={sponsor.height}
                     className="h-24 w-auto object-contain"
                   />
                 </div>
@@ -86,16 +71,16 @@ export function SponsorsSection() {
               Partners
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-6">
-              {partners.map((partner) => (
+              {sponsors.partners.map((partner) => (
                 <div
                   key={partner.name}
                   className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 transition-opacity"
                 >
                   <Image
-                    src={partner.logo || "/placeholder.svg"}
+                    src={`${BASE_PATH}/${partner.logo}`}
                     alt={partner.name}
-                    width={200}
-                    height={80}
+                    width={partner.width}
+                    height={partner.height}
                     className="h-20 w-auto object-contain"
                   />
                 </div>
@@ -107,7 +92,7 @@ export function SponsorsSection() {
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">Interested in sponsoring or partnering with us?</p>
           <Button variant="outline" asChild>
-            <Link href="mailto:sponsors@innovateqaevents.com">Become a Sponsor</Link>
+            <Link href={`mailto:${sponsors.contactEmail}`}>Become a Sponsor</Link>
           </Button>
         </div>
       </div>

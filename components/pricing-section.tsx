@@ -2,54 +2,10 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Button } from "@/components/ui/button"
 import { Check, Users, User, Sparkles } from "lucide-react"
 import Link from "next/link"
-
-const pricing = {
-  individual: {
-    earlyBird: {
-      deadline: "2026-02-15T00:00:00",
-      "1day": 349,
-      "2day": 499
-    },
-    standard: {
-      "1day": 499,
-      "2day": 799
-    }
-  },
-  group: {
-    earlyBird: {
-      deadline: "2026-02-15T00:00:00",
-      "1day": 315,
-      "2day": 449
-    },
-    standard: {
-      "1day": 449,
-      "2day": 719
-    }
-  },
-  features: {
-    "1day": [
-      "Full Day 1 conference access",
-      "All keynotes and talks",
-      "Breakfast, lunch & refreshments",
-      "Networking events",
-      "Conference swag bag",
-      "Digital resource library"
-    ],
-    "2day": [
-      "Full 2-day conference access",
-      "All workshop sessions",
-      "All keynotes and talks",
-      "Breakfast, lunch & refreshments both days",
-      "Networking events",
-      "Conference swag bag",
-      "Digital resource library",
-      "Workshop materials"
-    ]
-  }
-}
+import homeData from "@/data/home.json"
 
 const isEarlyBird = () => {
-  const deadline = new Date(pricing.individual.earlyBird.deadline)
+  const deadline = new Date(homeData.pricing.earlyBirdDeadline)
   const now = new Date()
   return now < deadline
 }
@@ -92,17 +48,17 @@ export function PricingSection() {
                 <div className="border-2 border-purple-200 rounded-lg p-4 text-center">
                   <div className="text-sm font-semibold text-purple-700 mb-2">1-day</div>
                   <div className="text-3xl font-bold text-purple-900">
-                    ${earlyBirdActive ? pricing.group.earlyBird["1day"] : pricing.group.standard["1day"]}
+                    ${earlyBirdActive ? homeData.pricing.group.earlyBird["1day"] : homeData.pricing.group.standard["1day"]}
                   </div>
                 </div>
                 <div className="border-2 border-purple-200 rounded-lg p-4 text-center bg-purple-50">
                   <div className="text-sm font-semibold text-purple-700 mb-2">2-day</div>
                   <div className="text-3xl font-bold text-purple-900">
-                    ${earlyBirdActive ? pricing.group.earlyBird["2day"] : pricing.group.standard["2day"]}
+                    ${earlyBirdActive ? homeData.pricing.group.earlyBird["2day"] : homeData.pricing.group.standard["2day"]}
                   </div>
                 </div>
               </div>
-              
+
               {earlyBirdActive && (
                 <div className="mb-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
                   <div className="text-sm font-semibold text-purple-700 mb-2">
@@ -111,18 +67,18 @@ export function PricingSection() {
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
                       <div className="text-xs text-purple-600">1-day</div>
-                      <div className="text-xl font-bold text-purple-900">${pricing.group.earlyBird["1day"]}</div>
+                      <div className="text-xl font-bold text-purple-900">${homeData.pricing.group.earlyBird["1day"]}</div>
                     </div>
                     <div>
                       <div className="text-xs text-purple-600">2-day</div>
-                      <div className="text-xl font-bold text-purple-900">${pricing.group.earlyBird["2day"]}</div>
+                      <div className="text-xl font-bold text-purple-900">${homeData.pricing.group.earlyBird["2day"]}</div>
                     </div>
                   </div>
                 </div>
               )}
-              
+
               <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white" size="lg" asChild>
-                <Link href="https://luma.com/scw9b88h">
+                <Link href={homeData.pricing.registerUrl}>
                   Register Group
                 </Link>
               </Button>
@@ -145,17 +101,17 @@ export function PricingSection() {
                 <div className="border-2 border-indigo-200 rounded-lg p-4 text-center">
                   <div className="text-sm font-semibold text-indigo-700 mb-2">1-day</div>
                   <div className="text-3xl font-bold text-indigo-900">
-                    ${earlyBirdActive ? pricing.individual.earlyBird["1day"] : pricing.individual.standard["1day"]}
+                    ${earlyBirdActive ? homeData.pricing.individual.earlyBird["1day"] : homeData.pricing.individual.standard["1day"]}
                   </div>
                 </div>
                 <div className="border-2 border-indigo-200 rounded-lg p-4 text-center bg-indigo-50">
                   <div className="text-sm font-semibold text-indigo-700 mb-2">2-day</div>
                   <div className="text-3xl font-bold text-indigo-900">
-                    ${earlyBirdActive ? pricing.individual.earlyBird["2day"] : pricing.individual.standard["2day"]}
+                    ${earlyBirdActive ? homeData.pricing.individual.earlyBird["2day"] : homeData.pricing.individual.standard["2day"]}
                   </div>
                 </div>
               </div>
-              
+
               {earlyBirdActive && (
                 <div className="mb-6 p-4 bg-indigo-50 rounded-lg border border-indigo-200">
                   <div className="text-sm font-semibold text-indigo-700 mb-2">
@@ -164,18 +120,18 @@ export function PricingSection() {
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
                       <div className="text-xs text-indigo-600">1-day</div>
-                      <div className="text-xl font-bold text-indigo-900">${pricing.individual.earlyBird["1day"]}</div>
+                      <div className="text-xl font-bold text-indigo-900">${homeData.pricing.individual.earlyBird["1day"]}</div>
                     </div>
                     <div>
                       <div className="text-xs text-indigo-600">2-day</div>
-                      <div className="text-xl font-bold text-indigo-900">${pricing.individual.earlyBird["2day"]}</div>
+                      <div className="text-xl font-bold text-indigo-900">${homeData.pricing.individual.earlyBird["2day"]}</div>
                     </div>
                   </div>
                 </div>
               )}
-              
+
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white" size="lg" asChild>
-                <Link href="https://luma.com/scw9b88h">
+                <Link href={homeData.pricing.registerUrl}>
                   Register Individual
                 </Link>
               </Button>
@@ -191,7 +147,7 @@ export function PricingSection() {
             </CardHeader>
             <CardContent>
               <ul className="space-y-2">
-                {pricing.features["1day"].map((feature, index) => (
+                {homeData.pricing.features["1day"].map((feature, index) => (
                   <li key={index} className="flex items-start gap-2 text-sm">
                     <Check className="h-4 w-4 text-purple-600 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">{feature}</span>
@@ -207,7 +163,7 @@ export function PricingSection() {
             </CardHeader>
             <CardContent>
               <ul className="space-y-2">
-                {pricing.features["2day"].map((feature, index) => (
+                {homeData.pricing.features["2day"].map((feature, index) => (
                   <li key={index} className="flex items-start gap-2 text-sm">
                     <Check className="h-4 w-4 text-indigo-600 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">{feature}</span>

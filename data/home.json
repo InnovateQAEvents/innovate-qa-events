@@ -1,0 +1,231 @@
+{
+  "hero": {
+    "eventDate": "2026-06-05T09:00:00",
+    "eventDateDisplay": "June 4-5, 2026",
+    "location": "Seattle, WA",
+    "title": "Welcome to Innovate QA Conference 2026",
+    "subtitle": "Join industry leaders, pioneers, and visionaries sharing insights, best practices, and cutting-edge tools to build high-quality, safe, accessible, and reliable systems.",
+    "buttons": {
+      "tickets": {
+        "text": "Buy Ticket",
+        "url": "https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator"
+      },
+      "speaker": {
+        "text": "Become Speaker",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7UuSnkx7KJEubEnTokjll1-JBqX5X_-rWQfpGqVs9O9ZnAQ/viewform?pli=1"
+      }
+    },
+    "stats": [
+      {
+        "icon": "Users",
+        "text": "250+ Attendees"
+      },
+      {
+        "icon": "CalendarDays",
+        "text": "40+ Sessions"
+      },
+      {
+        "icon": "MapPin",
+        "text": "Westin, Bellevue, WA"
+      }
+    ]
+  },
+  "features": [
+    {
+      "title": "Community & Connection",
+      "description": "We bring together QA professionals, engineering leaders, and innovators to share knowledge, build networks, and support one another in advancing the discipline of quality.",
+      "icon": "Users"
+    },
+    {
+      "title": "Learning & Growth",
+      "description": "Through conferences, workshops, and meetups, we provide hands-on learning opportunities focused on modern testing practices, AI in QA, and practical strategies to elevate your skills and career.",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Shaping the Future of Quality",
+      "description": "We help teams and leaders embrace transformation—integrating AI, automation, and lean testing approaches to build high-confidence release pipelines.",
+      "icon": "Rocket"
+    },
+    {
+      "title": "AI-Powered Testing",
+      "description": "Discover how artificial intelligence is revolutionizing test automation, defect prediction, and quality analytics to accelerate your delivery pipeline.",
+      "icon": "Brain"
+    },
+    {
+      "title": "Engineering Excellence",
+      "description": "Learn from practitioners who build quality into every stage of the development process, from code reviews to production monitoring.",
+      "icon": "Code"
+    },
+    {
+      "title": "Industry Networking",
+      "description": "Connect with peers from leading tech companies, share experiences, and build relationships that advance your career.",
+      "icon": "Network"
+    },
+    {
+      "title": "Hands-On Workshops",
+      "description": "Participate in practical sessions where you'll learn new tools, techniques, and frameworks you can apply immediately.",
+      "icon": "TestTube"
+    },
+    {
+      "title": "Career Advancement",
+      "description": "Gain insights from industry leaders on how to grow your career, lead teams, and make an impact in quality engineering.",
+      "icon": "Trophy"
+    }
+  ],
+  "pricing": {
+    "earlyBirdDeadline": "2026-02-15T00:00:00",
+    "individual": {
+      "earlyBird": {
+        "1day": 349,
+        "2day": 499
+      },
+      "standard": {
+        "1day": 499,
+        "2day": 799
+      }
+    },
+    "group": {
+      "earlyBird": {
+        "1day": 315,
+        "2day": 449
+      },
+      "standard": {
+        "1day": 449,
+        "2day": 719
+      }
+    },
+    "features": {
+      "1day": [
+        "Full Day 1 conference access",
+        "All keynotes and talks",
+        "Breakfast, lunch & refreshments",
+        "Networking events",
+        "Conference swag bag",
+        "Digital resource library"
+      ],
+      "2day": [
+        "Full 2-day conference access",
+        "All workshop sessions",
+        "All keynotes and talks",
+        "Breakfast, lunch & refreshments both days",
+        "Networking events",
+        "Conference swag bag",
+        "Digital resource library",
+        "Workshop materials"
+      ]
+    },
+    "registerUrl": "https://luma.com/scw9b88h"
+  },
+  "venue": {
+    "name": "The Westin Bellevue",
+    "address": "600 Bellevue Way NE",
+    "city": "Bellevue",
+    "state": "Washington",
+    "zip": "98004",
+    "image": "westin-bellevue.webp",
+    "description": "Join us at The Westin Bellevue in downtown Bellevue, Washington.",
+    "features": [
+      {
+        "icon": "Car",
+        "text": "Downtown Bellevue, accessible from I-405 and I-90"
+      },
+      {
+        "icon": "Plane",
+        "text": "15 minutes from SeaTac Airport"
+      },
+      {
+        "icon": "MapPin",
+        "text": "Parking available on-site"
+      }
+    ],
+    "mapsUrl": "https://maps.google.com/?q=600+Bellevue+Way+NE+Bellevue+WA+98004"
+  },
+  "sponsors": {
+    "silver": [
+      {
+        "name": "PlusQA",
+        "logo": "plusqa-logo-tech-company.jpg",
+        "width": 320,
+        "height": 128
+      },
+      {
+        "name": "AccelQ",
+        "logo": "accelq-logo-tech-company.jpg",
+        "width": 320,
+        "height": 128
+      }
+    ],
+    "bronze": [
+      {
+        "name": "ContextQA",
+        "logo": "contextqa-logo-tech.jpg",
+        "width": 240,
+        "height": 96
+      },
+      {
+        "name": "Loadmill",
+        "logo": "loadmill-logo-tech.jpg",
+        "width": 240,
+        "height": 96
+      },
+      {
+        "name": "QA Mentor",
+        "logo": "qa-mentor-logo-tech.jpg",
+        "width": 240,
+        "height": 96
+      },
+      {
+        "name": "FlintLab",
+        "logo": "flintlab-logo-tech.jpg",
+        "width": 240,
+        "height": 96
+      }
+    ],
+    "partners": [
+      {
+        "name": "LambdaTest",
+        "logo": "lambdatest-logo.png",
+        "width": 200,
+        "height": 80
+      },
+      {
+        "name": "iCEDQ",
+        "logo": "icedq-logo.jpg",
+        "width": 200,
+        "height": 80
+      },
+      {
+        "name": "Manning",
+        "logo": "manning-publications-logo.jpg",
+        "width": 200,
+        "height": 80
+      }
+    ],
+    "contactEmail": "sponsors@innovateqaevents.com"
+  },
+  "speakers": {
+    "featuredCount": 8,
+    "viewAllUrl": "/events/2026#speakers"
+  },
+  "eventLD": {
+    "name": "Innovate QA 2026",
+    "description": "Join industry leaders and pioneers at Innovate QA Conference 2026 in Seattle. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
+    "startDate": "2026-06-04T08:00:00-07:00",
+    "endDate": "2026-06-05T18:00:00-07:00",
+    "location": {
+      "name": "Hilton Garden Inn Seattle Downtown",
+      "address": "1821 Boren Ave",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "US"
+    },
+    "offers": [
+      {
+        "price": 299,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2025-12-01"
+      }
+    ]
+  }
+}

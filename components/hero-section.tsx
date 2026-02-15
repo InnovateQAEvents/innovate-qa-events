@@ -4,10 +4,16 @@ import { CalendarDays, MapPin, Users } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { BASE_PATH } from "@/lib/constants"
+import homeData from "@/data/home.json"
+
+const iconMap = {
+  Users,
+  CalendarDays,
+  MapPin,
+}
 
 export function HeroSection() {
-  // Event date: June 5, 2026
-  const eventDate = new Date("2026-06-05T09:00:00")
+  const eventDate = new Date(homeData.hero.eventDate)
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-primary/5 via-background to-background">
@@ -20,16 +26,17 @@ export function HeroSection() {
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <CalendarDays className="h-4 w-4" />
-              <span>June 4-5, 2026 • Seattle, WA</span>
+              <span>{homeData.hero.eventDateDisplay} • {homeData.hero.location}</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-6 text-balance">
-              Welcome to <span className="text-primary drop-shadow-[0_0_15px_rgba(75,0,130,0.5)]">Innovate QA</span> Conference 2026
+              {homeData.hero.title.split("Innovate QA")[0]}
+              <span className="text-primary drop-shadow-[0_0_15px_rgba(75,0,130,0.5)]">Innovate QA</span>
+              {homeData.hero.title.split("Innovate QA")[1]}
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-10 text-pretty">
-              Join industry leaders, pioneers, and visionaries sharing insights, best practices, and cutting-edge tools to
-              build high-quality, safe, accessible, and reliable systems.
+              {homeData.hero.subtitle}
             </p>
 
             <div className="mb-12">
@@ -39,26 +46,23 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button size="lg" className="text-base px-8" asChild>
-                <Link href="https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator">Buy Ticket</Link>
+                <Link href={homeData.hero.buttons.tickets.url}>{homeData.hero.buttons.tickets.text}</Link>
               </Button>
               <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc7UuSnkx7KJEubEnTokjll1-JBqX5X_-rWQfpGqVs9O9ZnAQ/viewform?pli=1">Become Speaker</Link>
+                <Link href={homeData.hero.buttons.speaker.url}>{homeData.hero.buttons.speaker.text}</Link>
               </Button>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Users className="h-5 w-5 text-primary" />
-                <span>250+ Attendees</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CalendarDays className="h-5 w-5 text-primary" />
-                <span>40+ Sessions</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="h-5 w-5 text-primary" />
-                <span>Westin, Bellevue, WA</span>
-              </div>
+              {homeData.hero.stats.map((stat, index) => {
+                const Icon = iconMap[stat.icon as keyof typeof iconMap]
+                return (
+                  <div key={index} className="flex items-center gap-2">
+                    <Icon className="h-5 w-5 text-primary" />
+                    <span>{stat.text}</span>
+                  </div>
+                )
+              })}
             </div>
           </div>
 
