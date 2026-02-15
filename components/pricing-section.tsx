@@ -48,13 +48,13 @@ export function PricingSection() {
                 <div className="border-2 border-purple-200 rounded-lg p-4 text-center">
                   <div className="text-sm font-semibold text-purple-700 mb-2">1-day</div>
                   <div className="text-3xl font-bold text-purple-900">
-                    ${earlyBirdActive ? homeData.pricing.group.earlyBird["1day"] : homeData.pricing.group.standard["1day"]}
+                    ${homeData.pricing.group.standard["1day"]}
                   </div>
                 </div>
                 <div className="border-2 border-purple-200 rounded-lg p-4 text-center bg-purple-50">
                   <div className="text-sm font-semibold text-purple-700 mb-2">2-day</div>
                   <div className="text-3xl font-bold text-purple-900">
-                    ${earlyBirdActive ? homeData.pricing.group.earlyBird["2day"] : homeData.pricing.group.standard["2day"]}
+                    ${homeData.pricing.group.standard["2day"]}
                   </div>
                 </div>
               </div>
@@ -101,13 +101,13 @@ export function PricingSection() {
                 <div className="border-2 border-indigo-200 rounded-lg p-4 text-center">
                   <div className="text-sm font-semibold text-indigo-700 mb-2">1-day</div>
                   <div className="text-3xl font-bold text-indigo-900">
-                    ${earlyBirdActive ? homeData.pricing.individual.earlyBird["1day"] : homeData.pricing.individual.standard["1day"]}
+                    ${homeData.pricing.individual.standard["1day"]}
                   </div>
                 </div>
                 <div className="border-2 border-indigo-200 rounded-lg p-4 text-center bg-indigo-50">
                   <div className="text-sm font-semibold text-indigo-700 mb-2">2-day</div>
                   <div className="text-3xl font-bold text-indigo-900">
-                    ${earlyBirdActive ? homeData.pricing.individual.earlyBird["2day"] : homeData.pricing.individual.standard["2day"]}
+                    ${homeData.pricing.individual.standard["2day"]}
                   </div>
                 </div>
               </div>
