@@ -19,6 +19,29 @@ export function SponsorsSection() {
         </div>
 
         <div className="space-y-12">
+       {/* Gold Sponsors */}
+          <div>
+            <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
+              Silver Sponsors
+            </h3>
+            <div className="flex flex-wrap justify-center items-center gap-8">
+              {sponsors.gold.map((sponsor) => (
+                <div
+                  key={sponsor.name}
+                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors"
+                >
+                  <Image
+                    src={`${BASE_PATH}/${sponsor.logo}`}
+                    alt={sponsor.name}
+                    width={sponsor.width}
+                    height={sponsor.height}
+                    className="h-32 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Silver Sponsors */}
           <div>
             <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
