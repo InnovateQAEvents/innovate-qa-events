@@ -57,12 +57,12 @@ export default function VolunteerPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4Ui67V4ER9s1dSSMJfKi3M-m-RSUuJD6ibDNq12oyv1Yt5w/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/forms/d/1nN0zlBcTuLlk-9dmWSmYh_hEyaR8s3VLz2OcQ6BbLys/edit" target="_blank" rel="noopener noreferrer">
                   Apply to Speak at Innovate QA 2026
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="https://docs.google.com/forms/d/1nN0zlBcTuLlk-9dmWSmYh_hEyaR8s3VLz2OcQ6BbLys/edit" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4Ui67V4ER9s1dSSMJfKi3M-m-RSUuJD6ibDNq12oyv1Yt5w/viewform?usp=header" target="_blank" rel="noopener noreferrer">
                   Apply to Speak at Innovate QA Meetup
                 </a>
               </Button>
