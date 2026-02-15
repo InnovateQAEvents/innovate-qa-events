@@ -17,7 +17,7 @@ const sponsorshipTiers = [
     price: "$10,000",
     color: "primary",
     icon: Trophy,
-    featured: true,
+    featured: false,
     benefits: [
       "Premier logo placement on website and materials",
       "5 complimentary conference passes",
@@ -35,7 +35,7 @@ const sponsorshipTiers = [
     price: "$4,500",
     color: "muted",
     icon: Sparkles,
-    featured: false,
+    featured: true,
     benefits: [
       "Logo placement on website and materials",
       "3 complimentary conference passes",
