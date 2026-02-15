@@ -2,14 +2,10 @@
 
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import speakers2025 from "@/data/speakers-2025.json"
 import homeData from "@/data/home.json"
 import { SpeakerCard } from "@/components/landing/Speaker-Card"
 
 export function SpeakersSection() {
-  // Show only first N speakers based on config
-  const featuredSpeakers = speakers2025.slice(0, homeData.speakers.featuredCount)
-
   return (
     <section id="speakers" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
@@ -22,7 +18,7 @@ export function SpeakersSection() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {featuredSpeakers.map((speaker) => (
+          {homeData.speakers.featured.map((speaker) => (
             <SpeakerCard key={speaker.name} speaker={speaker} />
           ))}
         </div>
