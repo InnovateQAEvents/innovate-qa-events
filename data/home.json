@@ -175,17 +175,7 @@
   "speakers": {
     "viewAllUrl": "/events/2026#speakers",
     "featured": [
-      {
-        "id": "bastian",
-        "name": "Dr. Bastian Baudisch",
-        "title": "Lead Sales Engineer US",
-        "company": "UBS HAINER",
-        "image": "/speakers/2026/bastian.jpg",
-        "keynote": false,
-        "topic": "AI Generated Test Data: Know Your Need ",
-        "bio": "Bastian is a data management and process automation specialist with a multifaceted background in technical sales and consulting in finance, insurance, retail and pharma. With previous leadership roles in data science and software QA, Bastian has honed a pragmatic, holistic approach to solving complex data challenges. Bastian’s passion lies in bridging technological innovation with practical, user-centric solutions, ensuring that test environments are as robust and agile as the challenges they face. In his current role as Lead Sales Engineer US at UBS HAINER, he drives the adoption of the XDM Data Orchestration Platform — enabling enterprise software engineers, testers, and machine learning teams to access production-grade, real-world data on demand.",
-        "linkedin": "https://www.linkedin.com/in/bastianbaudisch/"
-      },
+     
       {
         "id": "ronit",
         "name": "Ronit Bohrer Hillel",
@@ -206,6 +196,17 @@
         "topic": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
         "bio": "Speaker | Automation Expert | AI & LLMs in Testing | Mentor, Sidharth is a seasoned Software Development Engineer in Test (SDET) with over 14 years of experience in automation, specializing in Playwright, Selenium, Appium, API testing, and AI-driven test automation. As a thought leader in the testing community, he has trained 5,000+ professionals worldwide and actively mentors aspiring QA engineers. He is at the forefront of AI & LLMs in Software Testing, leading initiatives at Amazon and collaborating with teams to automate test case generation using LLMs. His contributions have significantly improved test automation efficiency, reducing manual effort by up to 50% in multiple projects. Sidharth is a frequent speaker at global conferences, including Automation Guild 2025, and has presented across the USA, Canada, and India. His insights on modern test automation, Playwright adoption, and AI-driven quality engineering have made a lasting impact in the industry. Beyond speaking engagements, Sidharth runs a highly followed LinkedIn newsletter (50K+ subscribers) and was recently featured on a Times Square billboard for his outstanding mentorship to the QA community. Connect with him to explore the future of test automation, AI in testing, and best practices in QA engineering!",
         "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
+      },  
+      {
+        "id": "bastian",
+        "name": "Dr. Bastian Baudisch",
+        "title": "Lead Sales Engineer US",
+        "company": "UBS HAINER",
+        "image": "/speakers/2026/bastian.jpg",
+        "keynote": false,
+        "topic": "AI Generated Test Data: Know Your Need ",
+        "bio": "Bastian is a data management and process automation specialist with a multifaceted background in technical sales and consulting in finance, insurance, retail and pharma. With previous leadership roles in data science and software QA, Bastian has honed a pragmatic, holistic approach to solving complex data challenges. Bastian’s passion lies in bridging technological innovation with practical, user-centric solutions, ensuring that test environments are as robust and agile as the challenges they face. In his current role as Lead Sales Engineer US at UBS HAINER, he drives the adoption of the XDM Data Orchestration Platform — enabling enterprise software engineers, testers, and machine learning teams to access production-grade, real-world data on demand.",
+        "linkedin": "https://www.linkedin.com/in/bastianbaudisch/"
       }
     ]
   },
