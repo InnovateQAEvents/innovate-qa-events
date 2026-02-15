@@ -41,60 +41,74 @@
         },
         {
           "time": "9:00 AM",
-          "duration": 60,
+          "duration": 10,
           "sessions": [
             {
-              "title": "Opening Keynote: The Evolution of Quality in the AI Era",
+              "title": "Welcome",
+              "type": "talk",
+              "room": "room-a",
+              "description": "",
+              "speakers": []
+            }
+          ]
+        },
+        {
+          "time": "9:10 AM",
+          "duration": 50,
+          "sessions": [
+            {
+              "title": "",
               "type": "keynote",
-              "room": "main-hall",
-              "description": "Explore how artificial intelligence is reshaping quality engineering practices and what it means for the future of software testing.",
+              "room": "room-a",
+              "description": "",
               "speakers": []
             }
           ]
         },
         {
-          "time": "10:15 AM",
+          "time": "10:00 AM",
           "duration": 45,
           "sessions": [
             {
-              "title": "Advanced Test Automation Strategies",
+              "title": "Session 1",
               "type": "talk",
               "room": "room-a",
-              "description": "Learn cutting-edge approaches to building scalable and maintainable test automation frameworks.",
+              "description": "",
               "speakers": []
             },
             {
-              "title": "Leading Quality Teams in Modern Organizations",
+              "title": "session 2",
               "type": "talk",
               "room": "room-b",
-              "description": "Best practices for building and managing high-performing quality engineering teams.",
+              "description": "",
               "speakers": []
             }
           ]
         },
         {
-          "time": "11:15 AM",
+          "time": "10:50 AM",
           "duration": 45,
           "sessions": [
             {
-              "title": "AI-Driven Testing: Beyond the Hype",
+              "title": "",
               "type": "talk",
               "room": "room-a",
-              "description": "Real-world applications and limitations of AI in software testing.",
+              "description": "",
               "speakers": []
             },
             {
-              "title": "Quality Metrics for Executive Leadership",
+              "title": "",
               "type": "talk",
               "room": "room-b",
-              "description": "Communicating quality effectively to stakeholders and executives.",
+              "description": "",
               "speakers": []
             }
           ]
-        },
+        }
+     ,
         {
-          "time": "12:15 PM",
-          "duration": 75,
+          "time": "12:00 PM",
+          "duration": 60,
           "sessions": [
             {
               "title": "Lunch & Networking",
@@ -105,35 +119,35 @@
           ]
         },
         {
-          "time": "1:30 PM",
+          "time": "1:00 PM",
           "duration": 90,
           "sessions": [
             {
-              "title": "Hands-on Workshop: Modern Test Frameworks",
+              "title": "Authors Meet & Greet",
               "type": "workshop",
               "room": "workshop-room",
-              "description": "Practical session on building test automation with modern frameworks and tools.",
+              "description": "",
               "speakers": []
             },
             {
-              "title": "Performance Testing at Scale",
+              "title": "",
               "type": "talk",
               "room": "room-a",
-              "description": "Strategies for testing performance and scalability of modern applications.",
+              "description": "",
               "speakers": []
             },
             {
               "title": "Quality Culture Transformation",
               "type": "talk",
               "room": "room-b",
-              "description": "How to foster a quality-first mindset across your organization.",
+              "description": "",
               "speakers": []
             }
           ]
         },
         {
-          "time": "3:15 PM",
-          "duration": 30,
+          "time": "2:35 PM",
+          "duration": 20,
           "sessions": [
             {
               "title": "Afternoon Break",
@@ -144,28 +158,28 @@
           ]
         },
         {
-          "time": "3:45 PM",
+          "time": "2:55 PM",
           "duration": 45,
           "sessions": [
             {
-              "title": "Security Testing in DevOps Pipelines",
+              "title": "",
               "type": "talk",
               "room": "room-a",
-              "description": "Integrating security testing seamlessly into your CI/CD workflows.",
+              "description": "",
               "speakers": []
             },
             {
-              "title": "The Future of Quality Engineering Careers",
+              "title": "",
               "type": "panel",
               "room": "room-b",
-              "description": "Industry experts discuss career growth and opportunities in quality engineering.",
+              "description": "",
               "speakers": []
             }
           ]
         },
         {
-          "time": "4:45 PM",
-          "duration": 45,
+          "time": "3:45 PM",
+          "duration": 60,
           "sessions": [
             {
               "title": "Closing Keynote: Quality Engineering 2027 and Beyond",
@@ -177,14 +191,14 @@
           ]
         },
         {
-          "time": "5:45 PM",
+          "time": "5:00 PM",
           "duration": 120,
           "sessions": [
             {
-              "title": "Networking Reception",
+              "title": "After Party",
               "type": "break",
-              "room": "main-hall",
-              "description": "Evening reception with drinks and appetizers"
+              "room": "TBD",
+              "description": ""
             }
           ]
         }
