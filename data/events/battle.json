@@ -1,0 +1,263 @@
+{
+  "year": 2025,
+  "name": "Battle of AI Test Tools - San Francisco",
+  "tagline": "Building Quality at Scale",
+  "description": "Experience the best AI test tools hands-on—and see how they fit into your testing strategy",
+  "date": {
+    "start": "2026-04-03",
+    "end": "2026-04-03"
+  },
+  "venue": {
+    "name": "AWS Builder Loft",
+    "address": "525 Market St",
+    "city": "San Francisco",
+    "state": "California",
+    "zip": "94105",
+    "country": "United States",
+    "mapUrl": "https://maps.app.goo.gl/8gqps2SPbjmyZoBSA"
+  },
+  "rooms": [
+    { "id": "room-a", "name": "Room A - Testing Arena", "capacity": 75 },
+    { "id": "room-b", "name": "Room B - Presentation Track", "capacity": 75 },
+    { "id": "discussion-room", "name": "Discussion Room", "capacity": 20 }
+  ],
+  "schedule": {
+    "2026-04-03": {
+      "dayLabel": "Day 1 - Main Conference",
+      "slots": [
+        {
+          "time": "8:00 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Registration & Breakfast",
+              "type": "break",
+              "room": "room-a",
+              "description": "Check-in, grab your badge, and network over breakfast"
+            }
+          ]
+        },
+        {
+          "time": "9:00 AM",
+          "duration": 10,
+          "sessions": [
+            {
+              "title": "Welcome",
+              "type": "welcome",
+              "room": "main-hall",
+              "speakerId": "",
+              "description": "Welcome"
+            }
+          ]
+        },
+        {
+          "time": "9:10 AM",
+          "duration": 40,
+          "sessions": [
+            {
+              "title": "The Evolution of the Testing Roles",
+              "type": "keynote",
+              "room": "room-a",
+              "speakerId": "carlos-arguelles",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "10:00 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "jason-huggins",
+              "description": ""
+            },
+            {
+              "title": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "siri-varma-vegiraju",
+              "description": ""
+            },
+            {
+              "title": "Practical Accessibility Testing",
+              "type": "workshop",
+              "room": "workshop",
+              "speakerId": "jennifer-x-zhang",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "10:55 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Testing Should Compound, Not Collide",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "ben-fellows",
+              "description": ""
+            },
+            {
+              "title": "Leveraging AWS Services for Scalable and Efficient Test Automation",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "sidharth-shukla",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "10:55 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "The Great RAI-a-thon: Build a Tiny AI App - Then Try to Break It",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "dona-sarkar",
+              "description": ""
+            },
+            {
+              "title": "Building a Future-Proof Mobile Testing Strategy: Automation, Efficiency, and Accelerated Releases",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "aswin-golla",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "12:30 AM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Lunch & Networking",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Enjoy lunch and connect with fellow attendees"
+            }
+          ]
+        },
+        {
+          "time": "1:30 PM",
+          "duration": 45,
+          "sessions": [
+           {
+              "title": "Riding the AI Tsunami: Thriving in an Era of Relentless Change",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "snehal-lohar",
+              "description": ""
+            },
+            {
+              "title": "QA Automation with Nova Act",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "ryan-canty",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "2:20 PM",
+          "duration": 45,
+          "sessions": [
+           {
+              "title": "Practical Lean Testing Strategies: Balancing Risk, Speed, and Quality",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "nicaise-ishimwe",
+              "description": ""
+            },
+            {
+              "title": "Scalable Automated Frameworks for Distributed Systems",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "walter-zimerman",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "3:10 PM",
+          "duration": 45,
+          "sessions": [
+           {
+              "title": "The Copilot Trap: Why AI-Generated Code Based Automation Is Not Sustainable!",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "nishan-joseph",
+              "description": ""
+            },
+            {
+              "title": "From Chaos to Confidence: A Practical Guide to Building a Culture of Quality",
+              "type": "talk",
+              "room": "room-a",
+              "speakerId": "vince-mahan",
+              "description": ""
+            },  {
+              "title": "Chaos Engineering for Performance Resilience",
+              "type": "talk",
+              "room": "room-b",
+              "speakerId": "sumalatha-dhanireddy",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "4:00 PM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Mastermind Session",
+              "type": "workshop",
+              "room": "room-a",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "time": "5:00 PM",
+          "duration": 15,
+          "sessions": [
+            {
+              "title": "Closing Remarks",
+              "type": "talk",
+              "room": "room-a",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "speakers": [
+    
+     
+  ],
+  "sponsors": {
+    "gold": [
+      {
+        "name": "mabl",
+        "logo": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/AmazonNova_Lockup_Gradient_SquidInkText_RGB%20(1.png",
+        "url": "",
+        "tagline": ""
+      },
+      {
+         "name": "ContextQA",
+        "logo": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/cqa-logo-with-black-text.svg",
+        "url": "https://contextqa.com",
+        "tagline": "Agentic AI for Complete Test Coverage"
+      }
+    ]  },
+  "stats": {
+    "attendees": 150,
+    "speakers": 5,
+    "sessions": 6,
+    "workshops": 0
+  }
+}
