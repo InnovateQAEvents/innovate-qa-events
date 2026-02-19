@@ -14,7 +14,7 @@ const upcomingEvents = [
     title: "Innovate QA Conference 2026",
     date: "2026-06-05",
     endDate: "2026-06-06",
-    location: "Hilton Garden Inn, Issaquah, WA",
+    location: "Westin Bellevue, Bellevue, WA",
     description: "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
     image: `${BASE_PATH}/social.webp`,
     status: "upcoming",
