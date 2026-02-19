@@ -207,6 +207,17 @@
         "topic": "AI Generated Test Data: Know Your Need ",
         "bio": "Bastian is a data management and process automation specialist with a multifaceted background in technical sales and consulting in finance, insurance, retail and pharma. With previous leadership roles in data science and software QA, Bastian has honed a pragmatic, holistic approach to solving complex data challenges. Bastian’s passion lies in bridging technological innovation with practical, user-centric solutions, ensuring that test environments are as robust and agile as the challenges they face. In his current role as Lead Sales Engineer US at UBS HAINER, he drives the adoption of the XDM Data Orchestration Platform — enabling enterprise software engineers, testers, and machine learning teams to access production-grade, real-world data on demand.",
         "linkedin": "https://www.linkedin.com/in/bastianbaudisch/"
+      },  
+      {
+        "id": "krishna",
+        "name": "Krishna Seerapu",
+        "title": "CEO",
+        "company": "FlintLab Inc.",
+        "image": "/speakers/2026/krishna.jpg",
+        "keynote": false,
+        "topic": "Is Today’s Test Infra Ready for AI? The Hard Questions No One Is Asking.",
+        "bio": "Krishna Seerapu is a seasoned technology executive, engineering leader, and the Founder & CEO of FlintLab Inc., bringing nearly 25 years of experience building large-scale developer platforms, cloud infrastructure, and enterprise-grade automation systems. Across leadership roles at Google, Amazon, Microsoft, RSA (EMC Security), Progress Software, and Motorola, he has led globally distributed engineering teams delivering mission-critical platforms spanning cloud ecosystems, security engineering, IoT, e-commerce, and distributed test infrastructure. At FlintLab, Krishna is pioneering AI-native quality engineering by building intelligent, next-generation test infrastructure and engineering productivity platforms tailored for modern AI-driven software systems. He is widely recognized for driving large-scale engineering transformations that accelerate release velocity, strengthen automation reliability, and enhance platform scalability. His leadership philosophy combines deep technical rigor with operational discipline, enabling enterprises to modernize quality engineering practices while upholding the highest standards of reliability, security, and customer trust.",
+        "linkedin": "https://www.linkedin.com/in/krishna-seerapu/"
       }
     ]
   },
