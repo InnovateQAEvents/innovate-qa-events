@@ -218,6 +218,17 @@
         "topic": "Is Today’s Test Infra Ready for AI? The Hard Questions No One Is Asking.",
         "bio": "Krishna Seerapu is a seasoned technology executive, engineering leader, and the Founder & CEO of FlintLab Inc., bringing nearly 25 years of experience building large-scale developer platforms, cloud infrastructure, and enterprise-grade automation systems. Across leadership roles at Google, Amazon, Microsoft, RSA (EMC Security), Progress Software, and Motorola, he has led globally distributed engineering teams delivering mission-critical platforms spanning cloud ecosystems, security engineering, IoT, e-commerce, and distributed test infrastructure. At FlintLab, Krishna is pioneering AI-native quality engineering by building intelligent, next-generation test infrastructure and engineering productivity platforms tailored for modern AI-driven software systems. He is widely recognized for driving large-scale engineering transformations that accelerate release velocity, strengthen automation reliability, and enhance platform scalability. His leadership philosophy combines deep technical rigor with operational discipline, enabling enterprises to modernize quality engineering practices while upholding the highest standards of reliability, security, and customer trust.",
         "linkedin": "https://www.linkedin.com/in/krishna-seerapu/"
+      },  
+      {
+        "id": "amber",
+        "name": "Amber Race",
+        "title": "Staff SDE",
+        "company": "Adobe",
+        "image": "/speakers/2026/amber.png",
+        "keynote": false,
+        "topic": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
+        "bio": "Amber Race has over 25 years of testing experience at Microsoft, Big Fish Games, and Adobe, doing everything from data wrangling to tools development to writing automation frameworks for web services and applications. She currently specializes in test automation tooling and support for large web application platforms. Amber lives in Seattle, WA, where you can find her cheering on the local sports teams with her family or belting out Guns and Roses at a dive karaoke bar.",
+        "linkedin": "https://www.linkedin.com/in/amber-race-tests/"
       }
     ]
   },
