@@ -240,6 +240,17 @@
         "topic": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
         "bio": "Walter Ariel Zimerman has spent 17 years on test automation, building frameworks that run millions of test cases every month. He has designed end-to-end solutions across tourism, manufacturing, regulatory compliance, accounting & finance, and voice-assistant platforms. Walter has held senior roles as Quality Assurance Engineer, Software Developer in Test, and QA Manager, and hosted the largest QA meetup in Dublin, Ireland, growing it to 2,000+ members, 40+ events, and an international conference. Passionate about computer science, Walter is a test driven development / design practitioner and evangelist. His current obsession: architecting scalable, developer-friendly APIs. In his spare time, you’ll find him lifting weights, running, playing the guitar, playing board games, or debating tech over a pint—preferably with heavy-metal blasting in the background.",
         "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
+      },  
+      {
+        "id": "leebarnes",
+        "name": "Lee Barnes",
+        "title": "Chief Quality Officer",
+        "company": "Forte Group",
+        "image": "/speakers/2024/lee-barnes-forte-headshot.png",
+        "keynote": false,
+        "topic": "Taming the Beast: Testing Non-Deterministic AI Systems with Confidence",
+        "bio": "Lee has over 30 years of experience in the Software Quality Engineering field. He has been involved in the implementation of innovative QE solutions in hundreds of environments across a wide array of industries. Most recently, Lee has been involved with bringing AI-augmented quality practices to software engineering teams. Lee speaks regularly at industry conferences including Innovate QA, StarEAST/WEST, DevOpsDays, Agile+DevOps East/West, QA or the Highway, and TestCon Europe.",
+        "linkedin": "https://www.linkedin.com/in/leebarnes/"
       }
     ]
   },
