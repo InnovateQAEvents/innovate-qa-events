@@ -229,6 +229,17 @@
         "topic": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
         "bio": "Amber Race has over 25 years of testing experience at Microsoft, Big Fish Games, and Adobe, doing everything from data wrangling to tools development to writing automation frameworks for web services and applications. She currently specializes in test automation tooling and support for large web application platforms. Amber lives in Seattle, WA, where you can find her cheering on the local sports teams with her family or belting out Guns and Roses at a dive karaoke bar.",
         "linkedin": "https://www.linkedin.com/in/amber-race-tests/"
+      },  
+      {
+        "id": "walter",
+        "name": "Walter Zimerman",
+        "title": "Sr SDE",
+        "company": "Amazon",
+        "image": "/speakers/2025/walter-zimerman.png",
+        "keynote": false,
+        "topic": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
+        "bio": "Walter Ariel Zimerman has spent 17 years on test automation, building frameworks that run millions of test cases every month. He has designed end-to-end solutions across tourism, manufacturing, regulatory compliance, accounting & finance, and voice-assistant platforms. Walter has held senior roles as Quality Assurance Engineer, Software Developer in Test, and QA Manager, and hosted the largest QA meetup in Dublin, Ireland, growing it to 2,000+ members, 40+ events, and an international conference. Passionate about computer science, Walter is a test driven development / design practitioner and evangelist. His current obsession: architecting scalable, developer-friendly APIs. In his spare time, you’ll find him lifting weights, running, playing the guitar, playing board games, or debating tech over a pint—preferably with heavy-metal blasting in the background.",
+        "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
       }
     ]
   },
