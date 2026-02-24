@@ -141,19 +141,22 @@
         "name": "practiTest",
         "logo": "practiTestlogo.png",
         "width": 320,
-        "height": 128
+        "height": 128,
+        "url": "https://www.practitest.com"
       },
-       {
+      {
         "name": "ContextQA",
         "logo": "ContextQALogo.png",
         "width": 320,
-        "height": 128
+        "height": 128,
+        "url": "https://contextqa.com"
       },
-       {
+      {
         "name": "The Stories and Wisdom Company",
         "logo": "The Stories and Wisdom Company_Dark text.png",
         "width": 320,
-        "height": 128
+        "height": 128,
+        "url": ""
       }
     ],
     "silver": [
@@ -161,24 +164,25 @@
         "name": "PlusQA",
         "logo": "plusqa-logo-tech-company.jpg",
         "width": 320,
-        "height": 128
-      }, 
+        "height": 128,
+        "url": "https://www.plusqa.com"
+      },
       {
         "name": "FlintLab",
         "logo": "flintlab-logo-tech.jpg",
         "width": 320,
-        "height": 128
+        "height": 128,
+        "url": "https://flintlab.io"
       }
     ],
-    "bronze": [
-     
-    ],
+    "bronze": [],
     "partners": [
       {
         "name": "Wearedevelopers",
         "logo": "WeAreDevelopers-Logo-Black (2).png",
         "width": 320,
-        "height": 128
+        "height": 128,
+        "url": "https://www.wearedevelopers.com"
       }
     ],
     "contactEmail": "contact@innovateqaevents.com"

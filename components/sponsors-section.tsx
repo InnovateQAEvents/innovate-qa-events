@@ -4,6 +4,36 @@ import Image from "next/image"
 import { BASE_PATH } from "@/lib/constants"
 import homeData from "@/data/home.json"
 
+type Sponsor = { name: string; logo: string; width: number; height: number; url?: string }
+
+function SponsorBadge({ sponsor, className }: { sponsor: Sponsor; className: string }) {
+  const inner = (
+    <Image
+      src={`${BASE_PATH}/${sponsor.logo}`}
+      alt={sponsor.name}
+      width={sponsor.width}
+      height={sponsor.height}
+      className="w-auto object-contain"
+    />
+  )
+
+  if (sponsor.url) {
+    return (
+      <a
+        href={sponsor.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Visit ${sponsor.name}`}
+        className={`${className} cursor-pointer`}
+      >
+        {inner}
+      </a>
+    )
+  }
+
+  return <div className={className}>{inner}</div>
+}
+
 export function SponsorsSection() {
   const { sponsors } = homeData
 
@@ -19,25 +49,18 @@ export function SponsorsSection() {
         </div>
 
         <div className="space-y-12">
-       {/* Gold Sponsors */}
+          {/* Gold Sponsors */}
           <div>
             <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
               Gold Sponsors
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sponsors.gold.map((sponsor) => (
-                <div
+                <SponsorBadge
                   key={sponsor.name}
-                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors"
-                >
-                  <Image
-                    src={`${BASE_PATH}/${sponsor.logo}`}
-                    alt={sponsor.name}
-                    width={sponsor.width}
-                    height={sponsor.height}
-                    className="h-32 w-auto object-contain"
-                  />
-                </div>
+                  sponsor={sponsor}
+                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors h-32 flex items-center"
+                />
               ))}
             </div>
           </div>
@@ -49,44 +72,32 @@ export function SponsorsSection() {
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sponsors.silver.map((sponsor) => (
-                <div
+                <SponsorBadge
                   key={sponsor.name}
-                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors"
-                >
-                  <Image
-                    src={`${BASE_PATH}/${sponsor.logo}`}
-                    alt={sponsor.name}
-                    width={sponsor.width}
-                    height={sponsor.height}
-                    className="h-32 w-auto object-contain"
-                  />
-                </div>
+                  sponsor={sponsor}
+                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors h-32 flex items-center"
+                />
               ))}
             </div>
           </div>
 
           {/* Bronze Sponsors */}
-          <div>
-            <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
-              Bronze Sponsors
-            </h3>
-            <div className="flex flex-wrap justify-center items-center gap-6">
-              {sponsors.bronze.map((sponsor) => (
-                <div
-                  key={sponsor.name}
-                  className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors"
-                >
-                  <Image
-                    src={`${BASE_PATH}/${sponsor.logo}`}
-                    alt={sponsor.name}
-                    width={sponsor.width}
-                    height={sponsor.height}
-                    className="h-24 w-auto object-contain"
+          {sponsors.bronze.length > 0 && (
+            <div>
+              <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
+                Bronze Sponsors
+              </h3>
+              <div className="flex flex-wrap justify-center items-center gap-6">
+                {sponsors.bronze.map((sponsor) => (
+                  <SponsorBadge
+                    key={sponsor.name}
+                    sponsor={sponsor}
+                    className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors h-24 flex items-center"
                   />
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Partners */}
           <div>
@@ -95,18 +106,11 @@ export function SponsorsSection() {
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-6">
               {sponsors.partners.map((partner) => (
-                <div
+                <SponsorBadge
                   key={partner.name}
-                  className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 transition-opacity"
-                >
-                  <Image
-                    src={`${BASE_PATH}/${partner.logo}`}
-                    alt={partner.name}
-                    width={partner.width}
-                    height={partner.height}
-                    className="h-20 w-auto object-contain"
-                  />
-                </div>
+                  sponsor={partner}
+                  className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 h-20 flex items-center"
+                />
               ))}
             </div>
           </div>
