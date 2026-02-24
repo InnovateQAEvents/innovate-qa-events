@@ -131,7 +131,7 @@ export function SponsorsSection() {
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">Interested in sponsoring or partnering with us?</p>
           <Button variant="outline" asChild>
-            <Link href={`mailto:${sponsors.contactEmail}`}>Become a Sponsor</Link>
+            <Link href="/sponsor">Become a Sponsor</Link>
           </Button>
         </div>
       </div>
