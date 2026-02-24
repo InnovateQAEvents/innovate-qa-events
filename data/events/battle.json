@@ -136,67 +136,66 @@
           ]
         },
         {
-          "time": "1:30 PM",
+          "time": "1:00 PM",
           "duration": 45,
           "sessions": [
            {
-              "title": "Riding the AI Tsunami: Thriving in an Era of Relentless Change",
+              "title": "Session #3",
               "type": "talk",
               "room": "room-a",
               "speakerId": "snehal-lohar",
               "description": ""
             },
             {
-              "title": "QA Automation with Nova Act",
+              "title": "Discussion #3",
               "type": "talk",
-              "room": "room-b",
-              "speakerId": "ryan-canty",
+              "room": "discussion-room",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
-          "time": "2:20 PM",
-          "duration": 45,
+          "time": "1:45 PM",
+          "duration": 15,
           "sessions": [
            {
-              "title": "Practical Lean Testing Strategies: Balancing Risk, Speed, and Quality",
+              "title": "Updates from judges",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "nicaise-ishimwe",
-              "description": ""
-            },
-            {
-              "title": "Scalable Automated Frameworks for Distributed Systems",
-              "type": "talk",
-              "room": "room-b",
-              "speakerId": "walter-zimerman",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
-          "time": "3:10 PM",
+          "time": "2:10 PM",
           "duration": 45,
           "sessions": [
            {
-              "title": "The Copilot Trap: Why AI-Generated Code Based Automation Is Not Sustainable!",
+              "title": "Session #4",
               "type": "talk",
-              "room": "room-a",
-              "speakerId": "nishan-joseph",
+              "room": "room-b",
+              "speakerId": "",
               "description": ""
             },
             {
-              "title": "From Chaos to Confidence: A Practical Guide to Building a Culture of Quality",
+              "title": "Discussion #4",
               "type": "talk",
-              "room": "room-a",
-              "speakerId": "vince-mahan",
+              "room": "discussion-room",
+              "speakerId": "",
               "description": ""
-            },  {
-              "title": "Chaos Engineering for Performance Resilience",
+            }
+          ]
+        },
+        {
+          "time": "3:00 PM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Selected Team Presentations",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "sumalatha-dhanireddy",
               "description": ""
             }
           ]
@@ -206,19 +205,7 @@
           "duration": 60,
           "sessions": [
             {
-              "title": "Mastermind Session",
-              "type": "workshop",
-              "room": "room-a",
-              "description": ""
-            }
-          ]
-        },
-        {
-          "time": "5:00 PM",
-          "duration": 15,
-          "sessions": [
-            {
-              "title": "Closing Remarks",
+              "title": "Awards & Closing Remarks",
               "type": "talk",
               "room": "room-a",
               "description": ""
