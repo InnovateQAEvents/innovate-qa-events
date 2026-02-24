@@ -174,7 +174,12 @@
      
     ],
     "partners": [
-    
+      {
+        "name": "Wearedevelopers",
+        "logo": "WeAreDevelopers-Logo-Black (2).png",
+        "width": 320,
+        "height": 128
+      }
     ],
     "contactEmail": "contact@innovateqaevents.com"
   },
