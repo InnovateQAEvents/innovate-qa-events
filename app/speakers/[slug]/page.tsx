@@ -3,47 +3,152 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Linkedin, ArrowLeft, Calendar, MapPin } from "lucide-react"
+import { Badge } from "@/components/ui/badge"
+import { LucideLinkedin, ArrowLeft, Calendar, MapPin } from "lucide-react"
+import event2024 from "@/data/events/2024.json"
 import event2025 from "@/data/events/2025.json"
+import event2026 from "@/data/events/2026.json"
+import battleData from "@/data/events/battle.json"
+import homeData from "@/data/home.json"
 import { BASE_PATH } from "@/lib/constants"
 
 interface SpeakerPageProps {
-  params: Promise<{
-    slug: string
-  }>
+  params: Promise<{ slug: string }>
 }
 
-export default async function SpeakerPage({ params }: SpeakerPageProps) {
-  const { slug } = await params
-  // Convert slug back to potential speaker ID
-  const speakerId = slug
-
-  // Find speaker in the 2025 event data
-  const speaker = event2025.speakers.find(s => s.id === speakerId)
-
-  if (!speaker) {
-    notFound()
+// Normalize any speaker record (handles 2024/2025/2026/home schema differences)
+function normalizeSpeaker(s: any) {
+  return {
+    id: s.id as string,
+    name: (s.name ?? "") as string,
+    title: (s.title ?? s.role ?? "") as string,
+    company: (s.company ?? "") as string,
+    image: (s.image ?? "") as string,
+    bio: (s.bio ?? "") as string,
+    linkedin: (s.linkedin ?? s.social?.linkedin ?? "") as string,
+    topic: (s.topic ?? "") as string,
+    keynote: (s.keynote ?? false) as boolean,
+    workshop: (s.workshop ?? false) as boolean,
   }
+}
 
-  // Find all sessions for this speaker from the schedule
-  const speakerSessions: any[] = []
-  Object.values(event2025.schedule).forEach((day: any) => {
+// Collect sessions for a speaker from a single event's schedule
+function collectSessions(
+  schedule: any,
+  speakerId: string,
+  eventName: string,
+  eventYear: number,
+  eventVenue: { city: string; state: string }
+) {
+  const sessions: {
+    title: string
+    type: string
+    time: string
+    description: string
+    eventName: string
+    eventYear: number
+    city: string
+    state: string
+  }[] = []
+
+  Object.values(schedule).forEach((day: any) => {
     day.slots?.forEach((slot: any) => {
       slot.sessions?.forEach((session: any) => {
-        if (session.speakerId === speakerId) {
-          speakerSessions.push({
-            ...session,
-            time: slot.time,
-            room: slot.sessions.length > 1 ? session.room : day.dayLabel
+        const matchById = session.speakerId === speakerId
+        // Support both single speakerId and multi-speaker array (for co-presented talks)
+        const matchInArray =
+          Array.isArray(session.speakers) && session.speakers.includes(speakerId)
+        if (matchById || matchInArray) {
+          sessions.push({
+            title: session.title ?? "",
+            type: session.type ?? "",
+            time: slot.time ?? "",
+            description: session.description ?? "",
+            eventName,
+            eventYear,
+            city: eventVenue.city,
+            state: eventVenue.state,
           })
         }
       })
     })
   })
 
+  return sessions
+}
+
+// All event sources (ordered chronologically for display)
+const eventSources: { data: any; year: number }[] = [
+  { data: event2024, year: 2024 },
+  { data: event2025, year: 2025 },
+  { data: battleData, year: 2026 },
+  { data: event2026, year: 2026 },
+]
+
+// All speaker sources: event speakers + home.json featured speakers
+function getAllSpeakers(): any[] {
+  const seen = new Set<string>()
+  const all: any[] = []
+  for (const { data } of eventSources) {
+    for (const s of (data.speakers as any[]) ?? []) {
+      if (s?.id && !seen.has(s.id)) {
+        seen.add(s.id)
+        all.push(s)
+      }
+    }
+  }
+  for (const s of ((homeData as any).speakers?.featured as any[]) ?? []) {
+    if (s?.id && !seen.has(s.id)) {
+      seen.add(s.id)
+      all.push(s)
+    }
+  }
+  return all
+}
+
+export default async function SpeakerPage({ params }: SpeakerPageProps) {
+  const { slug } = await params
+
+  // Find speaker across all sources
+  const raw = getAllSpeakers().find((s) => s.id === slug)
+  if (!raw) notFound()
+
+  const speaker = normalizeSpeaker(raw)
+
+  // Collect contributions from every event, grouped by year
+  const byYear: Record<
+    number,
+    { eventName: string; sessions: ReturnType<typeof collectSessions> }
+  > = {}
+
+  for (const { data, year } of eventSources) {
+    const sessions = collectSessions(
+      data.schedule,
+      slug,
+      data.name,
+      year,
+      data.venue
+    )
+    if (sessions.length === 0) continue
+    if (!byYear[year]) {
+      byYear[year] = { eventName: data.name, sessions: [] }
+    }
+    byYear[year].sessions.push(...sessions)
+  }
+
+  const contributions = Object.entries(byYear)
+    .map(([year, val]) => ({ year: Number(year), ...val }))
+    .sort((a, b) => a.year - b.year)
+
+  // Most recent session description to show under "Session Topic"
+  const latestDescription =
+    contributions.length > 0
+      ? contributions[contributions.length - 1].sessions[0]?.description
+      : ""
+
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
+      {/* Back nav */}
       <section className="py-12 border-b border-border">
         <div className="container mx-auto px-4">
           <Button variant="ghost" asChild className="mb-6">
@@ -55,30 +160,36 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
         </div>
       </section>
 
-      {/* Speaker Profile */}
+      {/* Profile */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
-            {/* Left Column - Image */}
+            {/* Left — photo + contact */}
             <div className="lg:col-span-1">
               <Card className="overflow-hidden">
                 <div className="aspect-square relative bg-muted">
                   <Image
-                    src={`${BASE_PATH}${speaker.image}`}
+                    src={
+                      speaker.image
+                        ? speaker.image.startsWith("http")
+                          ? speaker.image
+                          : `${BASE_PATH}${speaker.image}`
+                        : "/placeholder.svg"
+                    }
                     alt={speaker.name}
                     fill
                     className="object-cover object-top"
+                    unoptimized={speaker.image?.startsWith("http")}
                   />
                 </div>
                 <CardContent className="p-6">
                   <h1 className="text-2xl font-bold mb-2">{speaker.name}</h1>
                   <p className="text-lg text-primary font-medium mb-1">{speaker.title}</p>
                   <p className="text-muted-foreground mb-4">{speaker.company}</p>
-                  
                   {speaker.linkedin && (
                     <Button variant="outline" className="w-full" asChild>
                       <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer">
-                        <Linkedin className="w-4 h-4 mr-2" />
+                        <LucideLinkedin className="w-4 h-4 mr-2" />
                         Connect on LinkedIn
                       </a>
                     </Button>
@@ -87,81 +198,109 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
               </Card>
             </div>
 
-            {/* Right Column - Bio and Sessions */}
+            {/* Right — topic, bio, contributions */}
             <div className="lg:col-span-2">
-              {/* Talk/Topic */}
+              {/* Session Topic */}
               {speaker.topic && (
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Session Topic</h2>
                   <Card>
                     <CardContent className="p-6">
-                      <h3 className="text-xl font-semibold text-primary mb-2">{speaker.topic}</h3>
-                      {speaker.keynote && (
-                        <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">
-                          Keynote Speaker
-                        </span>
+                      <h3 className="text-xl font-semibold text-primary mb-3">{speaker.topic}</h3>
+                      {latestDescription && (
+                        <p className="text-muted-foreground mb-4">{latestDescription}</p>
                       )}
-                      {speaker.workshop && (
-                        <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">
-                          Workshop
-                        </span>
-                      )}
+                      <div className="flex flex-wrap gap-2">
+                        {speaker.keynote && (
+                          <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">
+                            Keynote Speaker
+                          </span>
+                        )}
+                        {speaker.workshop && (
+                          <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-medium rounded-full">
+                            Workshop
+                          </span>
+                        )}
+                      </div>
                     </CardContent>
                   </Card>
                 </div>
               )}
 
-              {/* Bio */}
-              <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">Biography</h2>
-                <Card>
-                  <CardContent className="p-6">
-                    <div className="prose prose-neutral dark:prose-invert max-w-none">
-                      {speaker.bio.split('\n\n').map((paragraph, index) => (
-                        <p key={index} className="mb-4 last:mb-0 text-muted-foreground">
-                          {paragraph}
-                        </p>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
+              {/* Biography */}
+              {speaker.bio && (
+                <div className="mb-8">
+                  <h2 className="text-2xl font-bold mb-4">Biography</h2>
+                  <Card>
+                    <CardContent className="p-6">
+                      <div className="prose prose-neutral dark:prose-invert max-w-none">
+                        {speaker.bio.split("\n\n").map((paragraph: string, index: number) => (
+                          <p key={index} className="mb-4 last:mb-0 text-muted-foreground">
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              )}
 
-              {/* Sessions Schedule */}
-              {speakerSessions.length > 0 && (
+              {/* Year-wise Contributions */}
+              {contributions.length > 0 && (
                 <div>
-                  <h2 className="text-2xl font-bold mb-4">Sessions at {event2025.name}</h2>
-                  <div className="space-y-4">
-                    {speakerSessions.map((session, index) => (
-                      <Card key={index}>
-                        <CardContent className="p-6">
-                          <div className="flex items-start gap-4">
-                            <div className="flex-shrink-0">
-                              <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                                <Calendar className="h-6 w-6 text-primary" />
-                              </div>
-                            </div>
-                            <div className="flex-1">
-                              <h3 className="text-lg font-semibold mb-2">{session.title}</h3>
-                              <div className="flex items-center gap-4 text-sm text-muted-foreground mb-2">
-                                <span className="flex items-center gap-1">
-                                  <Calendar className="w-4 h-4" />
-                                  {session.time}
-                                </span>
-                                {session.type && (
-                                  <span className="px-2 py-1 bg-muted rounded-md capitalize">
-                                    {session.type}
-                                  </span>
-                                )}
-                              </div>
-                              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                <MapPin className="w-4 h-4" />
-                                <span>{event2025.name} • {event2025.venue.city}, {event2025.venue.state}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
+                  <h2 className="text-2xl font-bold mb-4">Conference Contributions</h2>
+                  <div className="space-y-8">
+                    {contributions.map(({ year, eventName, sessions }) => (
+                      <div key={year}>
+                        <div className="flex items-center gap-3 mb-4">
+                          <Badge variant="outline" className="text-base px-3 py-1 font-semibold">
+                            {year}
+                          </Badge>
+                          <span className="text-muted-foreground text-sm">{eventName}</span>
+                        </div>
+                        <div className="space-y-4 pl-4 border-l-2 border-primary/20">
+                          {sessions.map((session, index) => (
+                            <Card key={index}>
+                              <CardContent className="p-6">
+                                <div className="flex items-start gap-4">
+                                  <div className="flex-shrink-0">
+                                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                                      <Calendar className="h-6 w-6 text-primary" />
+                                    </div>
+                                  </div>
+                                  <div className="flex-1">
+                                    <h3 className="text-lg font-semibold mb-2">{session.title}</h3>
+                                    {session.description && (
+                                      <p className="text-sm text-muted-foreground mb-3">
+                                        {session.description}
+                                      </p>
+                                    )}
+                                    <div className="flex items-center gap-4 text-sm text-muted-foreground mb-2">
+                                      {session.time && (
+                                        <span className="flex items-center gap-1">
+                                          <Calendar className="w-4 h-4" />
+                                          {session.time}
+                                        </span>
+                                      )}
+                                      {session.type && (
+                                        <span className="px-2 py-1 bg-muted rounded-md capitalize">
+                                          {session.type}
+                                        </span>
+                                      )}
+                                    </div>
+                                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                                      <MapPin className="w-4 h-4" />
+                                      <span>
+                                        {eventName} · {session.city}, {session.state}
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </CardContent>
+                            </Card>
+                          ))}
+                        </div>
+                      </div>
                     ))}
                   </div>
                 </div>
@@ -175,7 +314,7 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
 }
 
 export async function generateStaticParams() {
-  return event2025.speakers.map((speaker) => ({
-    slug: speaker.id,
-  }))
+  return getAllSpeakers()
+    .filter((s) => s?.id)
+    .map((s) => ({ slug: s.id as string }))
 }
