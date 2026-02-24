@@ -9,7 +9,7 @@ type Sponsor = { name: string; logo: string; width: number; height: number; url?
 function SponsorBadge({
   sponsor,
   className,
-  imageClassName = "h-24 w-auto object-contain",
+  imageClassName = "h-16 w-auto object-contain max-w-[200px]",
 }: {
   sponsor: Sponsor
   className: string
@@ -68,7 +68,7 @@ export function SponsorsSection() {
                   key={sponsor.name}
                   sponsor={sponsor}
                   className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
-                  imageClassName="h-24 w-auto object-contain"
+                  imageClassName="h-16 w-auto object-contain max-w-[200px]"
                 />
               ))}
             </div>
@@ -85,7 +85,7 @@ export function SponsorsSection() {
                   key={sponsor.name}
                   sponsor={sponsor}
                   className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
-                  imageClassName="h-16 w-auto object-contain"
+                  imageClassName="h-16 w-auto object-contain max-w-[200px]"
                 />
               ))}
             </div>
@@ -103,7 +103,7 @@ export function SponsorsSection() {
                     key={sponsor.name}
                     sponsor={sponsor}
                     className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
-                    imageClassName="h-14 w-auto object-contain"
+                    imageClassName="h-16 w-auto object-contain max-w-[200px]"
                   />
                 ))}
               </div>
@@ -121,7 +121,7 @@ export function SponsorsSection() {
                   key={partner.name}
                   sponsor={partner}
                   className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 flex items-center"
-                  imageClassName="h-12 w-auto object-contain"
+                  imageClassName="h-16 w-auto object-contain max-w-[200px]"
                 />
               ))}
             </div>
