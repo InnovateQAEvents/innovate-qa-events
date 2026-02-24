@@ -1,13 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Zap, 
-  Target, 
-  Users, 
-  TrendingUp, 
-  CheckCircle2, 
+import {
+  Zap,
+  Target,
+  Users,
+  TrendingUp,
+  CheckCircle2,
   Award,
   Briefcase,
   Code,
@@ -17,15 +18,32 @@ import {
   Rocket,
   Ticket,
   Mic,
-  Gavel
+  Gavel,
+  Clock,
+  MapPin,
+  Calendar
 } from "lucide-react";
+import battleData from "@/data/events/battle.json";
 
 export const metadata = {
   title: "Battle of AI Test Tools | Innovate QA Events",
   description: "Experience the best AI test tools hands-on—and see how they fit into your testing strategy. A live, in-person event with real-world testing challenges.",
 };
 
+const typeColors: Record<string, string> = {
+  keynote: "bg-primary text-primary-foreground",
+  talk: "bg-accent text-accent-foreground",
+  workshop: "bg-chart-2 text-white",
+  panel: "bg-chart-3 text-white",
+  break: "bg-muted text-muted-foreground",
+  welcome: "bg-purple-600 text-white",
+  special: "bg-chart-5 text-white",
+};
+
 export default function BattleOfAITestToolsPage() {
+  const roomMap = new Map(battleData.rooms.map((r) => [r.id, r.name]));
+  const scheduleEntries = Object.entries(battleData.schedule);
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -38,6 +56,16 @@ export default function BattleOfAITestToolsPage() {
             <p className="text-xl md:text-2xl mb-8 text-purple-100">
               Experience the best AI test tools hands-on—and see how they fit into your testing strategy
             </p>
+            <div className="flex flex-wrap gap-3 justify-center text-purple-200 text-sm mb-8">
+              <span className="flex items-center gap-1">
+                <Calendar className="h-4 w-4" />
+                April 3, 2026
+              </span>
+              <span className="flex items-center gap-1">
+                <MapPin className="h-4 w-4" />
+                AWS Builder Loft, San Francisco
+              </span>
+            </div>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" asChild className="bg-white hover:bg-purple-50">
                 <Link href="https://luma.com/scw9b88h" target="_blank" className="text-purple-900">
@@ -167,6 +195,48 @@ export default function BattleOfAITestToolsPage() {
             </p>
           </div>
 
+          {/* Schedule */}
+          <div id="schedule" className="mb-16">
+            <h2 className="text-4xl font-bold mb-2 text-center">Schedule</h2>
+            <p className="text-center text-muted-foreground mb-10">April 3, 2026 · AWS Builder Loft, San Francisco</p>
+
+            {scheduleEntries.map(([date, day]) => (
+              <div key={date} className="space-y-4">
+                {day.slots.map((slot, slotIndex) => (
+                  <div key={slotIndex} className="border-l-2 border-purple-400/50 pl-4">
+                    <div className="flex items-center gap-2 text-purple-600 dark:text-purple-400 font-semibold mb-3">
+                      <Clock className="h-4 w-4" />
+                      {slot.time}
+                      <span className="text-xs text-muted-foreground font-normal">({slot.duration} min)</span>
+                    </div>
+
+                    <div className={`grid gap-4 ${slot.sessions.length > 1 ? "md:grid-cols-2 lg:grid-cols-3" : ""}`}>
+                      {slot.sessions.map((session, sessionIndex) => (
+                        <Card key={sessionIndex} className="bg-card border-border/50">
+                          <CardContent className="p-4">
+                            <div className="flex flex-wrap items-center gap-2 mb-2">
+                              <Badge className={typeColors[session.type] || "bg-muted"} variant="secondary">
+                                {session.type}
+                              </Badge>
+                              <span className="text-xs text-muted-foreground flex items-center gap-1">
+                                <MapPin className="h-3 w-3" />
+                                {roomMap.get(session.room) || session.room}
+                              </span>
+                            </div>
+                            <h4 className="font-semibold text-foreground mb-1">{session.title}</h4>
+                            {session.description && (
+                              <p className="text-sm text-muted-foreground mt-1">{session.description}</p>
+                            )}
+                          </CardContent>
+                        </Card>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+
           {/* What Engineers Will Gain */}
           <div className="mb-16">
             <h2 className="text-4xl font-bold mb-8 flex items-center gap-3">
@@ -289,6 +359,40 @@ export default function BattleOfAITestToolsPage() {
               </Card>
             </div>
           </div>
+
+          {/* Sponsors */}
+          {battleData.sponsors.gold && battleData.sponsors.gold.length > 0 && (
+            <div className="mb-16">
+              <h2 className="text-4xl font-bold mb-8 text-center">Sponsors</h2>
+              <div className="mb-8">
+                <h3 className="text-lg font-semibold text-primary mb-6 text-center">Gold Sponsors</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {battleData.sponsors.gold.map((sponsor) => (
+                    <a key={sponsor.name} href={sponsor.url || "#"} target="_blank" rel="noopener noreferrer">
+                      <Card className="h-full hover:shadow-lg transition-shadow border-primary/20 bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-950/20 dark:to-amber-950/20">
+                        <CardContent className="p-6 flex flex-col items-center text-center">
+                          <div className="h-20 w-full flex items-center justify-center mb-4 relative">
+                            <Image
+                              src={sponsor.logo || "/placeholder.svg"}
+                              alt={sponsor.name}
+                              width={160}
+                              height={80}
+                              className="max-h-20 max-w-full object-contain"
+                              unoptimized={sponsor.logo?.startsWith("http")}
+                            />
+                          </div>
+                          <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
+                          {sponsor.tagline && (
+                            <p className="text-sm text-muted-foreground">{sponsor.tagline}</p>
+                          )}
+                        </CardContent>
+                      </Card>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* CTA Section */}
           <div className="text-center bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-lg p-12">
