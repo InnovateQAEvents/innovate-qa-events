@@ -3,11 +3,6 @@ import type { Metadata } from "next"
 import { Mic, Presentation, Users, Handshake, Camera, ClipboardCheck, Check, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Checkbox } from "@/components/ui/checkbox"
 import { generateSEO } from "@/components/seo"
 import { WebPageLD, BreadcrumbLD } from "@/components/json-ld"
 import volunteerData from "@/data/volunteer-roles.json"
@@ -128,151 +123,24 @@ export default function VolunteerPage() {
         </div>
       </section>
 
-      {/* Application Form Section */}
+      {/* Apply Section */}
       <section id="apply" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Apply to Participate</h2>
-              <p className="text-muted-foreground">
-                Fill out the form below and our team will review your application within 5-7 business days.
-              </p>
-            </div>
-
-            <Card className="bg-card border-border/50">
-              <CardContent className="pt-6">
-                <form className="space-y-6">
-                  {/* Personal Information */}
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                      Personal Information
-                    </h3>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="firstName">First Name *</Label>
-                        <Input id="firstName" placeholder="John" required />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="lastName">Last Name *</Label>
-                        <Input id="lastName" placeholder="Doe" required />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email">Email Address *</Label>
-                      <Input id="email" type="email" placeholder="john@example.com" required />
-                    </div>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="company">Company / Organization</Label>
-                        <Input id="company" placeholder="Acme Inc." />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="title">Job Title</Label>
-                        <Input id="title" placeholder="Senior QA Engineer" />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Role Selection */}
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                      Participation Details
-                    </h3>
-                    <div className="space-y-2">
-                      <Label htmlFor="role">Role You're Interested In *</Label>
-                      <Select required>
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select a role" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {volunteerData.roles.map((role) => (
-                            <SelectItem key={role.id} value={role.id}>
-                              {role.title}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-                  </div>
-
-                  {/* Speaker/Workshop Specific */}
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                      For Speakers & Workshop Instructors
-                    </h3>
-                    <div className="space-y-2">
-                      <Label htmlFor="proposalTitle">Proposed Talk/Workshop Title</Label>
-                      <Input id="proposalTitle" placeholder="e.g., Advanced API Testing with Playwright" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="abstract">Abstract / Description</Label>
-                      <Textarea
-                        id="abstract"
-                        placeholder="Describe your talk or workshop in 200-300 words..."
-                        className="min-h-[120px]"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="experience">Speaking/Teaching Experience</Label>
-                      <Textarea
-                        id="experience"
-                        placeholder="List any previous speaking engagements, workshops, or teaching experience..."
-                        className="min-h-[80px]"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Additional Information */}
-                  <div className="space-y-4">
-                    <h3 className="text-lg font-semibold text-foreground border-b border-border pb-2">
-                      Additional Information
-                    </h3>
-                    <div className="space-y-2">
-                      <Label htmlFor="linkedin">LinkedIn Profile URL</Label>
-                      <Input id="linkedin" type="url" placeholder="https://linkedin.com/in/yourprofile" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="portfolio">Portfolio / Website / GitHub</Label>
-                      <Input id="portfolio" type="url" placeholder="https://yourwebsite.com" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="motivation">Why do you want to participate?</Label>
-                      <Textarea
-                        id="motivation"
-                        placeholder="Tell us why you're interested in this role..."
-                        className="min-h-[80px]"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Agreements */}
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <Checkbox id="codeOfConduct" required />
-                      <Label htmlFor="codeOfConduct" className="text-sm text-muted-foreground leading-relaxed">
-                        I agree to abide by the Innovate QA Code of Conduct *
-                      </Label>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <Checkbox id="availability" />
-                      <Label htmlFor="availability" className="text-sm text-muted-foreground leading-relaxed">
-                        I confirm my availability for June 5, 2026 (and preparation dates if applicable)
-                      </Label>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <Checkbox id="newsletter" />
-                      <Label htmlFor="newsletter" className="text-sm text-muted-foreground leading-relaxed">
-                        I'd like to receive updates about Innovate QA events and opportunities
-                      </Label>
-                    </div>
-                  </div>
-
-                  <Button type="submit" size="lg" className="w-full">
-                    Submit Application
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Apply to Volunteer</h2>
+            <p className="text-muted-foreground mb-8">
+              Ready to help make Innovate QA 2026 a success? Fill out our volunteer application form and our team will
+              be in touch within 5-7 business days.
+            </p>
+            <Button size="lg" asChild>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSePnlv53HpUgpFugNPx6hWUcXfQeMzjr_lj0L8rYaZ4HOkW2g/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Apply to Volunteer
+              </a>
+            </Button>
           </div>
         </div>
       </section>

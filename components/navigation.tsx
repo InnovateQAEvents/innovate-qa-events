@@ -22,6 +22,7 @@ const pastEvents = [
 
 const communityLinks = [
   { href: "/volunteer", label: "Volunteer / Speak" },
+  { href: "/awards", label: "Awards" },
   { href: "/authors", label: "Community Authors" },
 ]
 
