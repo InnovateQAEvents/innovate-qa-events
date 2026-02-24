@@ -166,7 +166,7 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
           <div className="grid lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
             {/* Left — photo + contact */}
             <div className="lg:col-span-1">
-              <Card className="overflow-hidden">
+              <Card className="overflow-hidden pt-0">
                 <div className="aspect-square relative bg-muted">
                   <Image
                     src={
