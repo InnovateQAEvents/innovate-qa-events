@@ -22,116 +22,109 @@
     { "id": "discussion-room", "name": "Discussion Room", "capacity": 20 }
   ],
   "schedule": { 
-    "2026-04-03": {<!--
+    "2026-04-03": {
       "dayLabel": "Day 1 - Main Conference",
       "slots": [
         {
-          "time": "8:00 AM",
-          "duration": 60,
+          "time": "8:30 AM",
+          "duration": 50,
           "sessions": [
             {
               "title": "Registration & Breakfast",
               "type": "break",
-              "room": "room-a",
+              "room": "discussion-room",
               "description": "Check-in, grab your badge, and network over breakfast"
             }
           ]
         },
         {
-          "time": "9:00 AM",
+          "time": "9:20 AM",
           "duration": 10,
           "sessions": [
             {
               "title": "Welcome",
               "type": "welcome",
-              "room": "main-hall",
+              "room": "room-b",
               "speakerId": "",
               "description": "Welcome"
             }
           ]
         },
         {
-          "time": "9:10 AM",
-          "duration": 40,
+          "time": "9:30 AM",
+          "duration": 30,
           "sessions": [
             {
-              "title": "The Evolution of the Testing Roles",
+              "title": "",
               "type": "keynote",
               "room": "room-a",
-              "speakerId": "carlos-arguelles",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
           "time": "10:00 AM",
-          "duration": 45,
+          "duration": 105,
           "sessions": [
             {
-              "title": "Testing on 7 Billion Mobile Phones: A Modest Proposal",
+              "title": "Testing Starts",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "jason-huggins",
+              "speakerId": "",
               "description": ""
             },
             {
-              "title": "Testing LLM-Powered APIs: Challenges, Strategies, and Best Practices",
+              "title": "Session 1",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "siri-varma-vegiraju",
+              "speakerId": "",
               "description": ""
             },
             {
-              "title": "Practical Accessibility Testing",
-              "type": "workshop",
-              "room": "workshop",
-              "speakerId": "jennifer-x-zhang",
+              "title": "Discussion #1",
+              "type": "discussion",
+              "room": "discussion",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
           "time": "10:55 AM",
-          "duration": 45,
+          "duration": 40,
           "sessions": [
             {
-              "title": "Testing Should Compound, Not Collide",
+              "title": "Session #2",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "ben-fellows",
+              "speakerId": "",
               "description": ""
             },
             {
-              "title": "Leveraging AWS Services for Scalable and Efficient Test Automation",
+              "title": "Discussion #2",
               "type": "talk",
-              "room": "room-b",
-              "speakerId": "sidharth-shukla",
+              "room": "discussion-room",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
-          "time": "10:55 AM",
-          "duration": 45,
+          "time": "11:45 AM",
+          "duration": 15,
           "sessions": [
             {
-              "title": "The Great RAI-a-thon: Build a Tiny AI App - Then Try to Break It",
+              "title": "Battle Update",
               "type": "talk",
               "room": "room-a",
-              "speakerId": "dona-sarkar",
-              "description": ""
-            },
-            {
-              "title": "Building a Future-Proof Mobile Testing Strategy: Automation, Efficiency, and Accelerated Releases",
-              "type": "talk",
-              "room": "room-b",
-              "speakerId": "aswin-golla",
+              "speakerId": "",
               "description": ""
             }
           ]
         },
         {
-          "time": "12:30 AM",
+          "time": "12:00 AM",
           "duration": 60,
           "sessions": [
             {
@@ -233,7 +226,7 @@
           ]
         }
       ]
-    }-->
+    }
   },
   "speakers": [
     
