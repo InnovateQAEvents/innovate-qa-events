@@ -148,6 +148,12 @@
         "logo": "ContextQALogo.png",
         "width": 320,
         "height": 128
+      },
+       {
+        "name": "The Stories and Wisdom Company",
+        "logo": "The Stories and Wisdom Company_Dark text.png",
+        "width": 320,
+        "height": 128
       }
     ],
     "silver": [
