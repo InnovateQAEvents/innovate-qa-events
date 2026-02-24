@@ -21,8 +21,8 @@
     { "id": "room-b", "name": "Room B - Presentation Track", "capacity": 75 },
     { "id": "discussion-room", "name": "Discussion Room", "capacity": 20 }
   ],
-  "schedule": {
-    "2026-04-03": {
+  "schedule": { 
+    "2026-04-03": {<!--
       "dayLabel": "Day 1 - Main Conference",
       "slots": [
         {
@@ -233,7 +233,7 @@
           ]
         }
       ]
-    }
+    }-->
   },
   "speakers": [
     
