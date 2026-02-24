@@ -57,7 +57,7 @@
             {
               "title": "",
               "type": "keynote",
-              "room": "room-a",
+              "room": "room-b",
               "speakerId": "",
               "description": ""
             }
@@ -84,7 +84,7 @@
             {
               "title": "Discussion #1",
               "type": "discussion",
-              "room": "discussion",
+              "room": "discussion-room",
               "speakerId": "",
               "description": ""
             }
@@ -97,7 +97,7 @@
             {
               "title": "Session #2",
               "type": "talk",
-              "room": "room-a",
+              "room": "room-b",
               "speakerId": "",
               "description": ""
             },
@@ -117,7 +117,7 @@
             {
               "title": "Battle Update",
               "type": "talk",
-              "room": "room-a",
+              "room": "room-b",
               "speakerId": "",
               "description": ""
             }
@@ -130,7 +130,7 @@
             {
               "title": "Lunch & Networking",
               "type": "break",
-              "room": "main-hall",
+              "room": "discussion-room",
               "description": "Enjoy lunch and connect with fellow attendees"
             }
           ]
@@ -142,8 +142,8 @@
            {
               "title": "Session #3",
               "type": "talk",
-              "room": "room-a",
-              "speakerId": "snehal-lohar",
+              "room": "room-b",
+              "speakerId": "",
               "description": ""
             },
             {
@@ -162,7 +162,7 @@
            {
               "title": "Updates from judges",
               "type": "talk",
-              "room": "room-a",
+              "room": "room-b",
               "speakerId": "",
               "description": ""
             }
@@ -207,7 +207,7 @@
             {
               "title": "Awards & Closing Remarks",
               "type": "talk",
-              "room": "room-a",
+              "room": "room-b",
               "description": ""
             }
           ]
@@ -223,7 +223,7 @@
     "gold": [
       {
         "name": "mabl",
-        "logo": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/AmazonNova_Lockup_Gradient_SquidInkText_RGB%20(1.png",
+        "logo": "",
         "url": "",
         "tagline": ""
       },
