@@ -13,6 +13,10 @@
       "speaker": {
         "text": "Become Speaker",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7UuSnkx7KJEubEnTokjll1-JBqX5X_-rWQfpGqVs9O9ZnAQ/viewform?pli=1"
+      },
+      "subscribe": {
+        "text": "Subscribe for Updates",
+        "url": "#newsletter"
       }
     },
     "stats": [

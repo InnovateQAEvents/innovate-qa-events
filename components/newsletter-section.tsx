@@ -18,7 +18,7 @@ export function NewsletterSection() {
   }
 
   return (
-    <section className="py-20 md:py-28 bg-primary/5">
+    <section id="newsletter" className="py-20 md:py-28 bg-primary/5">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
