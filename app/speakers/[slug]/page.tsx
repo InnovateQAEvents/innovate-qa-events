@@ -3,8 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { LucideLinkedin, ArrowLeft, Calendar, MapPin } from "lucide-react"
+import { LucideLinkedin, ArrowLeft } from "lucide-react"
 import event2024 from "@/data/events/2024.json"
 import event2025 from "@/data/events/2025.json"
 import event2026 from "@/data/events/2026.json"
@@ -245,8 +244,8 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
                 </div>
               )}
 
-              {/* Year-wise Contributions */}
-              {contributions.length > 0 && (
+              {/* Year-wise Contributions — temporarily hidden */}
+              {/* {contributions.length > 0 && (
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Conference Contributions</h2>
                   <div className="space-y-8">
@@ -304,7 +303,7 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
