@@ -6,14 +6,22 @@ import homeData from "@/data/home.json"
 
 type Sponsor = { name: string; logo: string; width: number; height: number; url?: string }
 
-function SponsorBadge({ sponsor, className }: { sponsor: Sponsor; className: string }) {
+function SponsorBadge({
+  sponsor,
+  className,
+  imageClassName = "h-24 w-auto object-contain",
+}: {
+  sponsor: Sponsor
+  className: string
+  imageClassName?: string
+}) {
   const inner = (
     <Image
       src={`${BASE_PATH}/${sponsor.logo}`}
       alt={sponsor.name}
       width={sponsor.width}
       height={sponsor.height}
-      className="w-auto object-contain"
+      className={imageClassName}
     />
   )
 
@@ -59,7 +67,8 @@ export function SponsorsSection() {
                 <SponsorBadge
                   key={sponsor.name}
                   sponsor={sponsor}
-                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors h-32 flex items-center"
+                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
+                  imageClassName="h-24 w-auto object-contain"
                 />
               ))}
             </div>
@@ -75,7 +84,8 @@ export function SponsorsSection() {
                 <SponsorBadge
                   key={sponsor.name}
                   sponsor={sponsor}
-                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors h-32 flex items-center"
+                  className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
+                  imageClassName="h-16 w-auto object-contain"
                 />
               ))}
             </div>
@@ -92,7 +102,8 @@ export function SponsorsSection() {
                   <SponsorBadge
                     key={sponsor.name}
                     sponsor={sponsor}
-                    className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors h-24 flex items-center"
+                    className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
+                    imageClassName="h-14 w-auto object-contain"
                   />
                 ))}
               </div>
@@ -109,7 +120,8 @@ export function SponsorsSection() {
                 <SponsorBadge
                   key={partner.name}
                   sponsor={partner}
-                  className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 h-20 flex items-center"
+                  className="bg-card rounded-lg p-4 border border-border/50 hover:border-primary/30 transition-colors opacity-80 hover:opacity-100 flex items-center"
+                  imageClassName="h-12 w-auto object-contain"
                 />
               ))}
             </div>
