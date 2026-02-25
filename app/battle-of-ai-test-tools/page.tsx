@@ -24,7 +24,7 @@ import {
   Calendar
 } from "lucide-react";
 import battleData from "@/data/events/battle.json";
-
+import { BASE_PATH } from "@/lib/constants"
 export const metadata = {
   title: "Battle of AI Test Tools | Innovate QA Events",
   description: "Experience the best AI test tools hands-on—and see how they fit into your testing strategy. A live, in-person event with real-world testing challenges.",
