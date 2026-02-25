@@ -1,0 +1,46 @@
+name: Innovate QA Website
+description: Report a bug or suggest a feature for the Innovate QA website
+title: "[Innovate QA Website] "
+labels: ["website"]
+
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of request is this?
+      options:
+        - Bug
+        - Feature Request
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Title
+      placeholder: One-line summary
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the issue or suggestion
+      placeholder: Provide a short explanation
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL (if applicable)
+      placeholder: https://innovateqa.com/page
+
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Artifacts (optional)
+      description: Drag & drop screenshots, recordings, logs, or references here
+      placeholder: Attach files or paste links here
