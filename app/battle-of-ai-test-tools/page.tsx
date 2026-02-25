@@ -365,7 +365,7 @@ export default function BattleOfAITestToolsPage() {
             <div className="mb-16">
               <h2 className="text-4xl font-bold mb-8 text-center">Sponsors</h2>
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-primary mb-6 text-center">Gold Sponsors</h3>
+                <h3 className="text-lg font-semibold text-primary mb-6 text-center">Premium Sponsors</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                   {battleData.sponsors.gold.map((sponsor) => (
                     <a key={sponsor.name} href={sponsor.url || "#"} target="_blank" rel="noopener noreferrer">
@@ -373,7 +373,7 @@ export default function BattleOfAITestToolsPage() {
                         <CardContent className="p-6 flex flex-col items-center text-center">
                           <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                             <Image
-                              src={sponsor.logo || "/placeholder.svg"}
+                             src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
                               alt={sponsor.name}
                               width={160}
                               height={80}
