@@ -1,0 +1,62 @@
+name: "Task"
+description: "Create a structured task with clear ownership"
+title: "TASK - "
+labels:
+  - task
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: "Task Summary"
+      description: "Short, clear description of the task"
+      placeholder: "Implement login validation fix"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: owner_select
+    attributes:
+      label: "Owner"
+      description: "Select the responsible person or choose 'Other'"
+      options:
+        - Jackie
+        - Tatyana
+        - Deepak
+        - Other (Specify Below)
+    validations:
+      required: true
+
+  - type: input
+    id: owner_custom
+    attributes:
+      label: "Custom Owner (If Other)"
+      description: "Enter GitHub username or full name"
+      placeholder: "@username or Name"
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Task Details"
+      description: "Describe what needs to be completed and expected outcome"
+      placeholder: "Explain scope, technical notes, dependencies..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+
+  - type: input
+    id: related_issue
+    attributes:
+      label: "Related Issue (Optional)"
+      description: "Reference a related issue number"
+      placeholder: "#123"
