@@ -193,9 +193,9 @@
   },
   "speakers": {
     "viewAllUrl": "/events/2026#speakers",
-    "featured": [
-     
-      {
+    "featured": 
+    [
+    {
         "id": "ronit",
         "name": "Ronit Bohrer Hillel",
         "title": "Engineering Leader, Business & Industry Frontline Applications",
@@ -270,8 +270,7 @@
         "topic": "Taming the Beast: Testing Non-Deterministic AI Systems with Confidence",
         "bio": "Lee has over 30 years of experience in the Software Quality Engineering field. He has been involved in the implementation of innovative QE solutions in hundreds of environments across a wide array of industries. Most recently, Lee has been involved with bringing AI-augmented quality practices to software engineering teams. Lee speaks regularly at industry conferences including Innovate QA, StarEAST/WEST, DevOpsDays, Agile+DevOps East/West, QA or the Highway, and TestCon Europe.",
         "linkedin": "https://www.linkedin.com/in/leebarnes/"
-      }
-    ,  
+      },  
       {
         "id": "greg",
         "name": "Gregory Goldshteyn",
