@@ -293,7 +293,7 @@
       "endDate": "2026-06-06",
       "location": "Westin Bellevue, Bellevue, WA",
       "description": "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
-      "image": "/conference.png",
+      "image": "/battle.png",
       "status": "upcoming",
       "ticketUrl": "https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator",
       "learnMoreUrl": "/events/2026"
@@ -305,7 +305,7 @@
       "endDate": null,
       "location": "AWS Builder Loft, San Francisco, CA",
       "description": "Experience the best AI test tools hands-on. A live, in-person event where teams use AI-powered testing tools against real products, real workflows, and real constraints.",
-      "image": "/battle.png",
+      "image": "/conference.png",
       "status": "upcoming",
       "ticketUrl": "https://luma.com/scw9b88h",
       "learnMoreUrl": "/battle-of-ai-test-tools"
