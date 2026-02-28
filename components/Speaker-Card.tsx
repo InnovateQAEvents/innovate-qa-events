@@ -1,18 +1,18 @@
-"use client"
-
 import { Card, CardContent } from "@/components/ui/card"
 import { Linkedin } from "lucide-react"
-import { useRouter } from "next/navigation"
+import Link from "next/link"
 import Image from "next/image"
 import { BASE_PATH } from "@/lib/constants"
 
 interface Speaker {
   id: string
   name: string
-  title: string
+  title?: string
+  role?: string
   company: string
   image: string
   linkedin?: string
+  social?: { linkedin?: string }
   topic?: string
   keynote?: boolean
   workshop?: boolean
@@ -23,17 +23,18 @@ interface SpeakerCardProps {
 }
 
 export function SpeakerCard({ speaker }: SpeakerCardProps) {
-  const router = useRouter()
-
-  const handleCardClick = () => {
-    router.push(`/speakers/${speaker.id}`)
-  }
+  const displayTitle = speaker.title ?? speaker.role ?? ""
+  const linkedinUrl = speaker.linkedin ?? speaker.social?.linkedin ?? ""
 
   return (
-    <Card
-      onClick={handleCardClick}
-      className="bg-card border-border/50 overflow-hidden group hover:border-primary/30 transition-colors flex flex-col h-full cursor-pointer py-0 pb-6"
-    >
+    <Card className="bg-card border-border/50 overflow-hidden group hover:border-primary/30 transition-colors flex flex-col h-full py-0 pb-6 relative">
+      {/* Stretched link covers the whole card — excluded from LinkedIn button via z-index */}
+      <Link
+        href={`/speakers/${speaker.id}`}
+        className="absolute inset-0 z-0"
+        aria-label={`View ${speaker.name}'s speaker profile`}
+      />
+
       <div className="aspect-[3/4] overflow-hidden bg-muted -m-px relative">
         <Image
           src={speaker.image ? `${BASE_PATH}${speaker.image}` : "/placeholder.svg"}
@@ -44,7 +45,7 @@ export function SpeakerCard({ speaker }: SpeakerCardProps) {
       </div>
       <CardContent className="pt-4 flex-1 flex flex-col">
         <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{speaker.name}</h3>
-        <p className="text-sm text-primary font-medium">{speaker.title}</p>
+        {displayTitle && <p className="text-sm text-primary font-medium">{displayTitle}</p>}
         <p className="text-sm text-muted-foreground mb-2">{speaker.company}</p>
 
         {speaker.topic && (
@@ -69,13 +70,12 @@ export function SpeakerCard({ speaker }: SpeakerCardProps) {
           </div>
         )}
 
-        <div className="flex gap-2 mt-auto">
-          {speaker.linkedin && (
+        <div className="flex gap-2 mt-auto relative z-10">
+          {linkedinUrl && (
             <a
-              href={speaker.linkedin}
+              href={linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
               className="h-8 w-8 rounded-full bg-muted flex items-center justify-center hover:bg-primary/10 transition-colors"
             >
               <Linkedin className="h-4 w-4 text-muted-foreground" />

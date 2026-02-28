@@ -3,6 +3,7 @@
   "description": "Celebrating excellence, innovation, and community impact across the software quality engineering landscape. Nominate the individuals, teams, and organizations shaping the future of QA.",
   "ceremonyDate": "June 4–5, 2026",
   "contactEmail": "contact@innovateqaevents.com",
+  "judgeApplicationUrl": "mailto:contact@innovateqaevents.com?subject=Apply to Judge - Innovate QA Awards",
   "categories": [
     {
       "id": "thought-leader",

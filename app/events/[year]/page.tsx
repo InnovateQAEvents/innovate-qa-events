@@ -255,12 +255,13 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={160}
                             height={80}
                             className="max-h-20 max-w-full object-contain"
-                            unoptimized={sponsor.logo?.startsWith('http')}
+                            style={{ width: "auto" }}
+                            unoptimized
                           />
                         </div>
                         <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
@@ -285,12 +286,13 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-16 w-full flex items-center justify-center mb-4 relative">
                           <Image
-                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={128}
                             height={64}
                             className="max-h-16 max-w-full object-contain"
-                            unoptimized={sponsor.logo?.startsWith('http')}
+                            style={{ width: "auto" }}
+                            unoptimized
                           />
                         </div>
                         <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
@@ -315,12 +317,13 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-14 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={112}
                             height={56}
                             className="max-h-14 max-w-full object-contain"
-                            unoptimized={sponsor.logo?.startsWith('http')}
+                            style={{ width: "auto" }}
+                            unoptimized
                           />
                         </div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">{sponsor.name}</h4>
@@ -345,12 +348,13 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
                       <CardContent className="p-5 flex flex-col items-center text-center">
                         <div className="h-12 w-full flex items-center justify-center mb-3 relative">
                           <Image
-                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
                             alt={sponsor.name}
                             width={96}
                             height={48}
                             className="max-h-12 max-w-full object-contain"
-                            unoptimized={sponsor.logo?.startsWith('http')}
+                            style={{ width: "auto" }}
+                            unoptimized
                           />
                         </div>
                         <h4 className="font-medium text-foreground text-sm">{sponsor.name}</h4>
@@ -367,14 +371,23 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
   )
 }
 
+type AnyScheduleDay = {
+  dayLabel: string
+  slots: Array<{
+    time: string
+    duration: number
+    sessions: Array<Record<string, unknown>>
+  }>
+}
+
 function ScheduleDay({
   day,
   speakerMap,
   rooms,
 }: {
-  day: (typeof event2025.schedule)["2025-06-05"]
-  speakerMap: Map<string, (typeof event2025.speakers)[0]>
-  rooms: typeof event2025.rooms
+  day: AnyScheduleDay
+  speakerMap: Map<string, { id: string; name: string; company: string }>
+  rooms: Array<{ id: string; name: string; capacity: number }>
 }) {
   const roomMap = new Map(rooms.map((r) => [r.id, r.name]))
 
@@ -390,21 +403,25 @@ function ScheduleDay({
 
           <div className={`grid gap-4 ${slot.sessions.length > 1 ? "md:grid-cols-2 lg:grid-cols-3" : ""}`}>
             {slot.sessions.map((session, sessionIndex) => {
-              const speaker = "speakerId" in session && session.speakerId ? speakerMap.get(session.speakerId) : null
-              const sessionSpeakers = "speakers" in session && session.speakers && session.speakers.length > 0
-                ? session.speakers.map((id: string) => speakerMap.get(id)).filter(Boolean)
+              const speakerId = session.speakerId as string | undefined
+              const speakerIds = session.speakers as string[] | undefined
+              const speaker = speakerId ? speakerMap.get(speakerId) : null
+              const sessionSpeakers = speakerIds && speakerIds.length > 0
+                ? speakerIds.map((id) => speakerMap.get(id)).filter(Boolean)
                 : []
+              const panelists = session.panelists as string[] | undefined
+              const participants = session.participants as string[] | undefined
 
               return (
                 <Card key={sessionIndex} className="bg-card border-border/50">
                   <CardContent className="p-4">
                     <div className="flex flex-wrap items-center gap-2 mb-2">
-                      <Badge className={typeColors[session.type] || "bg-muted"} variant="secondary">
-                        {session.type}
+                      <Badge className={typeColors[session.type as string] || "bg-muted"} variant="secondary">
+                        {session.type as string}
                       </Badge>
-                      <span className="text-xs text-muted-foreground">{roomMap.get(session.room) || session.room}</span>
+                      <span className="text-xs text-muted-foreground">{roomMap.get(session.room as string) || session.room as string}</span>
                     </div>
-                    <h4 className="font-semibold text-foreground mb-1">{session.title}</h4>
+                    <h4 className="font-semibold text-foreground mb-1">{session.title as string}</h4>
                     {speaker && (
                       <p className="text-sm text-primary font-medium">
                         {speaker.name} - {speaker.company}
@@ -430,15 +447,15 @@ function ScheduleDay({
                         )}
                       </div>
                     )}
-                    {"panelists" in session && session.panelists && (
+                    {panelists && panelists.length > 0 && (
                       <p className="text-sm text-muted-foreground">
-                        Panelists: {session.panelists.map((id) => speakerMap.get(id)?.name).join(", ")}
+                        Panelists: {panelists.map((id) => speakerMap.get(id)?.name).join(", ")}
                       </p>
                     )}
-                    {"participants" in session && session.participants && (
-                      <p className="text-sm text-muted-foreground">Featuring: {session.participants.join(", ")}</p>
+                    {participants && participants.length > 0 && (
+                      <p className="text-sm text-muted-foreground">Featuring: {participants.join(", ")}</p>
                     )}
-                    {session.description && <p className="text-sm text-muted-foreground mt-2">{session.description}</p>}
+                    {session.description && <p className="text-sm text-muted-foreground mt-2">{session.description as string}</p>}
                   </CardContent>
                 </Card>
               )

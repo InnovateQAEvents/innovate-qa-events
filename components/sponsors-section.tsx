@@ -22,6 +22,7 @@ function SponsorBadge({
       width={sponsor.width}
       height={sponsor.height}
       className={imageClassName}
+      style={{ width: "auto" }}
     />
   )
 

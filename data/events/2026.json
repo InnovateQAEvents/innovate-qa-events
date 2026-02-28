@@ -325,13 +325,136 @@
       ]
     }
   },
-  "speakers": [],
+  "speakers": [
+    {
+      "id": "ronit",
+      "name": "Ronit Bohrer Hillel",
+      "title": "Engineering Leader, Business & Industry Frontline Applications",
+      "company": "Microsoft",
+      "image": "/speakers/2026/ronit.jpg",
+      "keynote": false,
+      "topic": "Becoming AI‑First?! What Does that Means for QA?",
+      "bio": "Ronit Bohrer Hillel is an Engineering Leader at Microsoft and a seasoned product-engineering leader with a proven track record of delivering innovative solutions and enterprise-scale products. With over 20 years of diverse experience, she has successfully led Engineering, QA, Product, and Science teams across various domains, including SaaS, AI, no-code, Retail, Telecom, and Big data. Ronit is a former VP of Engineering at Smartsheet and an Engineering Leader at Amazon. She has held engineering leadership roles in enterprises, mid-sized companies, and startups. She holds a BS in Computer Science and an MBA. Ronit is a career coach, a board member and a speaker.",
+      "linkedin": "https://www.linkedin.com/in/ronitbohrerhillel/"
+    },
+    {
+      "id": "sidharth",
+      "name": "Sidharth Shukla",
+      "title": "SDET 2",
+      "company": "Amazon",
+      "image": "/speakers/2025/sidharth-shukla.jpeg",
+      "keynote": false,
+      "topic": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
+      "topicSummary": "Discover how to leverage AI-powered tools — Playwright MCP and LLM CLI — to automatically analyze failing tests, identify root causes, and generate actionable fix suggestions. This session walks through real-world debugging workflows where AI transforms cryptic test failures into clear, reproducible diagnoses, dramatically reducing mean time to resolution and freeing engineers to focus on building rather than firefighting.",
+      "bio": "Speaker | Automation Expert | AI & LLMs in Testing | Mentor, Sidharth is a seasoned Software Development Engineer in Test (SDET) with over 14 years of experience in automation, specializing in Playwright, Selenium, Appium, API testing, and AI-driven test automation. As a thought leader in the testing community, he has trained 5,000+ professionals worldwide and actively mentors aspiring QA engineers. He is at the forefront of AI & LLMs in Software Testing, leading initiatives at Amazon and collaborating with teams to automate test case generation using LLMs. His contributions have significantly improved test automation efficiency, reducing manual effort by up to 50% in multiple projects. Sidharth is a frequent speaker at global conferences, including Automation Guild 2025, and has presented across the USA, Canada, and India. His insights on modern test automation, Playwright adoption, and AI-driven quality engineering have made a lasting impact in the industry. Beyond speaking engagements, Sidharth runs a highly followed LinkedIn newsletter (50K+ subscribers) and was recently featured on a Times Square billboard for his outstanding mentorship to the QA community. Connect with him to explore the future of test automation, AI in testing, and best practices in QA engineering!",
+      "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
+    },
+    {
+      "id": "bastian",
+      "name": "Dr. Bastian Baudisch",
+      "title": "Lead Sales Engineer US",
+      "company": "UBS HAINER",
+      "image": "/speakers/2026/bastian.jpg",
+      "keynote": false,
+      "topic": "AI Generated Test Data: Know Your Need",
+      "bio": "Bastian is a data management and process automation specialist with a multifaceted background in technical sales and consulting in finance, insurance, retail and pharma. With previous leadership roles in data science and software QA, Bastian has honed a pragmatic, holistic approach to solving complex data challenges. Bastian's passion lies in bridging technological innovation with practical, user-centric solutions, ensuring that test environments are as robust and agile as the challenges they face. In his current role as Lead Sales Engineer US at UBS HAINER, he drives the adoption of the XDM Data Orchestration Platform — enabling enterprise software engineers, testers, and machine learning teams to access production-grade, real-world data on demand.",
+      "linkedin": "https://www.linkedin.com/in/bastianbaudisch/"
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna Seerapu",
+      "title": "CEO",
+      "company": "FlintLab Inc.",
+      "image": "/speakers/2026/krishna.png",
+      "keynote": false,
+      "topic": "Is Today's Test Infra Ready for AI? The Hard Questions No One Is Asking.",
+      "bio": "Krishna Seerapu is a seasoned technology executive, engineering leader, and the Founder & CEO of FlintLab Inc., bringing nearly 25 years of experience building large-scale developer platforms, cloud infrastructure, and enterprise-grade automation systems. Across leadership roles at Google, Amazon, Microsoft, RSA (EMC Security), Progress Software, and Motorola, he has led globally distributed engineering teams delivering mission-critical platforms spanning cloud ecosystems, security engineering, IoT, e-commerce, and distributed test infrastructure. At FlintLab, Krishna is pioneering AI-native quality engineering by building intelligent, next-generation test infrastructure and engineering productivity platforms tailored for modern AI-driven software systems. He is widely recognized for driving large-scale engineering transformations that accelerate release velocity, strengthen automation reliability, and enhance platform scalability. His leadership philosophy combines deep technical rigor with operational discipline, enabling enterprises to modernize quality engineering practices while upholding the highest standards of reliability, security, and customer trust.",
+      "linkedin": "https://www.linkedin.com/in/krishna-seerapu/"
+    },
+    {
+      "id": "amber",
+      "name": "Amber Race",
+      "title": "Staff SDE",
+      "company": "Adobe",
+      "image": "/speakers/2026/amber.png",
+      "keynote": false,
+      "topic": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
+      "bio": "Amber Race has over 25 years of testing experience at Microsoft, Big Fish Games, and Adobe, doing everything from data wrangling to tools development to writing automation frameworks for web services and applications. She currently specializes in test automation tooling and support for large web application platforms. Amber lives in Seattle, WA, where you can find her cheering on the local sports teams with her family or belting out Guns and Roses at a dive karaoke bar.",
+      "linkedin": "https://www.linkedin.com/in/amber-race-tests/"
+    },
+    {
+      "id": "walter",
+      "name": "Walter Zimerman",
+      "title": "Sr SDE",
+      "company": "Amazon",
+      "image": "/speakers/2025/walter-zimerman.png",
+      "keynote": false,
+      "topic": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
+      "bio": "Walter Ariel Zimerman has spent 17 years on test automation, building frameworks that run millions of test cases every month. He has designed end-to-end solutions across tourism, manufacturing, regulatory compliance, accounting & finance, and voice-assistant platforms. Walter has held senior roles as Quality Assurance Engineer, Software Developer in Test, and QA Manager, and hosted the largest QA meetup in Dublin, Ireland, growing it to 2,000+ members, 40+ events, and an international conference. Passionate about computer science, Walter is a test driven development / design practitioner and evangelist. His current obsession: architecting scalable, developer-friendly APIs. In his spare time, you'll find him lifting weights, running, playing the guitar, playing board games, or debating tech over a pint—preferably with heavy-metal blasting in the background.",
+      "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
+    },
+    {
+      "id": "leebarnes",
+      "name": "Lee Barnes",
+      "title": "Chief Quality Officer",
+      "company": "Forte Group",
+      "image": "/speakers/2024/lee-barnes-forte-headshot.png",
+      "keynote": false,
+      "topic": "Taming the Beast: Testing Non-Deterministic AI Systems with Confidence",
+      "bio": "Lee has over 30 years of experience in the Software Quality Engineering field. He has been involved in the implementation of innovative QE solutions in hundreds of environments across a wide array of industries. Most recently, Lee has been involved with bringing AI-augmented quality practices to software engineering teams. Lee speaks regularly at industry conferences including Innovate QA, StarEAST/WEST, DevOpsDays, Agile+DevOps East/West, QA or the Highway, and TestCon Europe.",
+      "linkedin": "https://www.linkedin.com/in/leebarnes/"
+    },
+    {
+      "id": "greg",
+      "name": "Gregory Goldshteyn",
+      "title": "Video Engineering & Quality Assurance Leader",
+      "company": "Fox Networks Group",
+      "image": "/speakers/2026/Greg-Goldshteyn-Headshot.png",
+      "keynote": false,
+      "topic": "Unlocking New Frontiers in Test Automation with AI and Open Source",
+      "bio": "​Visionary QA Leader with substantial experience in the IT industry. Throughout my career—from Salesforce and Sony to my current role at FOX—I have been obsessed with one question: How do we deliver flawless digital experiences at the speed of modern business? As part of Video Engineering and Quality Assurance, I lead the strategy for high-concurrency streaming environments, where a single second of latency is unacceptable. I specialize in bridging the gap between complex backend engineering and seamless user experiences. What I am passionate about: The AI Revolution in QA: Moving beyond \"automation\" into Agentic Testing and GenAI to create self-healing, low-maintenance test suites. Scaling Innovation: I thrive on influencing senior leadership to adopt disruptive technologies that reduce regression cycles from days to minutes. Community Leadership: As a mabl Ambassador and frequent speaker at conferences like Testµ, I enjoy sharing how \"Quality Ninjas\" can leverage low-code tools to outpace traditional SDLC bottlenecks. My mission is to evolve QA from a \"checkpoint\" into a strategic competitive advantage. As a leader in software development, quality test engineering, and operations, I juggle a wide range of responsibilities, from leading diverse technology product teams to mentoring the upcoming generation of software developers. My years of experience in quality test engineering have equipped me to focus on finding issues and fostering a quality-centric mindset among teams.Included in Bristol Who's Who exclusive international registry that honors and recognizes top professionals for excellence within their industries.",
+      "linkedin": "https://www.linkedin.com/in/gregorygoldshteyn/"
+    }
+  ],
   "sponsors": {
     "platinum": [],
-    "gold": [],
-    "silver": [],
+    "gold": [
+      {
+        "name": "practiTest",
+        "logo": "practiTestlogo.png",
+        "url": "https://www.practitest.com"
+      },
+      {
+        "name": "ContextQA",
+        "logo": "ContextQALogo.png",
+        "url": "https://contextqa.com"
+      },
+      {
+        "name": "The Stories and Wisdom Company",
+        "logo": "The Stories and Wisdom Company_Dark text.png",
+        "url": ""
+      }
+    ],
+    "silver": [
+      {
+        "name": "PlusQA",
+        "logo": "plusqa-logo-tech-company.jpg",
+        "url": "https://www.plusqa.com"
+      },
+      {
+        "name": "FlintLab",
+        "logo": "flintlab-logo-tech.jpg",
+        "url": "https://flintlab.io"
+      }
+    ],
     "bronze": [],
-    "partners": []
+    "partners": [
+      {
+        "name": "Wearedevelopers",
+        "logo": "WeAreDevelopers-Logo-Black (2).png",
+        "url": "https://www.wearedevelopers.com"
+      }
+    ]
   },
   "pricing": {
     "individual": {
@@ -380,7 +503,7 @@
   },
   "stats": {
     "attendees": 250,
-    "speakers": 25,
+    "speakers": 8,
     "sessions": 35,
     "workshops": 8
   }

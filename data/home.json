@@ -2,7 +2,7 @@
   "hero": {
     "eventDate": "2026-06-05T09:00:00",
     "eventDateDisplay": "June 4-5, 2026",
-    "location": "Seattle, WA",
+    "location": "Bellevue, WA",
     "title": "Welcome to Innovate QA Conference 2026",
     "subtitle": "Join industry leaders, pioneers, and visionaries sharing insights, best practices, and cutting-edge tools to build high-quality, safe, accessible, and reliable systems.",
     "buttons": {
@@ -213,6 +213,7 @@
         "company": "Amazon",
         "image": "/speakers/2025/sidharth-shukla.jpeg",
         "topic": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
+        "topicSummary": "Discover how to leverage AI-powered tools — Playwright MCP and LLM CLI — to automatically analyze failing tests, identify root causes, and generate actionable fix suggestions. This session walks through real-world debugging workflows where AI transforms cryptic test failures into clear, reproducible diagnoses, dramatically reducing mean time to resolution and freeing engineers to focus on building rather than firefighting.",
         "bio": "Speaker | Automation Expert | AI & LLMs in Testing | Mentor, Sidharth is a seasoned Software Development Engineer in Test (SDET) with over 14 years of experience in automation, specializing in Playwright, Selenium, Appium, API testing, and AI-driven test automation. As a thought leader in the testing community, he has trained 5,000+ professionals worldwide and actively mentors aspiring QA engineers. He is at the forefront of AI & LLMs in Software Testing, leading initiatives at Amazon and collaborating with teams to automate test case generation using LLMs. His contributions have significantly improved test automation efficiency, reducing manual effort by up to 50% in multiple projects. Sidharth is a frequent speaker at global conferences, including Automation Guild 2025, and has presented across the USA, Canada, and India. His insights on modern test automation, Playwright adoption, and AI-driven quality engineering have made a lasting impact in the industry. Beyond speaking engagements, Sidharth runs a highly followed LinkedIn newsletter (50K+ subscribers) and was recently featured on a Times Square billboard for his outstanding mentorship to the QA community. Connect with him to explore the future of test automation, AI in testing, and best practices in QA engineering!",
         "linkedin": "https://www.linkedin.com/in/sidharth-s-77b53145/"
       },  
@@ -284,6 +285,32 @@
       }
     ]
   },
+  "upcomingEvents": [
+    {
+      "id": "innovate-qa-2026",
+      "title": "Innovate QA Conference 2026",
+      "date": "2026-06-05",
+      "endDate": "2026-06-06",
+      "location": "Westin Bellevue, Bellevue, WA",
+      "description": "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
+      "image": "/social.webp",
+      "status": "upcoming",
+      "ticketUrl": "https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator",
+      "learnMoreUrl": "/events/2026"
+    },
+    {
+      "id": "battle-of-ai-test-tools",
+      "title": "Battle of AI Test Tools",
+      "date": "2026-04-03",
+      "endDate": null,
+      "location": "AWS Builder Loft, San Francisco, CA",
+      "description": "Experience the best AI test tools hands-on. A live, in-person event where teams use AI-powered testing tools against real products, real workflows, and real constraints.",
+      "image": "/battle.png",
+      "status": "upcoming",
+      "ticketUrl": "https://luma.com/scw9b88h",
+      "learnMoreUrl": "/battle-of-ai-test-tools"
+    }
+  ],
   "eventLD": {
     "name": "Innovate QA 2026",
     "description": "Join industry leaders and pioneers at Innovate QA Conference 2026 in Seattle. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",

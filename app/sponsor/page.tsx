@@ -262,11 +262,6 @@ export default function SponsorPage() {
                   Email Us
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link href="/contact">
-                  Contact Form
-                </Link>
-              </Button>
             </div>
             <p className="text-sm text-muted-foreground mt-6">
               Email: <a href="mailto:contact@innovateqaevents.com" className="text-primary hover:underline">contact@innovateqaevents.com</a>

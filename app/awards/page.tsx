@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Brain, Settings, Rocket, Wrench, Globe, Sprout, Sparkles, Trophy, Check, Star, type LucideIcon } from "lucide-react"
+import { Brain, Settings, Rocket, Wrench, Globe, Sprout, Sparkles, Trophy, Check, Star, Gavel, type LucideIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -71,6 +71,12 @@ export default function AwardsPage() {
                   rel="noopener noreferrer"
                 >
                   Submit a Nomination
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <a href={awardsData.judgeApplicationUrl} target="_blank" rel="noopener noreferrer">
+                  <Gavel className="mr-2 h-4 w-4" />
+                  Apply to Judge
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -188,6 +194,12 @@ export default function AwardsPage() {
                   rel="noopener noreferrer"
                 >
                   Submit a Nomination
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <a href={awardsData.judgeApplicationUrl} target="_blank" rel="noopener noreferrer">
+                  <Gavel className="mr-2 h-4 w-4" />
+                  Apply to Judge
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>

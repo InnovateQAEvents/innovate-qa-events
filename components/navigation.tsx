@@ -21,6 +21,7 @@ const pastEvents = [
 ]
 
 const communityLinks = [
+  { href: "/community", label: "Quality Leadership Community" },
   { href: "/volunteer", label: "Volunteer / Speak" },
   { href: "/awards", label: "Awards" },
   { href: "/authors", label: "Community Authors" },
@@ -60,7 +61,7 @@ export function Navigation() {
               Community
               <ChevronDown className="h-4 w-4" />
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-48">
+            <DropdownMenuContent align="end" className="w-64">
               {communityLinks.map((link) => (
                 <DropdownMenuItem key={link.href} asChild>
                   <Link href={link.href} className="w-full cursor-pointer">
@@ -91,14 +92,8 @@ export function Navigation() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          {/* <Button asChild variant="outline">
-            <Link href="/signup">Sign Up</Link>
-          </Button>
           <Button asChild>
-            <Link href="/signin">Sign In</Link>
-          </Button> */}
-          <Button asChild>
-            <Link href="/contact">Contact Us</Link>
+            <a href="mailto:contact@innovateqaevents.com">Contact Us</a>
           </Button>
         </div>
 
@@ -153,14 +148,8 @@ export function Navigation() {
 
 
               <div className="flex flex-col gap-2 mt-6 border-t border-border pt-4">
-                {/* <Button asChild variant="outline">
-                  <Link href="/signup" onClick={() => setOpen(false)}>Sign Up</Link>
-                </Button>
-                <Button asChild>
-                  <Link href="/signin" onClick={() => setOpen(false)}>Sign In</Link>
-                </Button> */}
                 <Button asChild className="w-full">
-                  <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
+                  <a href="mailto:contact@innovateqaevents.com" onClick={() => setOpen(false)}>Contact Us</a>
                 </Button>
               </div>
             </nav>

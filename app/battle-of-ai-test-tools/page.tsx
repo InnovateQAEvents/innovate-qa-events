@@ -42,6 +42,7 @@ const typeColors: Record<string, string> = {
 
 export default function BattleOfAITestToolsPage() {
   const roomMap = new Map(battleData.rooms.map((r) => [r.id, r.name]));
+  const speakerMap = new Map(battleData.speakers.map((s) => [s.id, s]));
   const scheduleEntries = Object.entries(battleData.schedule);
 
   return (
@@ -211,7 +212,15 @@ export default function BattleOfAITestToolsPage() {
                     </div>
 
                     <div className={`grid gap-4 ${slot.sessions.length > 1 ? "md:grid-cols-2 lg:grid-cols-3" : ""}`}>
-                      {slot.sessions.map((session, sessionIndex) => (
+                      {slot.sessions.map((session, sessionIndex) => {
+                        const speaker = "speakerId" in session && session.speakerId ? speakerMap.get(session.speakerId) : null
+                        const sessionSpeakers = "speakers" in session && (session as Record<string, unknown>).speakers
+                          ? ((session as Record<string, unknown>).speakers as string[])
+                              .map((id) => speakerMap.get(id))
+                              .filter(Boolean)
+                          : []
+
+                        return (
                         <Card key={sessionIndex} className="bg-card border-border/50">
                           <CardContent className="p-4">
                             <div className="flex flex-wrap items-center gap-2 mb-2">
@@ -224,12 +233,34 @@ export default function BattleOfAITestToolsPage() {
                               </span>
                             </div>
                             <h4 className="font-semibold text-foreground mb-1">{session.title}</h4>
+                            {speaker && (
+                              <p className="text-sm text-primary font-medium">
+                                {speaker.name} - {speaker.company}
+                              </p>
+                            )}
+                            {sessionSpeakers.length > 0 && (
+                              <div className="text-sm text-primary font-medium">
+                                {sessionSpeakers.length === 1 ? (
+                                  <p>{sessionSpeakers[0]?.name} - {sessionSpeakers[0]?.company}</p>
+                                ) : (
+                                  <div>
+                                    <p className="text-muted-foreground mb-1">Speakers:</p>
+                                    <ul className="space-y-0.5">
+                                      {sessionSpeakers.map((spk, idx) => (
+                                        <li key={idx}>{spk?.name} - {spk?.company}</li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                )}
+                              </div>
+                            )}
                             {session.description && (
                               <p className="text-sm text-muted-foreground mt-1">{session.description}</p>
                             )}
                           </CardContent>
                         </Card>
-                      ))}
+                        )
+                      })}
                     </div>
                   </div>
                 ))}
@@ -365,20 +396,21 @@ export default function BattleOfAITestToolsPage() {
             <div className="mb-16">
               <h2 className="text-4xl font-bold mb-8 text-center">Sponsors</h2>
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-primary mb-6 text-center">Premium Sponsors</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <h3 className="text-lg font-semibold text-primary mb-6 text-center">Gold Sponsors</h3>
+                <div className="flex flex-wrap justify-center gap-6">
                   {battleData.sponsors.gold.map((sponsor) => (
-                    <a key={sponsor.name} href={sponsor.url || "#"} target="_blank" rel="noopener noreferrer">
+                    <a key={sponsor.name} href={sponsor.url || "#"} target="_blank" rel="noopener noreferrer" className="w-full sm:w-[338px]">
                       <Card className="h-full hover:shadow-lg transition-shadow border-primary/20 bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-950/20 dark:to-amber-950/20">
-                        <CardContent className="p-6 flex flex-col items-center text-center">
-                          <div className="h-20 w-full flex items-center justify-center mb-4 relative">
+                        <CardContent className="px-6 pb-6 pt-0 flex flex-col items-center text-center">
+                          <div className="h-28 w-full flex items-center justify-center mb-4">
                             <Image
-                             src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}${sponsor.logo}`) : "/placeholder.svg"}
+                              src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
                               alt={sponsor.name}
-                              width={160}
-                              height={80}
-                              className="max-h-20 max-w-full object-contain"
-                              unoptimized={sponsor.logo?.startsWith("http")}
+                              width={200}
+                              height={112}
+                              className="h-28 object-contain"
+                              style={{ width: "auto" }}
+                              unoptimized={sponsor.logo?.startsWith("http") || sponsor.logo?.endsWith(".svg")}
                             />
                           </div>
                           <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>

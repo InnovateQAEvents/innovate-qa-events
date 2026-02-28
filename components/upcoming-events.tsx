@@ -7,33 +7,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { format } from "date-fns"
 import { BASE_PATH } from "@/lib/constants"
+import homeData from "@/data/home.json"
 
-const upcomingEvents = [
-  {
-    id: "innovate-qa-2026",
-    title: "Innovate QA Conference 2026",
-    date: "2026-06-05",
-    endDate: "2026-06-06",
-    location: "Westin Bellevue, Bellevue, WA",
-    description: "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
-    image: `${BASE_PATH}/social.webp`,
-    status: "upcoming",
-    ticketUrl: "https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator",
-    learnMoreUrl: "/events/2026"
-  },
-  {
-    id: "battle-of-ai-test-tools",
-    title: "Battle of AI Test Tools",
-    date: "2026-04-03",
-    endDate: null,
-    location: "AWS Builder Loft, San Francisco, CA",
-    description: "Experience the best AI test tools hands-on. A live, in-person event where teams use AI-powered testing tools against real products, real workflows, and real constraints.",
-    image: `${BASE_PATH}/battle.webp`,
-    status: "upcoming",
-    ticketUrl: "https://luma.com/scw9b88h",
-    learnMoreUrl: "/battle-of-ai-test-tools"
-  }
-]
+const upcomingEvents = homeData.upcomingEvents.map((event) => ({
+  ...event,
+  image: `${BASE_PATH}${event.image}`,
+}))
 
 export function UpcomingEvents() {
   return (
@@ -62,7 +41,7 @@ export function UpcomingEvents() {
 
             return (
               <Card key={event.id} className="group overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-500 py-0">
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-80 overflow-hidden">
                   <Image
                     src={event.image}
                     alt={event.title}

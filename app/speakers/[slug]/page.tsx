@@ -26,6 +26,7 @@ function normalizeSpeaker(s: any) {
     bio: (s.bio ?? "") as string,
     linkedin: (s.linkedin ?? s.social?.linkedin ?? "") as string,
     topic: (s.topic ?? "") as string,
+    topicSummary: (s.topicSummary ?? "") as string,
     keynote: (s.keynote ?? false) as boolean,
     workshop: (s.workshop ?? false) as boolean,
   }
@@ -206,8 +207,8 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
                   <Card>
                     <CardContent className="p-6">
                       <h3 className="text-xl font-semibold text-primary mb-3">{speaker.topic}</h3>
-                      {latestDescription && (
-                        <p className="text-muted-foreground mb-4">{latestDescription}</p>
+                      {(speaker.topicSummary || latestDescription) && (
+                        <p className="text-muted-foreground mb-4">{speaker.topicSummary || latestDescription}</p>
                       )}
                       <div className="flex flex-wrap gap-2">
                         {speaker.keynote && (
