@@ -120,9 +120,7 @@ export default function CommunityPage() {
               Subscribe to stay connected — get event updates, community highlights, and quality engineering insights
               delivered to your inbox.
             </p>
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
-              <MailerLiteEmbed />
-            </div>
+            <MailerLiteEmbed />
           </div>
         </div>
       </section>
