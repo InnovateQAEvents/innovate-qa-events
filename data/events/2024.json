@@ -58,14 +58,14 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "roy",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "Quagileology: Where Quality, Agile and Psychology Meet",
               "type": "talk",
               "room": "room-a",
               "speakerId": "blake-hill",
-              "description": "How to establish quality engineering practices in organizations without existing QA culture."
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -78,14 +78,14 @@
               "type": "talk",
               "room": "room-a",
               "speakerId": "sidharth",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "The Accessibility and Quality Disconnect",
               "type": "talk",
               "room": "room-b",
               "speakerId": "jennifer",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -98,14 +98,14 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "kim",
-              "description": "Implementing contract testing for microservices using Pact."
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "How to hire the best Quality Engineers",
               "type": "talk",
               "room": "room-a",
               "speakerId": "george",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -130,14 +130,14 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "aaron",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "testRigor workshop ",
               "type": "workshop",
               "room": "room-b",
               "speakerId": "artem",
-              "description": "Comprehensive testing strategies for iOS and Android applications."
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -150,7 +150,7 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "jeremiah",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -163,14 +163,14 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "vishnu",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "What Successful Test Automation is... And Why it's not Testing",
               "type": "talk",
               "room": "room-b",
               "speakerId": "lee",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },
@@ -183,14 +183,14 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "artem",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             },
             {
               "title": "Leadership Workshop",
               "type": "workshop",
               "room": "room-a",
               "speakerId": "anna",
-              "description": ""
+              "description": "Speaker at Innovate QA Conference 2024"
             }
           ]
         },

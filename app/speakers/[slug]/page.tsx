@@ -228,22 +228,20 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
               )}
 
               {/* Biography */}
-              {speaker.bio && (
-                <div className="mb-8">
-                  <h2 className="text-2xl font-bold mb-4">Biography</h2>
-                  <Card>
-                    <CardContent className="p-6">
-                      <div className="prose prose-neutral dark:prose-invert max-w-none">
-                        {speaker.bio.split("\n\n").map((paragraph: string, index: number) => (
-                          <p key={index} className="mb-4 last:mb-0 text-muted-foreground">
-                            {paragraph}
-                          </p>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              )}
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">Biography</h2>
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="prose prose-neutral dark:prose-invert max-w-none">
+                      {(speaker.bio || "Speaker at Innovate QA Events.").split("\n\n").map((paragraph: string, index: number) => (
+                        <p key={index} className="mb-4 last:mb-0 text-muted-foreground">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
 
               {/* Year-wise Contributions — temporarily hidden */}
               {/* {contributions.length > 0 && (
