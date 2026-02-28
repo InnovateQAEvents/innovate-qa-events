@@ -166,7 +166,7 @@
     "silver": [
       {
         "name": "PlusQA",
-        "logo": "plusqa-logo-tech-company.jpg",
+        "logo": "plusqa-logo-tech-company.png",
         "width": 320,
         "height": 128,
         "url": "https://www.plusqa.com"
@@ -293,7 +293,7 @@
       "endDate": "2026-06-06",
       "location": "Westin Bellevue, Bellevue, WA",
       "description": "Join industry leaders and pioneers at Innovate QA Conference 2026. Share insights, best practices, and cutting-edge tools for quality engineering excellence.",
-      "image": "/social.webp",
+      "image": "/conference.png",
       "status": "upcoming",
       "ticketUrl": "https://www.eventbrite.com/e/innovate-qa-2026-software-quality-annual-conference-tickets-1979920880652?aff=oddtdtcreator",
       "learnMoreUrl": "/events/2026"
