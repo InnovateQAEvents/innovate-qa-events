@@ -322,25 +322,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-20" style={{ backgroundColor: "rgb(75, 0, 130)" }}>
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Visit Us</h2>
-          <p className="text-purple-200 mb-8 max-w-2xl mx-auto">
-            Our events are held at various locations in the Dallas-Fort Worth area. Contact us for specific venue
-            information.
-          </p>
-          <Button size="lg" className="text-white" style={{ backgroundColor: "rgb(138, 43, 226)" }} asChild>
-            <a
-              href={`https://maps.google.com/?q=${encodeURIComponent(`${contactData.contactInfo.address.street}, ${contactData.contactInfo.address.city}, ${contactData.contactInfo.address.state}`)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <MapPin className="mr-2 h-4 w-4" /> Get Directions
-            </a>
-          </Button>
-        </div>
-      </section>
     </>
   )
 }
