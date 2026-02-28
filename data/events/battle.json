@@ -223,13 +223,13 @@
     "gold": [
       {
         "name": "mabl",
-        "logo": "logo-mabl-horizontal-light.svg",
+        "logo": "logo-mabl-horizontal-light.png",
         "url": "https://www.mabl.com",
         "tagline": "AI Test Automation that Works for You"
       },
       {
          "name": "ContextQA",
-        "logo": "https://img1.wsimg.com/isteam/ip/bb935004-06a8-408b-b5e5-10ba769a2415/cqa-logo-with-black-text.svg",
+        "logo": "Studio-Project.png",
         "url": "https://contextqa.com",
         "tagline": "Agentic AI for Complete Test Coverage"
       }
