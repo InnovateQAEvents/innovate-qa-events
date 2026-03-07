@@ -74,10 +74,10 @@ export default function AwardsPage() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href={awardsData.judgeApplicationUrl} target="_blank" rel="noopener noreferrer">
+                <Link href="/volunteer">
                   <Gavel className="mr-2 h-4 w-4" />
                   Apply to Judge
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link href="#categories">View Categories</Link>

@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button"
 import { CountdownTimer } from "@/components/countdown-timer"
-import { CalendarDays, MapPin, Users, Mail } from "lucide-react"
+import { CalendarDays, MapPin, Users } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { BASE_PATH } from "@/lib/constants"
 import homeData from "@/data/home.json"
+import { SubscribeModal } from "@/components/subscribe-modal"
 
 const iconMap = {
   Users,
@@ -51,12 +52,7 @@ export function HeroSection() {
               <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
                 <Link href={homeData.hero.buttons.speaker.url}>{homeData.hero.buttons.speaker.text}</Link>
               </Button>
-              <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
-                <Link href={(homeData.hero.buttons as any).subscribe.url}>
-                  <Mail className="mr-2 h-4 w-4" />
-                  {(homeData.hero.buttons as any).subscribe.text}
-                </Link>
-              </Button>
+              <SubscribeModal label={(homeData.hero.buttons as any).subscribe.text} />
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm text-muted-foreground">

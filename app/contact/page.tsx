@@ -1,15 +1,4 @@
-"use client"
-
-import type React from "react"
-
-import { useState } from "react"
-import { Mail, Phone, MapPin, Instagram, Linkedin, Youtube, Send } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Mail, Phone, MapPin, Instagram, Linkedin, Youtube } from "lucide-react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import contactData from "@/data/pages/contact.json"
 import siteConfig from "@/data/site-config.json"
@@ -29,25 +18,6 @@ const TikTokIcon = ({ className }: { className?: string }) => (
 )
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    inquiryType: "",
-    message: "",
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    setIsSubmitting(false)
-    setSubmitted(true)
-  }
-
   return (
     <>
       {/* Hero Section */}
@@ -63,111 +33,10 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Form & Info */}
+      {/* Contact Info */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            {/* Contact Form */}
-            <Card className="border-2 border-border">
-              <CardHeader>
-                <CardTitle className="text-2xl">Send Us a Message</CardTitle>
-              </CardHeader>
-              <CardContent>
-                {submitted ? (
-                  <div className="text-center py-12">
-                    <div
-                      className="h-16 w-16 rounded-full flex items-center justify-center mx-auto mb-4"
-                      style={{ backgroundColor: "rgba(138, 43, 226, 0.1)" }}
-                    >
-                      <Send className="h-8 w-8" style={{ color: "rgb(138, 43, 226)" }} />
-                    </div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">Message Sent!</h3>
-                    <p className="text-muted-foreground mb-6">
-                      Thank you for reaching out. We'll get back to you within 24-48 hours.
-                    </p>
-                    <Button onClick={() => setSubmitted(false)} variant="outline">
-                      Send Another Message
-                    </Button>
-                  </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="name">Full Name *</Label>
-                        <Input
-                          id="name"
-                          required
-                          value={formData.name}
-                          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="John Doe"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="email">Email *</Label>
-                        <Input
-                          id="email"
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder="john@example.com"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid sm:grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Label htmlFor="company">Company</Label>
-                        <Input
-                          id="company"
-                          value={formData.company}
-                          onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                          placeholder="Acme Corp"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="inquiry">Inquiry Type *</Label>
-                        <Select
-                          value={formData.inquiryType}
-                          onValueChange={(value) => setFormData({ ...formData, inquiryType: value })}
-                        >
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select type" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {contactData.inquiryTypes.map((type) => (
-                              <SelectItem key={type} value={type.toLowerCase().replace(/\s+/g, "-")}>
-                                {type}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="message">Message *</Label>
-                      <Textarea
-                        id="message"
-                        required
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        placeholder="Tell us how we can help you..."
-                        rows={5}
-                      />
-                    </div>
-                    <Button
-                      type="submit"
-                      className="w-full text-white"
-                      style={{ backgroundColor: "rgb(138, 43, 226)" }}
-                      disabled={isSubmitting}
-                    >
-                      {isSubmitting ? "Sending..." : "Send Message"}
-                    </Button>
-                  </form>
-                )}
-              </CardContent>
-            </Card>
-
-            {/* Contact Info */}
+          <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h2>

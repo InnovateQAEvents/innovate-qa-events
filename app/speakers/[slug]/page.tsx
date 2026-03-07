@@ -146,13 +146,17 @@ export default async function SpeakerPage({ params }: SpeakerPageProps) {
       ? contributions[contributions.length - 1].sessions[0]?.description
       : ""
 
+  const years = contributions.map((c) => c.year)
+  const maxYear = years.length > 0 ? Math.max(...years) : 2026
+  const backHref = maxYear < 2026 ? `/events/${maxYear}#speakers` : "/#speakers"
+
   return (
     <div className="min-h-screen bg-background">
       {/* Back nav */}
       <section className="py-12 border-b border-border">
         <div className="container mx-auto px-4">
           <Button variant="ghost" asChild className="mb-6">
-            <Link href="/#speakers">
+            <Link href={backHref}>
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Speakers
             </Link>
