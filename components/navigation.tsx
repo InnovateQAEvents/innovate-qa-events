@@ -93,7 +93,7 @@ export function Navigation() {
 
         <div className="hidden lg:flex items-center gap-3">
           <Button asChild>
-            <a href="mailto:contact@innovateqaevents.com">Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </Button>
         </div>
 
@@ -149,7 +149,7 @@ export function Navigation() {
 
               <div className="flex flex-col gap-2 mt-6 border-t border-border pt-4">
                 <Button asChild className="w-full">
-                  <a href="mailto:contact@innovateqaevents.com" onClick={() => setOpen(false)}>Contact Us</a>
+                  <a href="/contact" onClick={() => setOpen(false)}>Contact Us</a>
                 </Button>
               </div>
             </nav>
