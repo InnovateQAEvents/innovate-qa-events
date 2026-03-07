@@ -66,7 +66,7 @@ export default function AwardsPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
                 <a
-                  href={`mailto:${awardsData.contactEmail}?subject=Innovate QA Award Nomination`}
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSel6C8p-jQymD9E5Rmnk0DaSZyeSllrsAk6vEF_gim_p0ERGQ/viewform?usp=header"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
