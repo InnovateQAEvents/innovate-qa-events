@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# subscriber database
+data/subscribers.sqlite
+
 # next.js
 /.next/
 /out/
