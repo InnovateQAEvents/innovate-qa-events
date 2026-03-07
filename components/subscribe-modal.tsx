@@ -4,10 +4,11 @@ import { Mail, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 export function SubscribeModal({ label }: { label: string }) {
   const [open, setOpen] = useState(false)
+  const nameRef = useRef<HTMLInputElement>(null)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
@@ -20,6 +21,10 @@ export function SubscribeModal({ label }: { label: string }) {
     document.addEventListener('keydown', handler)
     return () => document.removeEventListener('keydown', handler)
   }, [])
+
+  useEffect(() => {
+    if (open) nameRef.current?.focus()
+  }, [open])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -104,9 +109,11 @@ export function SubscribeModal({ label }: { label: string }) {
                 <Label htmlFor="sub-name">Name</Label>
                 <Input
                   id="sub-name"
+                  ref={nameRef}
                   placeholder="Jane Smith"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  tabIndex={1}
                   required
                 />
               </div>
@@ -118,7 +125,7 @@ export function SubscribeModal({ label }: { label: string }) {
                   placeholder="jane@example.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  required
+                  tabIndex={2}
                 />
               </div>
               {status === 'error' && (
@@ -129,6 +136,7 @@ export function SubscribeModal({ label }: { label: string }) {
                 className="w-full text-white"
                 style={{ backgroundColor: 'rgb(138, 43, 226)' }}
                 disabled={status === 'submitting'}
+                tabIndex={3}
               >
                 {status === 'submitting' ? 'Subscribing...' : 'Subscribe'}
               </Button>
