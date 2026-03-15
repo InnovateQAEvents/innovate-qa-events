@@ -390,7 +390,18 @@ export default function BattleOfAITestToolsPage() {
               </Card>
             </div>
           </div>
-
+      {/* Speakers */}
+      <section id="speakers" className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-foreground mb-8">Speakers</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {battleData.speakers.map((speaker) => (
+              <SpeakerCard key={speaker.id} speaker={speaker} />
+            ))}
+          </div>
+        </div>
+      </section>
+          
           {/* Sponsors */}
           {battleData.sponsors.gold && battleData.sponsors.gold.length > 0 && (
             <div className="mb-16">
