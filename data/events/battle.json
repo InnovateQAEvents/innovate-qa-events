@@ -274,8 +274,8 @@
       {
          "name": "openai",
         "logo": "openai.png",
-        "url": "https://openai.com/",
-        "tagline": ""
+        "url": "https://openai.com/codex/",
+        "tagline": "OpenAI Codex - OpenAI’s coding agent that helps teams build and ship faster."
       }
     ]  },
   "stats": {
