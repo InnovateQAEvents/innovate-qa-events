@@ -226,6 +226,17 @@
       "topic": "AI in the QA Lifecycle - How AI tools can streamline testing processes and introduce autonomous decision-making capabilities",
       "bio": "Senior Quality Engineering Leader with 10+ years of experience scaling quality for large, complex systems. I lead global quality for 500+ engineers across the org, driving pipeline excellence, automation, performance, and launch readiness. Speaker, mentor, and reviewer in the QA community, with a strong focus on AI-driven testing, scalable quality strategies, and engineering excellence.",
       "linkedin": "https://www.linkedin.com/in/priyamvada-govil/"
+    },
+     {
+      "id": "deep",
+      "name": "Deep Barot",
+      "title": "CEO",
+      "company": "ContextQA",
+      "image": "/speakers/2026/deep.jpg",
+      "keynote": false,
+      "topic": "Can AI Actually Test Software? Lessons from Real-World Experiments",
+      "bio": "Deep Barot is the founder and CEO of ContextQA, pioneering the next generation of software testing through agentic AI and context-aware automation. He’s built a groundbreaking platform powered by 30+ specialized AI agents that autonomously generate, execute, heal, and optimize tests across web, mobile, Salesforce, and API environments. Deep’s vision centers on creating truly intelligent testing systems that understand application context rather than simply executing scripts. This approach has attracted enterprise clients including Airlines, BFSI, and Consumer Tech, who rely on ContextQA’s autonomous agents to deliver unprecedented speed and reliability. Scaling a venture-backed company with a distributed large engineering team, Deep is reimagining how software quality is achieved through multi-agent AI systems that collaborate to solve complex testing challenges—fundamentally transforming how enterprises approach quality assurance in an era of rapid development velocity.",
+      "linkedin": "https://www.linkedin.com/in/deep-barot-98b7bb33/"
     }
      
   ],
