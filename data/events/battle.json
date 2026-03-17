@@ -27,7 +27,7 @@
       "slots": [
         {
           "time": "8:30 AM",
-          "duration": 50,
+          "duration": 30,
           "sessions": [
             {
               "title": "Registration & Breakfast",
@@ -38,8 +38,8 @@
           ]
         },
         {
-          "time": "9:20 AM",
-          "duration": 10,
+          "time": "9:00 AM",
+          "duration": 30,
           "sessions": [
             {
               "title": "Welcome",
@@ -58,14 +58,14 @@
               "title": "",
               "type": "keynote",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "rashi",
               "description": ""
             }
           ]
         },
         {
           "time": "10:00 AM",
-          "duration": 105,
+          "duration": 120,
           "sessions": [
             {
               "title": "Testing Starts",
@@ -78,7 +78,7 @@
               "title": "Session 1",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "deep",
               "description": ""
             },
             {
@@ -98,7 +98,7 @@
               "title": "Session #2",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "vasusen",
               "description": ""
             },
             {
@@ -137,13 +137,13 @@
         },
         {
           "time": "1:00 PM",
-          "duration": 45,
+          "duration": 15,
           "sessions": [
            {
               "title": "Session #3",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "manju",
               "description": ""
             },
             {
@@ -156,31 +156,31 @@
           ]
         },
         {
-          "time": "1:45 PM",
-          "duration": 15,
+          "time": "1:15 PM",
+          "duration": 45,
           "sessions": [
            {
               "title": "Updates from judges",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "darrel",
               "description": ""
             }
           ]
         },
         {
-          "time": "2:10 PM",
+          "time": "2:20 PM",
           "duration": 45,
           "sessions": [
            {
               "title": "Session #4",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "",
+              "speakerId": "Priya",
               "description": ""
             },
             {
-              "title": "Discussion #4",
+              "title": "Discussion #3",
               "type": "talk",
               "room": "discussion-room",
               "speakerId": "",
