@@ -284,6 +284,88 @@
     }
      
   ],
+  "judges": [
+    {
+      "id": "walter-zimerman",
+      "name": "Walter Zimerman",
+      "title": "Sr. Software Developer",
+      "company": "Amazon",
+      "image": "/speakers/2025/walter-zimerman.png",
+      "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
+    },
+    {
+      "id": "tejash-patel",
+      "name": "Tejash Patel",
+      "title": "Head of Quality Engineering",
+      "company": "Amazon",
+      "image": "/speakers/2026/tejash.jpg",
+      "linkedin": "https://www.linkedin.com/in/tejashcpatel/"
+    },
+    {
+      "id": "shripad-deshpande",
+      "name": "Shripad Deshpande",
+      "title": "Sr. QA Engineering Manager",
+      "company": "Meta",
+      "image": "/speakers/2026/shripad.jpg",
+      "linkedin": "https://www.linkedin.com/in/itsshripad/"
+    },
+    {
+      "id": "angie-howard",
+      "name": "Angie Howard",
+      "title": "Senior Manager",
+      "company": "Salesforce",
+      "image": "/speakers/2026/angie.jpg",
+      "linkedin": "https://www.linkedin.com/in/angierhoward/"
+    },
+    {
+      "id": "yevheniia-sakvets",
+      "name": "Yevheniia Sakvets",
+      "title": "QA Manager",
+      "company": "Spin",
+      "image": "/speakers/2026/yevheniia.jpg",
+      "linkedin": "https://www.linkedin.com/in/sakovets/"
+    },
+    {
+      "id": "alvin-sumter",
+      "name": "Alvin Sumter",
+      "title": "Global Director of Quality Engineering",
+      "company": "IHG Hotels & Resorts",
+      "image": "/speakers/2026/alvin.jpg",
+      "linkedin": "https://www.linkedin.com/in/alvinsumter/"
+    },
+    {
+      "id": "deepali-dixit",
+      "name": "Deepali Dixit",
+      "title": "Engineering Leader - Quality & Program Management",
+      "company": "Global Bridge Venture",
+      "image": "/speakers/2026/deepali.jpg",
+      "linkedin": "https://www.linkedin.com/in/deepalidixit/"
+    },
+    {
+      "id": "nour-labadi",
+      "name": "Nour Labadi",
+      "title": "QAE",
+      "company": "Amazon",
+      "image": "/speakers/2026/nour.jpg",
+      "linkedin": "https://www.linkedin.com/in/nour-l-421751a9/"
+    },
+    {
+      "id": "manoj-mohan",
+      "name": "Manoj Mohan",
+      "title": "Sr. Director of Engineering",
+      "company": "Matrix",
+      "image": "/speakers/2026/manoj.jpg",
+      "linkedin": "https://www.linkedin.com/in/manojmohan/"
+    },
+    {
+      "id": "nishadhi-nikalandawatte",
+      "name": "Nishadhi Nikalandawatte",
+      "title": "Director",
+      "company": "Slalom",
+      "image": "/speakers/2026/nishadhi.jpg",
+      "linkedin": "https://www.linkedin.com/in/nishadhinikalandawatte/"
+    }
+  ],
   "sponsors": {
     "gold": [
       {
