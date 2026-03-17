@@ -19,8 +19,8 @@
   "rooms": [
     { "id": "room-a", "name": "Room A - Testing Arena", "capacity": 75 },
     { "id": "room-b", "name": "Room B - Presentation Track", "capacity": 75 },
-    { "id": "discussion-room-table1", "name": "Discussion Room", "capacity": 10 },
-    { "id": "discussion-room-table2", "name": "Discussion Room", "capacity": 10 }
+    { "id": "discussion-room-table1", "name": "Discussion Room - Table 1", "capacity": 10 },
+    { "id": "discussion-room-table2", "name": "Discussion Room - Table 2", "capacity": 10 }
   ],
   "schedule": { 
     "2026-04-03": {
@@ -157,7 +157,7 @@
           "duration": 15,
           "sessions": [
            {
-              "title": "Session #3",
+              "title": "Quality Engineering in the AI Era: From Test Execution to Trust Building",
               "type": "talk",
               "room": "room-b",
               "speakerId": "manju",
