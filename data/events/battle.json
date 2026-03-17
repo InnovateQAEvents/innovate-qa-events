@@ -75,7 +75,7 @@
               "description": ""
             },
             {
-              "title": "Session 1",
+              "title": "Can AI Actually Test Software? Lessons from Real-World Experiments",
               "type": "talk",
               "room": "room-b",
               "speakerId": "deep",
@@ -95,7 +95,7 @@
           "duration": 40,
           "sessions": [
             {
-              "title": "Session #2",
+              "title": "Testing Software That Changes Its Mind: QA in a Non-Deterministic World",
               "type": "talk",
               "room": "room-b",
               "speakerId": "vasusen",
@@ -160,7 +160,7 @@
           "duration": 45,
           "sessions": [
            {
-              "title": "Updates from judges",
+              "title": "",
               "type": "talk",
               "room": "room-b",
               "speakerId": "darrel",
@@ -173,7 +173,7 @@
           "duration": 45,
           "sessions": [
            {
-              "title": "Session #4",
+              "title": "AI in the QA Lifecycle - How AI tools can streamline testing processes and introduce autonomous decision-making capabilities",
               "type": "talk",
               "room": "room-b",
               "speakerId": "Priya",
