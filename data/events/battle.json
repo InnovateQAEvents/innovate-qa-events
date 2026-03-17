@@ -19,7 +19,8 @@
   "rooms": [
     { "id": "room-a", "name": "Room A - Testing Arena", "capacity": 75 },
     { "id": "room-b", "name": "Room B - Presentation Track", "capacity": 75 },
-    { "id": "discussion-room", "name": "Discussion Room", "capacity": 20 }
+    { "id": "discussion-room-table1", "name": "Discussion Room", "capacity": 10 },
+    { "id": "discussion-room-table2", "name": "Discussion Room", "capacity": 10 }
   ],
   "schedule": { 
     "2026-04-03": {
@@ -82,9 +83,17 @@
               "description": ""
             },
             {
-              "title": "Discussion #1",
+              "title": "Observability + AI Testing: The Missing Link",
               "type": "discussion",
-              "room": "discussion-room",
+              "room": "discussion-room-table1",
+              "speakerId": "",
+              "description": ""
+            }
+            ,
+            {
+              "title": "The Future QA Engineer in an AI World",
+              "type": "discussion",
+              "room": "discussion-room-table2",
               "speakerId": "",
               "description": ""
             }
@@ -102,9 +111,17 @@
               "description": ""
             },
             {
-              "title": "Discussion #2",
-              "type": "talk",
-              "room": "discussion-room",
+              "title": "Can AI Truly Understand Business Logic?",
+              "type": "discussion",
+              "room": "discussion-room-table1",
+              "speakerId": "",
+              "description": ""
+            }
+            ,
+            {
+              "title": "Test Maintenance vs Test Creation in the AI Era",
+              "type": "discussion",
+              "room": "discussion-room-table2",
               "speakerId": "",
               "description": ""
             }
@@ -147,9 +164,17 @@
               "description": ""
             },
             {
-              "title": "Discussion #3",
-              "type": "talk",
-              "room": "discussion-room",
+              "title": "AI Test Automation: Where Does It Actually Deliver ROI?",
+              "type": "discussion",
+              "room": "discussion-room-table1",
+              "speakerId": "",
+              "description": ""
+            }
+            ,
+            {
+              "title": "Human vs AI: What Should Engineers Still Own?",
+              "type": "discussion",
+              "room": "discussion-room-table2",
               "speakerId": "",
               "description": ""
             }
@@ -180,7 +205,7 @@
               "description": ""
             },
             {
-              "title": "Discussion #3",
+              "title": "Networking",
               "type": "talk",
               "room": "discussion-room",
               "speakerId": "",
