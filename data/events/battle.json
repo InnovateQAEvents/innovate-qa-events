@@ -304,7 +304,7 @@
       "image": "/speakers/2026/vasusen.jpg",
       "keynote": false,
       "topic": "Testing Software That Changes Its Mind: QA in a Non-Deterministic World",
-      "bio": "",
+      "bio": "Vasusen Patil is the co-founder and CEO of Donobu, an AI-powered QA platform. It helps QA teams author, run, and maintain end-to-end Playwright tests, so they can focus on test strategy and coverage instead of fighting flaky scripts. Previously, as Senior Director of Engineering at Coursera, he led the consumer engineering org through 10x revenue growth to nearly $700M and an IPO. As an early engineer at WePay (YC09), he built the payments APIs that powered platforms like GoFundMe. He has spent his career making sure the products people depend on actually work.",
       "linkedin": "https://www.linkedin.com/in/vasusen/"
     }
      
