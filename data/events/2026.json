@@ -436,7 +436,18 @@
       "topic": "From Prompt to Patch: Agent‑Driven Playwright Testing with MCP, CLI, and AI Copilot.",
       "bio": "Deepak Kamboj is a Senior Software Engineer at Microsoft, specializing in AI strategy, scalable AI solutions, and agentic workflows. With a career spanning 24+ years—including eight years dedicated to architectural roles—Deepak bridges the gap between complex AI research and production grade engineering. At Microsoft, he leads critical initiatives focused on AI agent orchestration and test automation infrastructure. He notably developed a massive Playwright test ecosystem that manages over 14,000 tests for more than 50 teams, driving enterprise-level reliability through automated evaluation. His deep technical expertise encompasses AI Agents & Multi-Agent Systems, Generative Testing, and DevOps & Observability. Deepak is a frequent speaker and trusted advisor who has presented on AI topics at institutions like the University of Washington. He is currently authoring LangChain In Action with BPB Publications, providing practitioners with real-world guides for building and evaluating agentic ecosystems.",
       "linkedin": "https://www.linkedin.com/in/kambojdeepak/"
-    }
+    },  
+      {
+        "id": "igor",
+        "name": "Igor Dorovskikh",
+        "title": "Founder",
+        "company": "EnGenious, Inc",
+        "image": "/speakers/2026/igor.jpg",
+        "keynote": false,
+        "topic": "Breaking GPT & Claude: AI Bug Bounty Workshop",
+        "bio": "Igor Dorovskikh is an AI testing expert, entrepreneur, and technology leader with over 15 years of experience building high-impact engineering and quality organizations. He is the CEO of Engenious.io and the North America division of Marathon Labs, where he focuses on advancing modern testing practices and helping companies improve the reliability of complex software systems. Igor previously led and built testing and automation teams at companies such as Apple, Grammarly, and Tinder, working on large-scale consumer and AI-driven products used by millions of users worldwide. He is also the founder of Engenious University, where he trains engineers in next-generation skills such as AI testing, LLM evaluation, and automation strategy. Igor is a frequent international conference speaker and educator, known for translating complex AI quality concepts into practical, hands-on techniques. At the Innovate QA AI Testing Workshop, he will guide students through real-world methods for uncovering hallucinations, bias, and security weaknesses in AI systems.",
+        "linkedin": "https://www.linkedin.com/in/igordorovskikh/"
+      }
   ],
   "sponsors": {
     "platinum": [],
