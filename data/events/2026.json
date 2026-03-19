@@ -414,6 +414,28 @@
       "topic": "Unlocking New Frontiers in Test Automation with AI and Open Source",
       "bio": "​Visionary QA Leader with substantial experience in the IT industry. Throughout my career—from Salesforce and Sony to my current role at FOX—I have been obsessed with one question: How do we deliver flawless digital experiences at the speed of modern business? As part of Video Engineering and Quality Assurance, I lead the strategy for high-concurrency streaming environments, where a single second of latency is unacceptable. I specialize in bridging the gap between complex backend engineering and seamless user experiences. What I am passionate about: The AI Revolution in QA: Moving beyond \"automation\" into Agentic Testing and GenAI to create self-healing, low-maintenance test suites. Scaling Innovation: I thrive on influencing senior leadership to adopt disruptive technologies that reduce regression cycles from days to minutes. Community Leadership: As a mabl Ambassador and frequent speaker at conferences like Testµ, I enjoy sharing how \"Quality Ninjas\" can leverage low-code tools to outpace traditional SDLC bottlenecks. My mission is to evolve QA from a \"checkpoint\" into a strategic competitive advantage. As a leader in software development, quality test engineering, and operations, I juggle a wide range of responsibilities, from leading diverse technology product teams to mentoring the upcoming generation of software developers. My years of experience in quality test engineering have equipped me to focus on finding issues and fostering a quality-centric mindset among teams.Included in Bristol Who's Who exclusive international registry that honors and recognizes top professionals for excellence within their industries.",
       "linkedin": "https://www.linkedin.com/in/gregorygoldshteyn/"
+    },
+    {
+      "id": "goldie",
+      "name": "Goldie Chan",
+      "title": "Founder",
+      "company": "Warm Robots",
+      "image": "/speakers/2026/Goldie.jpg",
+      "keynote": false,
+      "topic": "Personal Branding for Job Searchers",
+      "bio": "​Goldie Chan, dubbed the “Oprah of LinkedIn” by Huffington Post, is one of the original LinkedIn Top Voices, author of bestselling Personal Branding for Introverts (Basic Venture, 2025) and the founder of Warm Robots, an award-winning social strategy agency. She was named a Woman To Watch In Leadership for 2026 and has been featured in the New York Times, Entrepreneur, NASDAQ, Fast Company and more where she is valued for her fresh brand insights in an ever-changing marketplace. As a Forbes alum, cancer survivor and global keynote speaker with nearly half a million followers across platforms, she helps both Fortune 500s and individual leaders build lasting community and presence through brand storytelling. Known for her warmth and strategy, Goldie’s novel work spans major business campaigns, Archie comics, and cozy branding. She lives in sunny Los Angeles with her very happy plants.",
+      "linkedin": "https://www.linkedin.com/in/goldie/"
+    },
+    {
+      "id": "deepak",
+      "name": "Deepak Kamboj",
+      "title": "Senior Software Engineer",
+      "company": "Microsoft",
+      "image": "/speakers/2026/deepak.png",
+      "keynote": false,
+      "topic": "From Prompt to Patch: Agent‑Driven Playwright Testing with MCP, CLI, and AI Copilot.",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/kambojdeepak/"
     }
   ],
   "sponsors": {
