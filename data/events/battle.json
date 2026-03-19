@@ -52,7 +52,7 @@
           ]
         },
         {
-          "time": "9:30 AM",
+          "time": "9:15 AM",
           "duration": 30,
           "sessions": [
             {
@@ -65,12 +65,25 @@
           ]
         },
         {
+          "time": "9:45 AM",
+          "duration": 30,
+          "sessions": [
+            {
+              "title": "Quality Engineering in the AI Era: From Test Execution to Trust Building",
+              "type": "keynote",
+              "room": "room-b",
+              "speakerId": "manju",
+              "description": ""
+            }
+          ]
+        },
+        {
           "time": "10:00 AM",
           "duration": 120,
           "sessions": [
             {
               "title": "Testing Starts",
-              "type": "talk",
+              "type": "testing",
               "room": "room-a",
               "speakerId": "",
               "description": ""
@@ -83,19 +96,19 @@
               "description": ""
             },
             {
-              "title": "Observability + AI Testing: The Missing Link",
+              "title": "Are We Testing AI… or Is AI Testing Us?",
               "type": "discussion",
               "room": "discussion-room-table1",
-              "speakerId": "",
-              "description": ""
+              "speakerId": "darrel",
+              "description": "As AI takes a larger role in generating and executing tests, the traditional boundaries of quality ownership are shifting. This discussion explores trust, accountability, and what it means to validate systems when the logic behind tests is no longer fully human-written or understood."
             }
             ,
             {
-              "title": "The Future QA Engineer in an AI World",
+              "title": "Flaky Tests vs Flaky AI: Which Problem Is Worse?",
               "type": "discussion",
               "room": "discussion-room-table2",
               "speakerId": "",
-              "description": ""
+              "description": "Flaky tests have always been a pain—but AI introduces a new kind of unpredictability. Are we actually reducing instability, or just trading one form of flakiness for another? Let’s explore debugging, reliability, and how teams can build confidence in AI-driven testing."
             }
           ]
         },
@@ -111,19 +124,19 @@
               "description": ""
             },
             {
-              "title": "Can AI Truly Understand Business Logic?",
+              "title": "What Should Never Be Automated by AI?",
               "type": "discussion",
               "room": "discussion-room-table1",
-              "speakerId": "",
-              "description": ""
+              "speakerId": "deep",
+              "description": "AI can generate tests at scale—but should it? This conversation focuses on the boundaries of automation, identifying critical areas where human judgment, domain knowledge, and intuition still play an essential role in ensuring quality."
             }
             ,
             {
-              "title": "Test Maintenance vs Test Creation in the AI Era",
+              "title": "Is Your Test Strategy Ready for AI… or Just Your Tools?",
               "type": "discussion",
               "room": "discussion-room-table2",
               "speakerId": "",
-              "description": ""
+              "description": "Many teams are adopting AI tools without evolving their overall quality strategy. This discussion challenges whether true transformation requires deeper changes in architecture, test design, and team mindset—not just new technology."
             }
           ]
         },
@@ -157,44 +170,51 @@
           "duration": 15,
           "sessions": [
            {
-              "title": "Quality Engineering in the AI Era: From Test Execution to Trust Building",
+              "title": "Updates from Judges",
               "type": "talk",
               "room": "room-b",
-              "speakerId": "manju",
-              "description": ""
-            },
-            {
-              "title": "AI Test Automation: Where Does It Actually Deliver ROI?",
-              "type": "discussion",
-              "room": "discussion-room-table1",
-              "speakerId": "",
-              "description": ""
-            }
-            ,
-            {
-              "title": "Human vs AI: What Should Engineers Still Own?",
-              "type": "discussion",
-              "room": "discussion-room-table2",
               "speakerId": "",
               "description": ""
             }
           ]
         },
         {
-          "time": "1:15 PM",
-          "duration": 45,
+          "time": "1:20 PM",
+          "duration": 15,
           "sessions": [
-           {
+          {
+              "title": "Testing Continues",
+              "type": "testing",
+              "room": "room-a",
+              "speakerId": "",
+              "description": ""
+            },
+            {
               "title": "",
               "type": "talk",
               "room": "room-b",
               "speakerId": "darrel",
               "description": ""
+            },
+            {
+              "title": "Will AI Reduce QA Headcount… or Make QA More Critical Than Ever?",
+              "type": "discussion",
+              "room": "discussion-room-table1",
+              "speakerId": "",
+              "description": "AI is reshaping the role of quality engineers. Will it lead to smaller teams, or elevate QA into a more strategic function? Let’s discuss how roles, skills, and expectations are evolving—and what that means for the future of the profession."
+            }
+            ,
+            {
+              "title": "How Do You Prove ROI for AI in Testing?",
+              "type": "discussion",
+              "room": "discussion-room-table2",
+              "speakerId": "vasusen",
+              "description": "Adopting AI tools is easy—proving their value is not. This discussion focuses on metrics, measurement, and real-world outcomes. What does success actually look like, and how can teams justify continued investment in AI-driven quality initiatives?"
             }
           ]
         },
         {
-          "time": "2:20 PM",
+          "time": "2:00 PM",
           "duration": 45,
           "sessions": [
            {
