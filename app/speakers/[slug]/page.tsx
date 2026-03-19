@@ -97,6 +97,14 @@ function getAllSpeakers(): any[] {
       }
     }
   }
+   for (const { data } of eventSources) {
+    for (const s of (data.judges as any[]) ?? []) {
+      if (s?.id && !seen.has(s.id)) {
+        seen.add(s.id)
+        all.push(s)
+      }
+    }
+  }
   for (const s of ((homeData as any).speakers?.featured as any[]) ?? []) {
     if (s?.id && !seen.has(s.id)) {
       seen.add(s.id)
