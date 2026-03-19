@@ -434,7 +434,7 @@
       "image": "/speakers/2026/deepak.png",
       "keynote": false,
       "topic": "From Prompt to Patch: Agent‑Driven Playwright Testing with MCP, CLI, and AI Copilot.",
-      "bio": "",
+      "bio": "Deepak Kamboj is a Senior Software Engineer at Microsoft, specializing in AI strategy, scalable AI solutions, and agentic workflows. With a career spanning 24+ years—including eight years dedicated to architectural roles—Deepak bridges the gap between complex AI research and production grade engineering. At Microsoft, he leads critical initiatives focused on AI agent orchestration and test automation infrastructure. He notably developed a massive Playwright test ecosystem that manages over 14,000 tests for more than 50 teams, driving enterprise-level reliability through automated evaluation. His deep technical expertise encompasses AI Agents & Multi-Agent Systems, Generative Testing, and DevOps & Observability. Deepak is a frequent speaker and trusted advisor who has presented on AI topics at institutions like the University of Washington. He is currently authoring LangChain In Action with BPB Publications, providing practitioners with real-world guides for building and evaluating agentic ecosystems.",
       "linkedin": "https://www.linkedin.com/in/kambojdeepak/"
     }
   ],
