@@ -105,6 +105,16 @@ export function Navigation() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-[300px]">
+            <div className="flex items-center gap-2 px-2 pt-2">
+              <Image
+                src={`${BASE_PATH}/logo.svg`}
+                alt="Innovate QA Logo"
+                width={36}
+                height={36}
+                className="h-9 w-9"
+              />
+              <span className="text-lg font-bold text-foreground">Innovate QA</span>
+            </div>
             <nav className="flex flex-col gap-4 mt-8 px-2">
               {navLinks.map((link) => (
                 <Link
