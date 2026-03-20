@@ -336,6 +336,7 @@
       "title": "Sr. Software Developer",
       "company": "Amazon",
       "image": "/speakers/2025/walter-zimerman.png",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/walter-ariel-zimerman/"
     },
     {
@@ -344,6 +345,7 @@
       "title": "Head of Quality Engineering",
       "company": "Amazon",
       "image": "/speakers/2026/tejash.jpg",
+      "bio": "Tejash Patel is a Senior Quality Engineering leader with 20+ years of experience driving SDLC excellence across streaming, cybersecurity, and cloud-based platforms. At Prime Video Advertising, he leads quality for large-scale ad experiences, building and guiding globally distributed teams to deliver reliable, low-latency video and live sports at massive scale. Previously at McAfee, he led kernel- and endpoint-level quality for enterprise EDR/MDR/XDR solutions, improving time‑to‑market through deep automation and CI/CD integration. Tejash is an author and practitioner of AI-driven and agentic testing, applying multi-agent workflows for scenario expansion, risk-based regression, and defect analysis in production environments. He has judged industry awards such as the Globee Awards for Cybersecurity and Technology; and the Technovation for Girls Awards. Now, he serves as a judge for Battle of the AI Test Tools, bringing a practitioner-first, outcomes-driven lens to evaluating modern testing tools.",
       "linkedin": "https://www.linkedin.com/in/tejashcpatel/"
     },
     {
@@ -352,6 +354,7 @@
       "title": "Sr. QA Engineering Manager",
       "company": "Meta",
       "image": "/speakers/2026/shripad.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/itsshripad/"
     },
     {
@@ -360,7 +363,8 @@
       "title": "Senior Manager",
       "company": "Salesforce",
       "image": "/speakers/2026/angie.jpg",
-      "linkedin": "https://www.linkedin.com/in/angierhoward/"
+      "bio": "",
+     "linkedin": "https://www.linkedin.com/in/angierhoward/"
     },
     {
       "id": "yevheniia-sakvets",
@@ -368,6 +372,7 @@
       "title": "QA Manager",
       "company": "Spin",
       "image": "/speakers/2026/yevheniia.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/sakovets/"
     },
     {
@@ -376,6 +381,7 @@
       "title": "Global Director of Quality Engineering",
       "company": "IHG Hotels & Resorts",
       "image": "/speakers/2026/alvin.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/alvinsumter/"
     },
     {
@@ -384,6 +390,7 @@
       "title": "Engineering Leader - Quality & Program Management",
       "company": "Global Bridge Venture",
       "image": "/speakers/2026/deepali.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/deepalidixit/"
     },
     {
@@ -392,6 +399,7 @@
       "title": "QAE",
       "company": "Amazon",
       "image": "/speakers/2026/nour.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/nour-l-421751a9/"
     },
     {
@@ -400,6 +408,7 @@
       "title": "Sr. Director of Engineering",
       "company": "Matrix",
       "image": "/speakers/2026/manoj.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/manojmohan/"
     },
     {
@@ -408,6 +417,7 @@
       "title": "Director",
       "company": "Slalom",
       "image": "/speakers/2026/nishadhi.jpg",
+      "bio": "",
       "linkedin": "https://www.linkedin.com/in/nishadhinikalandawatte/"
     }
   ],
