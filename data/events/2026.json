@@ -70,14 +70,14 @@
           "duration": 45,
           "sessions": [
             {
-              "title": "Session 1",
+              "title": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
               "type": "talk",
               "room": "room-a",
               "description": "",
               "speakers": [walter]
             },
             {
-              "title": "session 2",
+              "title": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
               "type": "talk",
               "room": "room-b",
               "description": "",
@@ -90,14 +90,14 @@
           "duration": 45,
           "sessions": [
             {
-              "title": "",
+              "title": "AI Generated Test Data: Know Your Need",
               "type": "talk",
               "room": "room-a",
               "description": "",
               "speakers": [bastian]
             },
             {
-              "title": "",
+              "title": "Unlocking New Frontiers in Test Automation with AI and Open Source",
               "type": "talk",
               "room": "room-b",
               "description": "",
@@ -157,7 +157,7 @@
               "speakers": []
             },
             {
-              "title": "",
+              "title": "Is Today's Test Infra Ready for AI? The Hard Questions No One Is Asking.",
               "type": "panel",
               "room": "room-b",
               "description": "",
