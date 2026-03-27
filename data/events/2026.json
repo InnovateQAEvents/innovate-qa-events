@@ -74,14 +74,14 @@
               "type": "talk",
               "room": "room-a",
               "description": "",
-              "speakers": [walter]
+              "speakers": ["walter"]
             },
             {
               "title": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": [amber]
+              "speakers": ["amber"]
             }
           ]
         },
@@ -94,14 +94,14 @@
               "type": "talk",
               "room": "room-a",
               "description": "",
-              "speakers": [bastian]
+              "speakers": ["bastian"]
             },
             {
               "title": "Unlocking New Frontiers in Test Automation with AI and Open Source",
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": [greg]
+              "speakers": ["greg"]
             }
           ]
         }
@@ -141,7 +141,7 @@
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": [deepak]
+              "speakers": ["deepak"]
             }
           ]
         },
@@ -161,7 +161,7 @@
               "type": "panel",
               "room": "room-b",
               "description": "",
-              "speakers": [krishna]
+              "speakers": ["krishna"]
             }
           ]
         },
