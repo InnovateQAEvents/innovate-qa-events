@@ -54,7 +54,7 @@
         },
         {
           "time": "9:10 AM",
-          "duration": 50,
+          "duration": 40,
           "sessions": [
             {
               "title": "",
@@ -74,19 +74,19 @@
               "type": "talk",
               "room": "room-a",
               "description": "",
-              "speakers": []
+              "speakers": [walter]
             },
             {
               "title": "session 2",
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": []
+              "speakers": [amber]
             }
           ]
         },
         {
-          "time": "10:50 AM",
+          "time": "10:55 AM",
           "duration": 45,
           "sessions": [
             {
@@ -94,14 +94,14 @@
               "type": "talk",
               "room": "room-a",
               "description": "",
-              "speakers": []
+              "speakers": [bastian]
             },
             {
               "title": "",
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": []
+              "speakers": [greg]
             }
           ]
         }
@@ -141,24 +141,12 @@
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": []
+              "speakers": [deepak]
             }
           ]
         },
         {
-          "time": "2:35 PM",
-          "duration": 20,
-          "sessions": [
-            {
-              "title": "Afternoon Break",
-              "type": "break",
-              "room": "main-hall",
-              "description": "Coffee, snacks, and networking"
-            }
-          ]
-        },
-        {
-          "time": "2:55 PM",
+          "time": "2:00 PM",
           "duration": 45,
           "sessions": [
             {
@@ -173,7 +161,19 @@
               "type": "panel",
               "room": "room-b",
               "description": "",
-              "speakers": []
+              "speakers": [krishna]
+            }
+          ]
+        },
+        {
+          "time": "2:45 PM",
+          "duration": 15,
+          "sessions": [
+            {
+              "title": "Afternoon Break",
+              "type": "break",
+              "room": "main-hall",
+              "description": "Coffee, snacks, and networking"
             }
           ]
         },
