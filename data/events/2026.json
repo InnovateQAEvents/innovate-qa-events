@@ -130,14 +130,14 @@
               "speakers": []
             },
             {
-              "title": "",
+              "title": " Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
               "type": "talk",
               "room": "room-a",
               "description": "",
-              "speakers": []
+              "speakers": ["pradeep"]
             },
             {
-              "title": "Quality Culture Transformation",
+              "title": "From Prompt to Patch: Agent‑Driven Playwright Testing with MCP, CLI, and AI Copilot.",
               "type": "talk",
               "room": "room-b",
               "description": "",
@@ -458,6 +458,17 @@
       "topic": "Unlocking New Frontiers in Test Automation with AI and Open Source",
       "bio": "Rhea Khanna is a Senior Software Engineer at Microsoft, where she specializes in Agentic AI and Multi-Agent Systems. At the intersection of AI and quality engineering, Rhea has a proven track record of establishing rigorous testing and quality gates to improve release confidence for complex cloud services. Her expertise includes leading Responsible AI risk evaluations. Rhea holds a Bachelor of Science in Computer Engineering from Purdue University and is a graduate of the Stanford Graduate School of Business LEAD program.",
       "linkedin": "https://www.linkedin.com/in/khannarhea/"
+    },
+    {
+      "id": "pradeep",
+      "name": "Pradeep UN",
+      "title": "Founder CEO",
+      "company": "The Stories and Wisdom Company",
+      "image": "/speakers/2026/pradeep.jpg",
+      "keynote": false,
+      "topic": " Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/unpradeep/"
     }
   ],
   "sponsors": {
