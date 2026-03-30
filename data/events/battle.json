@@ -56,7 +56,7 @@
           "duration": 30,
           "sessions": [
             {
-              "title": "",
+              "title": "The Great Shift Left: When AI Moves Faster Than Your Roadmap",
               "type": "keynote",
               "room": "room-b",
               "speakerId": "rashi",
@@ -127,15 +127,15 @@
               "title": "What Should Never Be Automated by AI?",
               "type": "discussion",
               "room": "discussion-room-table1",
-              "speakerId": "deep",
+              "speakerId": "manju",
               "description": "AI can generate tests at scale—but should it? This conversation focuses on the boundaries of automation, identifying critical areas where human judgment, domain knowledge, and intuition still play an essential role in ensuring quality."
             }
             ,
             {
-              "title": "Is Your Test Strategy Ready for AI… or Just Your Tools?",
+              "title": "How Do You Prove ROI for AI in Testing?",
               "type": "discussion",
               "room": "discussion-room-table2",
-              "speakerId": "",
+              "speakerId": "darrel",
               "description": "Many teams are adopting AI tools without evolving their overall quality strategy. This discussion challenges whether true transformation requires deeper changes in architecture, test design, and team mindset—not just new technology."
             }
           ]
@@ -194,7 +194,7 @@
               "type": "talk",
               "room": "room-b",
               "speakerId": "darrel",
-              "description": ""
+              "description": "Developers Are Writing Tests. That's Not the Same as Having Quality"
             },
             {
               "title": "Will AI Reduce QA Headcount… or Make QA More Critical Than Ever?",
@@ -205,10 +205,10 @@
             }
             ,
             {
-              "title": "How Do You Prove ROI for AI in Testing?",
+              "title": "Is Your Test Strategy Ready for AI… or Just Your Tools?",
               "type": "discussion",
               "room": "discussion-room-table2",
-              "speakerId": "vasusen",
+              "speakerId": "frederick",
               "description": "Adopting AI tools is easy—proving their value is not. This discussion focuses on metrics, measurement, and real-world outcomes. What does success actually look like, and how can teams justify continued investment in AI-driven quality initiatives?"
             }
           ]
@@ -326,6 +326,17 @@
       "topic": "Testing Software That Changes Its Mind: QA in a Non-Deterministic World",
       "bio": "Vasusen Patil is the co-founder and CEO of Donobu, an AI-powered QA platform. It helps QA teams author, run, and maintain end-to-end Playwright tests, so they can focus on test strategy and coverage instead of fighting flaky scripts. Previously, as Senior Director of Engineering at Coursera, he led the consumer engineering org through 10x revenue growth to nearly $700M and an IPO. As an early engineer at WePay (YC09), he built the payments APIs that powered platforms like GoFundMe. He has spent his career making sure the products people depend on actually work.",
       "linkedin": "https://www.linkedin.com/in/vasusen/"
+    },
+     {
+      "id": "frederick",
+      "name": "Frederick Goris",
+      "title": "Founding Engineer",
+      "company": "Donobu",
+      "image": "/speakers/2026/frederick.jpg",
+      "keynote": false,
+      "topic": "Testing Software That Changes Its Mind: QA in a Non-Deterministic World",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/frederikgoris/"
     }
      
   ],
