@@ -472,17 +472,18 @@
     }
   ],
   "sponsors": {
-    "platinum": [],
+    "platinum": [ 
+      {
+        "name": "ContextQA",
+        "logo": "ContextQALogo.png",
+        "url": "https://contextqa.com"
+      }
+    ],
     "gold": [
       {
         "name": "practiTest",
         "logo": "practiTestlogo.png",
         "url": "https://www.practitest.com"
-      },
-      {
-        "name": "ContextQA",
-        "logo": "ContextQALogo.png",
-        "url": "https://contextqa.com"
       },
       {
         "name": "The Stories and Wisdom Company",
