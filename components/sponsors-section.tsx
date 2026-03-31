@@ -61,7 +61,7 @@ export function SponsorsSection() {
           {/* Platinum Sponsors */}
           <div>
             <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
-              Gold Sponsors
+              Platinum Sponsors
             </h3>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sponsors.platinum.map((sponsor) => (
