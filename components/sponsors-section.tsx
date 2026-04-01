@@ -57,7 +57,26 @@ export function SponsorsSection() {
           </p>
         </div>
        <div className="space-y-12">
-      
+
+          {/* Platinum Sponsors */}
+          {sponsors.platinum && sponsors.platinum.length > 0 && (
+            <div>
+              <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">
+                Platinum Sponsors
+              </h3>
+              <div className="flex flex-wrap justify-center items-center gap-8">
+                {sponsors.platinum.map((sponsor) => (
+                  <SponsorBadge
+                    key={sponsor.name}
+                    sponsor={sponsor}
+                    className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center"
+                    imageClassName="h-20 w-auto object-contain max-w-[240px]"
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
     {/* Gold Sponsors */}
           <div>
             <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">

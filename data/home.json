@@ -140,14 +140,7 @@
     "mapsUrl": "https://maps.google.com/?q=600+Bellevue+Way+NE+Bellevue+WA+98004"
   },
   "sponsors": {
-    "gold": [
-      {
-        "name": "practiTest",
-        "logo": "practiTestlogo.png",
-        "width": 320,
-        "height": 128,
-        "url": "https://www.practitest.com"
-      },
+    "platinum": [
       {
         "name": "ContextQA",
         "logo": "ContextQALogo.png",
@@ -161,6 +154,15 @@
         "width": 320,
         "height": 128,
         "url": "https://www.storieswisdom.com/"
+      }
+    ],
+    "gold": [
+      {
+        "name": "practiTest",
+        "logo": "practiTestlogo.png",
+        "width": 320,
+        "height": 128,
+        "url": "https://www.practitest.com"
       }
     ],
     "silver": [
