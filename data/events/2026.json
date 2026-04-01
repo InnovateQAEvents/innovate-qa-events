@@ -477,6 +477,11 @@
         "name": "ContextQA",
         "logo": "ContextQALogo.png",
         "url": "https://contextqa.com"
+      },
+      {
+        "name": "The Stories and Wisdom Company",
+        "logo": "The Stories and Wisdom Company_Dark text.png",
+        "url": "https://www.storieswisdom.com/"
       }
     ],
     "gold": [
@@ -484,11 +489,6 @@
         "name": "practiTest",
         "logo": "practiTestlogo.png",
         "url": "https://www.practitest.com"
-      },
-      {
-        "name": "The Stories and Wisdom Company",
-        "logo": "The Stories and Wisdom Company_Dark text.png",
-        "url": "https://www.storieswisdom.com/"
       }
     ],
     "silver": [
