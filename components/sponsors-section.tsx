@@ -56,7 +56,7 @@ export function SponsorsSection() {
             Thank you to our amazing sponsors and partners who make this event possible.
           </p>
         </div>
-      </div>
+       <div className="space-y-12">
       
     {/* Gold Sponsors */}
           <div>
