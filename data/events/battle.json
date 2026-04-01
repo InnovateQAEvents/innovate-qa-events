@@ -107,7 +107,7 @@
               "title": "Flaky Tests vs Flaky AI: Which Problem Is Worse?",
               "type": "discussion",
               "room": "discussion-room-table2",
-              "speakerId": "",
+              "speakerId": "frederick",
               "description": "Flaky tests have always been a pain—but AI introduces a new kind of unpredictability. Are we actually reducing instability, or just trading one form of flakiness for another? Let’s explore debugging, reliability, and how teams can build confidence in AI-driven testing."
             }
           ]
@@ -208,7 +208,7 @@
               "title": "Is Your Test Strategy Ready for AI… or Just Your Tools?",
               "type": "discussion",
               "room": "discussion-room-table2",
-              "speakerId": "frederick",
+              "speakerId": "deep",
               "description": "Adopting AI tools is easy—proving their value is not. This discussion focuses on metrics, measurement, and real-world outcomes. What does success actually look like, and how can teams justify continued investment in AI-driven quality initiatives?"
             }
           ]
