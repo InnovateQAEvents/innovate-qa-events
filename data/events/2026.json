@@ -476,11 +476,15 @@
       {
         "name": "ContextQA",
         "logo": "ContextQALogo.png",
+        "width": 320,
+        "height": 128,
         "url": "https://contextqa.com"
       },
       {
         "name": "The Stories and Wisdom Company",
         "logo": "The Stories and Wisdom Company_Dark text.png",
+        "width": 320,
+        "height": 128,
         "url": "https://www.storieswisdom.com/"
       }
     ],
