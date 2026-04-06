@@ -163,12 +163,19 @@
         "width": 320,
         "height": 128,
         "url": "https://www.practitest.com"
+      },
+       {
+        "name": "Testlio",
+        "logo": "testliologo.png",
+        "width": 320,
+        "height": 128,
+        "url": "https://testlio.com/"
       }
     ],
     "silver": [
       {
         "name": "PlusQA",
-        "logo": "plusqa-logo-tech-company.png",
+        "logo": "plusqa.svg",
         "width": 320,
         "height": 128,
         "url": "https://www.plusqa.com"
