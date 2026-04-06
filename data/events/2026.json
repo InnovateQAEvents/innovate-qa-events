@@ -493,6 +493,11 @@
         "name": "practiTest",
         "logo": "practiTestlogo.png",
         "url": "https://www.practitest.com"
+      },
+       {
+        "name": "Testlio",
+        "logo": "testliologo.png",
+        "url": "https://testlio.com/"
       }
     ],
     "silver": [
