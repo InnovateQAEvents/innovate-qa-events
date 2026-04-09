@@ -247,26 +247,26 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
 
           {"platinum" in event.sponsors && event.sponsors.platinum && event.sponsors.platinum.length > 0 && (
             <div className="mb-12">
-              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">Platinum Sponsors</h3>
-              <div className="flex flex-wrap justify-start items-center gap-8">
+              <h3 className="text-lg font-semibold text-primary mb-6">Platinum Sponsors</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {event.sponsors.platinum.map((sponsor) => (
-                  <a
-                    key={sponsor.name}
-                    href={sponsor.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Visit ${sponsor.name}`}
-                    className="bg-card rounded-lg p-6 border border-border/50 hover:border-primary/30 transition-colors flex items-center cursor-pointer"
-                  >
-                    <Image
-                      src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
-                      alt={sponsor.name}
-                      width={240}
-                      height={96}
-                      className="h-20 w-auto object-contain max-w-[240px]"
-                      style={{ width: "auto" }}
-                      unoptimized
-                    />
+                  <a key={sponsor.name} href={sponsor.url} target="_blank" rel="noopener noreferrer">
+                    <Card className="h-full hover:shadow-lg transition-shadow border-primary/20 bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950/20 dark:to-violet-950/20">
+                      <CardContent className="p-6 flex flex-col items-center text-center">
+                        <div className="h-20 w-full flex items-center justify-center mb-4 relative">
+                          <Image
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
+                            alt={sponsor.name}
+                            width={160}
+                            height={80}
+                            className="max-h-20 max-w-full object-contain"
+                            style={{ width: "auto" }}
+                            unoptimized
+                          />
+                        </div>
+                        <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
+                      </CardContent>
+                    </Card>
                   </a>
                 ))}
               </div>
