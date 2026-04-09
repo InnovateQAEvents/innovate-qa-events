@@ -245,6 +245,34 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-foreground mb-8">Sponsors & Partners</h2>
 
+          {"platinum" in event.sponsors && event.sponsors.platinum && event.sponsors.platinum.length > 0 && (
+            <div className="mb-12">
+              <h3 className="text-lg font-semibold text-primary mb-6">Platinum Sponsors</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {event.sponsors.platinum.map((sponsor) => (
+                  <a key={sponsor.name} href={sponsor.url} target="_blank" rel="noopener noreferrer">
+                    <Card className="h-full hover:shadow-lg transition-shadow border-primary/30 bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950/20 dark:to-violet-950/20">
+                      <CardContent className="p-6 flex flex-col items-center text-center">
+                        <div className="h-24 w-full flex items-center justify-center mb-4 relative">
+                          <Image
+                            src={sponsor.logo ? (sponsor.logo.startsWith('http') ? sponsor.logo : `${BASE_PATH}/${sponsor.logo}`) : "/placeholder.svg"}
+                            alt={sponsor.name}
+                            width={180}
+                            height={90}
+                            className="max-h-24 max-w-full object-contain"
+                            style={{ width: "auto" }}
+                            unoptimized
+                          />
+                        </div>
+                        <h4 className="font-semibold text-foreground mb-2">{sponsor.name}</h4>
+                      </CardContent>
+                    </Card>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
           {event.sponsors.gold && event.sponsors.gold.length > 0 && (
             <div className="mb-12">
               <h3 className="text-lg font-semibold text-primary mb-6">Gold Sponsors</h3>
