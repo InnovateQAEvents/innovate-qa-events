@@ -251,7 +251,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {event.sponsors.platinum.map((sponsor) => (
                   <a key={sponsor.name} href={sponsor.url} target="_blank" rel="noopener noreferrer">
-                    <Card className="h-full hover:shadow-lg transition-shadow border-primary/20 bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950/20 dark:to-violet-950/20">
+                    <Card className="h-full hover:shadow-lg transition-shadow border-border/50">
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                           <Image
@@ -279,7 +279,7 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {event.sponsors.gold.map((sponsor) => (
                   <a key={sponsor.name} href={sponsor.url} target="_blank" rel="noopener noreferrer">
-                    <Card className="h-full hover:shadow-lg transition-shadow border-primary/20 bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-yellow-950/20 dark:to-amber-950/20">
+                    <Card className="h-full hover:shadow-lg transition-shadow border-border/50">
                       <CardContent className="p-6 flex flex-col items-center text-center">
                         <div className="h-20 w-full flex items-center justify-center mb-4 relative">
                           <Image
