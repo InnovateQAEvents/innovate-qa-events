@@ -247,8 +247,8 @@ export default async function EventPage({ params }: { params: Promise<{ year: st
 
           {"platinum" in event.sponsors && event.sponsors.platinum && event.sponsors.platinum.length > 0 && (
             <div className="mb-12">
-              <h3 className="text-center text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">Platinum Sponsors</h3>
-              <div className="flex flex-wrap justify-center items-center gap-8">
+              <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-6">Platinum Sponsors</h3>
+              <div className="flex flex-wrap justify-start items-center gap-8">
                 {event.sponsors.platinum.map((sponsor) => (
                   <a
                     key={sponsor.name}
