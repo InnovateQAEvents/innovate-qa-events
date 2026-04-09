@@ -10,14 +10,21 @@
  * import { useState, useEffect, useRef } from 'react'
  *
  * export function SubscribeModal({ label }: { label: string }) {
- *   const [open, setOpen] = useState(false)
- *   const nameRef = useRef<HTMLInputElement>(null)
- *   const [name, setName] = useState('')
- *   const [email, setEmail] = useState('')
- *   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
- *   const [message, setMessage] = useState('')
+ *   ... Full modal with /api/subscribe DB call removed.
+ * }
+ */
+
+/*
+ * MailerLite popup approach (commented out — button now scrolls to #newsletter section instead)
+ *
+ * export function SubscribeModal({ label }: { label: string }) {
+ *   const handleClick = () => {
+ *     const ml = (window as any).ml
+ *     if (typeof ml === 'function') {
+ *       ml('show', 'DAOAEv', true)
+ *     }
+ *   }
  *   ...
- *   // Full modal with /api/subscribe DB call removed.
  * }
  */
 
@@ -26,15 +33,9 @@
 import { Mail } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-declare global {
-  function ml(action: string, formId: string, force?: boolean): void
-}
-
 export function SubscribeModal({ label }: { label: string }) {
   const handleClick = () => {
-    if (typeof ml === 'function') {
-      ml('show', 'DAOAEv', true)
-    }
+    document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
