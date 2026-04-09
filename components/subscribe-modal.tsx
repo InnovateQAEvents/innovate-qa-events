@@ -42,7 +42,7 @@ export function SubscribeModal({ label }: { label: string }) {
     <Button
       size="lg"
       variant="outline"
-      className="text-base px-8 bg-transparent"
+      className="text-base px-8 bg-transparent cursor-pointer"
       onClick={handleClick}
     >
       <Mail className="mr-2 h-4 w-4" />
