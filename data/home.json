@@ -195,7 +195,14 @@
         "logo": "we-are-developers.png",
         "width": 320,
         "height": 128,
-        "url": "ttps://www.wearedevelopers.com/world-congress-north-america"
+        "url": "https://www.wearedevelopers.com/world-congress-north-america"
+      },
+      {
+        "name": "Dev IT Jobs",
+        "logo": "devitus-rectangle.png",
+        "width": 320,
+        "height": 128,
+        "url": "https://devitjobs.com/jobs/Tester/all/all"
       }
     ],
     "contactEmail": "contact@innovateqaevents.com"
