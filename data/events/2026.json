@@ -186,7 +186,7 @@
             {
               "title": "Afternoon Break",
               "type": "break",
-              "room": "leadership",
+              "room": "",
               "description": "Coffee, snacks, and networking"
             }
           ]
@@ -208,8 +208,8 @@
               "room": "practitioner",
               "description": "",
                 "speakers": ["sidharth"]
-            }]
             }
+            
           ]
         },
         {
@@ -516,7 +516,7 @@
       "name": "George Andraws",
       "title": "Director of Quality Engineering",
       "company": "",
-      "image": "/speakers/2026/deep.jpg",
+      "image": "/speakers/2024/deep.jpg",
       "keynote": false,
       "topic": "Mock Interviews - how to pass your next interview",
       "bio": "",
