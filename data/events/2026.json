@@ -21,7 +21,7 @@
     { "id": "leadership", "name": "Leadership Track", "capacity": 400 },
     { "id": "practitioner", "name": "Practitioner Track", "capacity": 100 },
     { "id": "demo", "name": "Demo Track", "capacity": 100 },
-    { "id": "workshop-room", "name": "Workshop Studio", "capacity": 50 }
+    { "id": "discussion", "name": "Discussion", "capacity": 50 }
   ],
   "schedule": {
     "2026-06-05": {
@@ -132,7 +132,7 @@
            {
               "title": "Discussion Table",
               "type": "workshop",
-              "room": "workshop-room",
+              "room": "discussion",
               "description": "",
               "speakers": []
             },
@@ -159,7 +159,7 @@
             {
               "title": "Discussion Table",
               "type": "discussion",
-              "room": "workshop-room",
+              "room": "discussion",
               "description": "",
               "speakers": []
             },
@@ -171,7 +171,7 @@
               "speakers": ["krishna"]
             },
             {
-              "title": " Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
+              "title": " Continue - Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
               "type": "workshop",
               "room": "leadership",
               "description": "",
@@ -232,6 +232,20 @@
             }
           ]
         }
+     ,
+        {
+          "time": "3:50 PM",
+          "duration": 60,
+          "sessions": [
+            {
+              "title": "Day 1 - Wrap up",
+              "type": "talk",
+              "room": "leadership",
+              "description": "",
+                "speakers": []
+            }
+          ]
+        }
       ]
     },
     "2026-06-06": {
@@ -251,26 +265,25 @@
         },
         {
           "time": "9:00 AM",
-          "duration": 120,
+          "duration": 10,
           "sessions": [
             {
-              "title": "Full-Stack Testing Workshop",
-              "type": "workshop",
-              "room": "workshop-room",
-              "description": "Comprehensive hands-on workshop covering end-to-end testing strategies.",
-              "speakers": []
-            },
-            {
-              "title": "",
-              "type": "workshop",
-              "room": "practitioner",
+              "title": "Day 2 - Welcome",
+              "type": "talk",
+              "room": "leadership",
               "description": "",
               "speakers": []
-            },
+            }
+          ]
+        },
+        {
+          "time": "9:10 AM",
+          "duration": 10,
+          "sessions": [
             {
-              "title": "",
+              "title": "Keynote",
               "type": "talk",
-              "room": "demo",
+              "room": "leadership",
               "description": "",
               "speakers": []
             }
@@ -295,7 +308,7 @@
             {
               "title": "Mobile Testing in the Cloud",
               "type": "workshop",
-              "room": "workshop-room",
+              "room": "discussion",
               "description": "Learn to test mobile applications using cloud-based device farms.",
               "speakers": []
             },
@@ -505,7 +518,7 @@
       "name": "Deep Barot",
       "title": "CEO",
       "company": "ContextQA",
-      "image": "/speakers/2026/george.jpg",
+      "image": "/speakers/2026/deep.jpg",
       "keynote": false,
       "topic": "One Platform, Two Frontiers: Testing Web Applications and AI Agents with ContextQA",
       "bio": "",
@@ -516,7 +529,7 @@
       "name": "George Andraws",
       "title": "Director of Quality Engineering",
       "company": "",
-      "image": "/speakers/2024/deep.jpg",
+      "image": "/speakers/2024/george.jpg",
       "keynote": false,
       "topic": "Mock Interviews - how to pass your next interview",
       "bio": "",
