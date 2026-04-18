@@ -19,8 +19,8 @@
   },
   "rooms": [
     { "id": "leadership", "name": "Leadership Track", "capacity": 400 },
-    { "id": "room-a", "name": "Room A - Practitioner Track", "capacity": 100 },
-    { "id": "demo", "name": "Room B - Demo Track", "capacity": 100 },
+    { "id": "practitioner", "name": "Practitioner Track", "capacity": 100 },
+    { "id": "demo", "name": "Demo Track", "capacity": 100 },
     { "id": "workshop-room", "name": "Workshop Studio", "capacity": 50 }
   ],
   "schedule": {
@@ -46,7 +46,7 @@
             {
               "title": "Welcome",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": []
             }
@@ -59,7 +59,7 @@
             {
               "title": "",
               "type": "keynote",
-              "room": "room-a",
+              "room": "leadership",
               "description": "",
               "speakers": []
             }
@@ -72,7 +72,7 @@
             {
               "title": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": ["walter"]
             },
@@ -92,7 +92,7 @@
             {
               "title": "AI Generated Test Data: Know Your Need",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": ["bastian"]
             },
@@ -146,7 +146,7 @@
             {
               "title": "From Prompt to Patch: Agent‑Driven Playwright Testing with MCP, CLI, and AI Copilot.",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": ["deepak"]
             }
@@ -159,14 +159,14 @@
             {
               "title": "",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": []
             },
             {
               "title": "Is Today's Test Infra Ready for AI? The Hard Questions No One Is Asking.",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
               "speakers": ["krishna"]
             }
@@ -203,7 +203,7 @@
              {
               "title": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
                 "speakers": [sidharth]
             }]
@@ -224,7 +224,7 @@
              {
               "title": "From Hype to Trust: How We Evaluated an Enterprise Sales Research Agent with a Purpose-Built AI Benchmark",
               "type": "talk",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "",
                 "speakers": [deepanjan]
             }
@@ -259,17 +259,17 @@
               "speakers": []
             },
             {
-              "title": "API Testing Masterclass",
+              "title": "",
               "type": "workshop",
-              "room": "room-a",
-              "description": "Deep dive into API testing, contract testing, and service virtualization.",
+              "room": "practitioner",
+              "description": "",
               "speakers": []
             },
             {
-              "title": "Quality Leadership Roundtable",
+              "title": "",
               "type": "talk",
               "room": "demo",
-              "description": "Interactive discussion on leadership challenges and solutions.",
+              "description": "",
               "speakers": []
             }
           ]
@@ -300,7 +300,7 @@
             {
               "title": "Accessibility Testing Deep Dive",
               "type": "workshop",
-              "room": "room-a",
+              "room": "practitioner",
               "description": "Practical approaches to building accessible applications and testing them.",
               "speakers": []
             },
