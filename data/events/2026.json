@@ -18,9 +18,9 @@
     "mapUrl": "https://maps.google.com/?q=600+Bellevue+Way+NE+Bellevue+WA+98004"
   },
   "rooms": [
-    { "id": "main-hall", "name": "Leadership Track", "capacity": 400 },
+    { "id": "leadership", "name": "Leadership Track", "capacity": 400 },
     { "id": "room-a", "name": "Room A - Practitioner Track", "capacity": 100 },
-    { "id": "room-b", "name": "Room B - Demo Track", "capacity": 100 },
+    { "id": "demo", "name": "Room B - Demo Track", "capacity": 100 },
     { "id": "workshop-room", "name": "Workshop Studio", "capacity": 50 }
   ],
   "schedule": {
@@ -34,7 +34,7 @@
             {
               "title": "Registration & Welcome Breakfast",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Check-in, collect your badge, and network over breakfast"
             }
           ]
@@ -79,7 +79,7 @@
             {
               "title": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
               "type": "talk",
-              "room": "room-b",
+              "room": "demo",
               "description": "",
               "speakers": ["amber"]
             }
@@ -99,7 +99,7 @@
             {
               "title": "Unlocking New Frontiers in Test Automation with AI and Open Source",
               "type": "talk",
-              "room": "room-b",
+              "room": "demo",
               "description": "",
               "speakers": ["greg"]
             }
@@ -113,7 +113,7 @@
             {
               "title": "Lunch & Networking",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Catered lunch with networking opportunities"
             }
           ]
@@ -125,7 +125,7 @@
             {
               "title": "One Platform, Two Frontiers: Testing Web Applications and AI Agents with ContextQA",
               "type": "talk",
-              "room": "room-b",
+              "room": "demo",
               "description": "",
               "speakers": ["deep"]
             },
@@ -139,7 +139,7 @@
             {
               "title": " Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
               "type": "workshop",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "",
               "speakers": ["pradeep"]
             },
@@ -179,7 +179,7 @@
             {
               "title": "Afternoon Break",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Coffee, snacks, and networking"
             }
           ]
@@ -191,12 +191,12 @@
             {
               "title": "",
               "type": "keynote",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "",
               "speakers": [  {
               "title": "Becoming AI‑First?! What Does that Means for QA?",
               "type": "talk",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "",
                 "speakers": [ronit]
             },
@@ -217,7 +217,7 @@
             {
               "title": "Taming the Beast: Testing Non-Deterministic AI Systems with Confidence",
               "type": "talk",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "",
                 "speakers": [leebarnes]
             },
@@ -242,7 +242,7 @@
             {
               "title": "Breakfast & Networking",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Continental breakfast and morning networking"
             }
           ]
@@ -268,7 +268,7 @@
             {
               "title": "Quality Leadership Roundtable",
               "type": "talk",
-              "room": "room-b",
+              "room": "demo",
               "description": "Interactive discussion on leadership challenges and solutions.",
               "speakers": []
             }
@@ -281,7 +281,7 @@
             {
               "title": "Break",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Quick refreshment break"
             }
           ]
@@ -305,10 +305,10 @@
               "speakers": []
             },
             {
-              "title": "Quality Metrics Workshop",
-              "type": "workshop",
-              "room": "room-b",
-              "description": "Hands-on session on defining and tracking quality metrics.",
+              "title": "",
+              "type": "talk",
+              "room": "demo",
+              "description": "",
               "speakers": []
             }
           ]
@@ -320,7 +320,7 @@
             {
               "title": "Lunch",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Lunch break"
             }
           ]
@@ -332,7 +332,7 @@
             {
               "title": "Closing Panel: The State of Quality Engineering 2026",
               "type": "panel",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Industry leaders discuss the current state and future of quality engineering.",
               "speakers": []
             }
@@ -345,7 +345,7 @@
             {
               "title": "Closing Remarks & Prize Drawings",
               "type": "break",
-              "room": "main-hall",
+              "room": "leadership",
               "description": "Conference wrap-up, thank you, and prize giveaways"
             }
           ]
