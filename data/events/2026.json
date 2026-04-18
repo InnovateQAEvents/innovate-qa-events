@@ -301,9 +301,22 @@
             }
           ]
         },
+       {
+          "time": "1:00 PM",
+          "duration": 90,
+          "sessions": [
+            {
+              "title": "Personal Branding for Job Searchers",
+              "type": "talk",
+              "room": "practitioner",
+              "description": "",
+              "speakers": ["goldie"]
+            }
+          ]
+        },
         {
           "time": "14:00 PM",
-          "duration": 90,
+          "duration": 60,
           "sessions": [
             {
               "title": "Human + AI: Redefining the Role of QA Engineers in the Next Decade",
@@ -311,6 +324,13 @@
               "room": "leadership",
               "description": "",
               "speakers": ["priya"]
+            },
+              {
+              "title": "Mock Interviews - how to pass your next interview",
+              "type": "talk",
+              "room": "practitioner",
+              "description": "",
+              "speakers": ["george"]
             }
           ]
         } ,
@@ -328,6 +348,20 @@
           ]
         },
         {
+          "time": "15:00 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "How to Get Hired in the Age of AI",
+              "type": "talk",
+              "room": "practitioner",
+              "description": "",
+              "speakers": ["dana", "scott"]
+            }
+            
+          ]
+        },
+        {
           "time": "15:50 PM",
           "duration": 45,
           "sessions": [
@@ -338,6 +372,7 @@
               "description": "",
               "speakers": []
             }
+            
           ]
         },
         {
