@@ -127,7 +127,7 @@
               "type": "talk",
               "room": "room-b",
               "description": "",
-              "speakers": [deep]
+              "speakers": ["deep"]
             },
            {
               "title": "Authors Meet & Greet",
@@ -193,7 +193,20 @@
               "type": "keynote",
               "room": "main-hall",
               "description": "",
-              "speakers": []
+              "speakers": [  {
+              "title": "Becoming AI‑First?! What Does that Means for QA?",
+              "type": "talk",
+              "room": "main-hall",
+              "description": "",
+                "speakers": [ronit]
+            },
+             {
+              "title": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
+              "type": "talk",
+              "room": "room-a",
+              "description": "",
+                "speakers": [sidharth]
+            }]
             }
           ]
         },
@@ -207,6 +220,13 @@
               "room": "main-hall",
               "description": "",
                 "speakers": [leebarnes]
+            },
+             {
+              "title": "From Hype to Trust: How We Evaluated an Enterprise Sales Research Agent with a Purpose-Built AI Benchmark",
+              "type": "talk",
+              "room": "room-a",
+              "description": "",
+                "speakers": [deepanjan]
             }
           ]
         }
@@ -499,7 +519,20 @@
       "topic": "Mock Interviews - how to pass your next interview",
       "bio": "",
       "linkedin": "https://www.linkedin.com/in/georgeandraws/"
-    }   ],
+    }   
+  ,
+    {
+      "id": "deepanjan",
+      "name": "Deepanjan Bhol",
+      "title": "Senior Principal Software Engineering Manager",
+      "company": "Microsoft",
+      "image": "/speakers/2026/deepanjan.jpg",
+      "keynote": false,
+      "topic": "From Hype to Trust: How We Evaluated an Enterprise Sales Research Agent with a Purpose-Built AI Benchmark",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/georgeandraws/"
+    }  
+  ],
   "sponsors": {
     "platinum": [ 
       {
