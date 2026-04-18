@@ -113,7 +113,7 @@
             {
               "title": "Lunch & Networking",
               "type": "break",
-              "room": "leadership",
+              "room": "",
               "description": "Catered lunch with networking opportunities"
             }
           ]
@@ -251,15 +251,15 @@
     "2026-06-06": {
       "dayLabel": "Day 2 - Sessions & Workshops",
       "slots": [
-        {
+      {
           "time": "8:00 AM",
           "duration": 60,
           "sessions": [
             {
-              "title": "Breakfast & Networking",
+              "title": "Registration & Welcome Breakfast",
               "type": "break",
               "room": "leadership",
-              "description": "Continental breakfast and morning networking"
+              "description": "Network over Breakfast"
             }
           ]
         },
@@ -289,79 +289,66 @@
             }
           ]
         },
-        {
-          "time": "11:45 AM",
-          "duration": 15,
+          {
+          "time": "12:00 PM",
+          "duration": 60,
           "sessions": [
             {
-              "title": "Break",
+              "title": "Lunch & Networking",
               "type": "break",
-              "room": "leadership",
-              "description": "Quick refreshment break"
+              "room": "",
+              "description": "Catered lunch with networking opportunities"
             }
           ]
         },
         {
-          "time": "12:00 PM",
+          "time": "14:00 PM",
           "duration": 90,
           "sessions": [
             {
-              "title": "Mobile Testing in the Cloud",
-              "type": "workshop",
-              "room": "discussion",
-              "description": "Learn to test mobile applications using cloud-based device farms.",
-              "speakers": []
-            },
-            {
-              "title": "Accessibility Testing Deep Dive",
-              "type": "workshop",
-              "room": "practitioner",
-              "description": "Practical approaches to building accessible applications and testing them.",
-              "speakers": []
-            },
-            {
-              "title": "",
+              "title": "Human + AI: Redefining the Role of QA Engineers in the Next Decade",
               "type": "talk",
-              "room": "demo",
+              "room": "leadership",
+              "description": "",
+              "speakers": ["priya"]
+            }
+          ]
+        } ,
+      
+         {
+          "time": "2:45 PM",
+          "duration": 15,
+          "sessions": [
+            {
+              "title": "Afternoon Break",
+              "type": "break",
+              "room": "",
+              "description": "Coffee, snacks, and networking"
+            }
+          ]
+        },
+        {
+          "time": "15:50 PM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Awards",
+              "type": "talk",
+              "room": "leadership",
               "description": "",
               "speakers": []
             }
           ]
         },
         {
-          "time": "1:30 PM",
-          "duration": 60,
+          "time": "4:45 PM",
+          "duration": 15,
           "sessions": [
             {
-              "title": "Lunch",
-              "type": "break",
+              "title": "Closing Remarks",
+              "type": "talk",
               "room": "leadership",
-              "description": "Lunch break"
-            }
-          ]
-        },
-        {
-          "time": "2:30 PM",
-          "duration": 90,
-          "sessions": [
-            {
-              "title": "Closing Panel: The State of Quality Engineering 2026",
-              "type": "panel",
-              "room": "leadership",
-              "description": "Industry leaders discuss the current state and future of quality engineering.",
-              "speakers": []
-            }
-          ]
-        },
-        {
-          "time": "4:00 PM",
-          "duration": 30,
-          "sessions": [
-            {
-              "title": "Closing Remarks & Prize Drawings",
-              "type": "break",
-              "room": "leadership",
-              "description": "Conference wrap-up, thank you, and prize giveaways"
+              "description": "Conference wrap-up & thank you"
             }
           ]
         }
@@ -546,7 +533,18 @@
       "topic": "From Hype to Trust: How We Evaluated an Enterprise Sales Research Agent with a Purpose-Built AI Benchmark",
       "bio": "",
       "linkedin": "https://www.linkedin.com/in/georgeandraws/"
-    }  
+    } ,
+     {
+      "id": "priya",
+      "name": "Priyamvada Govil",
+      "title": "Sr Quality Engineering Manager",
+      "company": "Amazon",
+      "image": "/speakers/2026/priya.jpg",
+      "keynote": false,
+      "topic": "Human + AI: Redefining the Role of QA Engineers in the Next Decade",
+      "bio": "Senior Quality Engineering Leader with 10+ years of experience scaling quality for large, complex systems. I lead global quality for 500+ engineers across the org, driving pipeline excellence, automation, performance, and launch readiness. Speaker, mentor, and reviewer in the QA community, with a strong focus on AI-driven testing, scalable quality strategies, and engineering excellence.",
+      "linkedin": "https://www.linkedin.com/in/priyamvada-govil/"
+    }
   ],
   "sponsors": {
     "platinum": [ 
