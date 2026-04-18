@@ -46,7 +46,7 @@
             {
               "title": "Welcome",
               "type": "talk",
-              "room": "practitioner",
+              "room": "leadership",
               "description": "",
               "speakers": []
             }
@@ -72,14 +72,14 @@
             {
               "title": "Scaling Trust, Not Automation - Rethinking Quality for the AI Era",
               "type": "talk",
-              "room": "practitioner",
+              "room": "leadership",
               "description": "",
               "speakers": ["walter"]
             },
             {
               "title": "Beyond Page Objects: Modern Patterns for Scaling Playwright Tests",
               "type": "talk",
-              "room": "demo",
+              "room": "practitioner",
               "description": "",
               "speakers": ["amber"]
             }
@@ -92,14 +92,14 @@
             {
               "title": "AI Generated Test Data: Know Your Need",
               "type": "talk",
-              "room": "practitioner",
+              "room": "leadership",
               "description": "",
               "speakers": ["bastian"]
             },
             {
               "title": "Unlocking New Frontiers in Test Automation with AI and Open Source",
               "type": "talk",
-              "room": "demo",
+              "room": "practitioner",
               "description": "",
               "speakers": ["greg"]
             }
@@ -130,7 +130,7 @@
               "speakers": ["deep"]
             },
            {
-              "title": "Authors Meet & Greet",
+              "title": "Discussion Table",
               "type": "workshop",
               "room": "workshop-room",
               "description": "",
@@ -157,9 +157,9 @@
           "duration": 45,
           "sessions": [
             {
-              "title": "",
-              "type": "talk",
-              "room": "practitioner",
+              "title": "Discussion Table",
+              "type": "discussion",
+              "room": "workshop-room",
               "description": "",
               "speakers": []
             },
@@ -169,6 +169,13 @@
               "room": "practitioner",
               "description": "",
               "speakers": ["krishna"]
+            },
+            {
+              "title": " Innovate QA with Stories & Wisdom®: A neuroscience-backed workshop for transforming software quality cultures.",
+              "type": "workshop",
+              "room": "leadership",
+              "description": "",
+              "speakers": ["pradeep"]
             }
           ]
         },
