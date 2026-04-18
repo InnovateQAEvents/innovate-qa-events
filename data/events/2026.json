@@ -289,6 +289,32 @@
             }
           ]
         },
+        {
+          "time": "10:00 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Networking for Professionals Live Session",
+              "type": "networking",
+              "room": "practitioner",
+              "description": "",
+              "speakers": ["goldie"]
+            }
+          ]
+        },
+        {
+          "time": "10:55 AM",
+          "duration": 45,
+          "sessions": [
+            {
+              "title": "Evaluating Large-Scale Multi-Agent AI Systems in Production",
+              "type": "talk",
+              "room": "practitioner",
+              "description": "",
+              "speakers": ["rhea"]
+            }
+          ]
+        },
           {
           "time": "12:00 PM",
           "duration": 60,
@@ -311,6 +337,13 @@
               "room": "practitioner",
               "description": "",
               "speakers": ["goldie"]
+            },
+            {
+              "title": "Breaking GPT & Claude: AI Bug Bounty Workshop (Hands-On with Agenta.ai)",
+              "type": "workshop",
+              "room": "discussion",
+              "description": "",
+              "speakers": ["igor", "greg"]
             }
           ]
         },
@@ -331,6 +364,13 @@
               "room": "practitioner",
               "description": "",
               "speakers": ["george"]
+            },
+            {
+              "title": "Continue - Breaking GPT & Claude: AI Bug Bounty Workshop (Hands-On with Agenta.ai)",
+              "type": "workshop",
+              "room": "discussion",
+              "description": "",
+              "speakers": ["igor", "greg"]
             }
           ]
         } ,
