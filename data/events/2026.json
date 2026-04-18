@@ -196,23 +196,18 @@
           "duration": 60,
           "sessions": [
             {
-              "title": "",
-              "type": "keynote",
-              "room": "leadership",
-              "description": "",
-              "speakers": [  {
               "title": "Becoming AI‑First?! What Does that Means for QA?",
               "type": "talk",
               "room": "leadership",
               "description": "",
-                "speakers": [ronit]
+              "speakers": ["ronit"]
             },
              {
               "title": "From Failure to Fix: AI-Driven Test Debugging & RCA with Playwright MCP and LLM CLI",
               "type": "talk",
               "room": "practitioner",
               "description": "",
-                "speakers": [sidharth]
+                "speakers": ["sidharth"]
             }]
             }
           ]
@@ -226,14 +221,14 @@
               "type": "talk",
               "room": "leadership",
               "description": "",
-                "speakers": [leebarnes]
+                "speakers": ["leebarnes"]
             },
              {
               "title": "From Hype to Trust: How We Evaluated an Enterprise Sales Research Agent with a Purpose-Built AI Benchmark",
               "type": "talk",
               "room": "practitioner",
               "description": "",
-                "speakers": [deepanjan]
+                "speakers": ["deepanjan"]
             }
           ]
         }
@@ -243,7 +238,7 @@
       "dayLabel": "Day 2 - Sessions & Workshops",
       "slots": [
         {
-          "time": "8:30 AM",
+          "time": "8:00 AM",
           "duration": 60,
           "sessions": [
             {
@@ -255,7 +250,7 @@
           ]
         },
         {
-          "time": "9:30 AM",
+          "time": "9:00 AM",
           "duration": 120,
           "sessions": [
             {
